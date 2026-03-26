@@ -70,7 +70,7 @@ jobs:
           token: "${{ steps.app-token.outputs.token }}"
           path: client-ts
       - name: Setup node
-        uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v5
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v5
         with:
           node-version-file: client-ts/package.json
           registry-url: "https://registry.npmjs.org"
