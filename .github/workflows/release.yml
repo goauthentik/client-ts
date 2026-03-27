@@ -112,4 +112,4 @@ jobs:
       - name: Publish to NPM
         working-directory: client-ts
         run: |
-          npm publish --tag generated
+          npm publish --tag generated --tag latest
