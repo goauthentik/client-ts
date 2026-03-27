@@ -1,0 +1,45 @@
+
+# PatchedEventMatcherPolicyRequest
+
+Event Matcher Policy Serializer
+
+## Properties
+
+Name | Type
+------------ | -------------
+`name` | string
+`executionLogging` | boolean
+`action` | [EventActions](EventActions.md)
+`clientIp` | string
+`app` | [AppEnum](AppEnum.md)
+`model` | [ModelEnum](ModelEnum.md)
+
+## Example
+
+```typescript
+import type { PatchedEventMatcherPolicyRequest } from '@goauthentik/api'
+
+// TODO: Update the object below with actual values
+const example = {
+  "name": null,
+  "executionLogging": null,
+  "action": null,
+  "clientIp": null,
+  "app": null,
+  "model": null,
+} satisfies PatchedEventMatcherPolicyRequest
+
+console.log(example)
+
+// Convert the instance to a JSON string
+const exampleJSON: string = JSON.stringify(example)
+console.log(exampleJSON)
+
+// Parse the JSON string back to an object
+const exampleParsed = JSON.parse(exampleJSON) as PatchedEventMatcherPolicyRequest
+console.log(exampleParsed)
+```
+
+[[Back to top]](#) [[Back to API list]](../README.md#api-endpoints) [[Back to Model list]](../README.md#models) [[Back to README]](../README.md)
+
+
