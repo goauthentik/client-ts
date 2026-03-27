@@ -8,7 +8,7 @@ Mixin to validate that a valid enterprise license exists before allowing to save
 Name | Type
 ------------ | -------------
 `id` | string
-`requestedBy` | [RequestedBy](RequestedBy.md)
+`requestedBy` | [PartialUser](PartialUser.md)
 `requestedOn` | Date
 `contentType` | [ContentType](ContentType.md)
 `queryParams` | { [key: string]: any; }

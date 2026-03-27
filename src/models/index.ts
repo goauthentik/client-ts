@@ -675,7 +675,6 @@ export * from './RelatedGroup';
 export * from './Reputation';
 export * from './ReputationPolicy';
 export * from './ReputationPolicyRequest';
-export * from './RequestedBy';
 export * from './ResidentKeyRequirementEnum';
 export * from './Role';
 export * from './RoleAssignedObjectPermission';

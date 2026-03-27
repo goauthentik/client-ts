@@ -18,6 +18,7 @@ Name | Type
 `attributes` | { [key: string]: any; }
 `roles` | Array&lt;string&gt;
 `rolesObj` | [Array&lt;Role&gt;](Role.md)
+`inheritedRolesObj` | [Array&lt;Role&gt;](Role.md)
 `children` | Array&lt;string&gt;
 `childrenObj` | [Array&lt;RelatedGroup&gt;](RelatedGroup.md)
 
@@ -39,6 +40,7 @@ const example = {
   "attributes": null,
   "roles": null,
   "rolesObj": null,
+  "inheritedRolesObj": null,
   "children": null,
   "childrenObj": null,
 } satisfies Group

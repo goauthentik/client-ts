@@ -693,7 +693,6 @@ docs/ReportsApi.md
 docs/Reputation.md
 docs/ReputationPolicy.md
 docs/ReputationPolicyRequest.md
-docs/RequestedBy.md
 docs/ResidentKeyRequirementEnum.md
 docs/Role.md
 docs/RoleAssignedObjectPermission.md
@@ -1558,7 +1557,6 @@ src/models/RelatedGroup.ts
 src/models/Reputation.ts
 src/models/ReputationPolicy.ts
 src/models/ReputationPolicyRequest.ts
-src/models/RequestedBy.ts
 src/models/ResidentKeyRequirementEnum.ts
 src/models/Role.ts
 src/models/RoleAssignedObjectPermission.ts

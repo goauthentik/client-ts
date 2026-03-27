@@ -2408,7 +2408,7 @@ example().catch(console.error);
 
 ## coreGroupsList
 
-> PaginatedGroupList coreGroupsList(attributes, includeChildren, includeParents, includeUsers, isSuperuser, membersByPk, membersByUsername, name, ordering, page, pageSize, search)
+> PaginatedGroupList coreGroupsList(attributes, includeChildren, includeInheritedRoles, includeParents, includeUsers, isSuperuser, membersByPk, membersByUsername, name, ordering, page, pageSize, search)
 
 
 
@@ -2436,6 +2436,8 @@ async function example() {
     attributes: attributes_example,
     // boolean (optional)
     includeChildren: true,
+    // boolean (optional)
+    includeInheritedRoles: true,
     // boolean (optional)
     includeParents: true,
     // boolean (optional)
@@ -2477,6 +2479,7 @@ example().catch(console.error);
 |------------- | ------------- | ------------- | -------------|
 | **attributes** | `string` | Attributes | [Optional] [Defaults to `undefined`] |
 | **includeChildren** | `boolean` |  | [Optional] [Defaults to `false`] |
+| **includeInheritedRoles** | `boolean` |  | [Optional] [Defaults to `false`] |
 | **includeParents** | `boolean` |  | [Optional] [Defaults to `false`] |
 | **includeUsers** | `boolean` |  | [Optional] [Defaults to `true`] |
 | **isSuperuser** | `boolean` |  | [Optional] [Defaults to `undefined`] |
@@ -2667,7 +2670,7 @@ example().catch(console.error);
 
 ## coreGroupsRetrieve
 
-> Group coreGroupsRetrieve(groupUuid, includeChildren, includeParents, includeUsers)
+> Group coreGroupsRetrieve(groupUuid, includeChildren, includeInheritedRoles, includeParents, includeUsers)
 
 
 
@@ -2696,6 +2699,8 @@ async function example() {
     // boolean (optional)
     includeChildren: true,
     // boolean (optional)
+    includeInheritedRoles: true,
+    // boolean (optional)
     includeParents: true,
     // boolean (optional)
     includeUsers: true,
@@ -2720,6 +2725,7 @@ example().catch(console.error);
 |------------- | ------------- | ------------- | -------------|
 | **groupUuid** | `string` | A UUID string identifying this Group. | [Defaults to `undefined`] |
 | **includeChildren** | `boolean` |  | [Optional] [Defaults to `false`] |
+| **includeInheritedRoles** | `boolean` |  | [Optional] [Defaults to `false`] |
 | **includeParents** | `boolean` |  | [Optional] [Defaults to `false`] |
 | **includeUsers** | `boolean` |  | [Optional] [Defaults to `true`] |
 

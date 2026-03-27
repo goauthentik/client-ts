@@ -1278,7 +1278,7 @@ example().catch(console.error);
 
 ## rbacRolesList
 
-> PaginatedRoleList rbacRolesList(managed, managedIsnull, name, ordering, page, pageSize, search, users)
+> PaginatedRoleList rbacRolesList(akGroups, inherited, managed, managedIsnull, name, ordering, page, pageSize, search, users)
 
 
 
@@ -1302,6 +1302,10 @@ async function example() {
   const api = new RbacApi(config);
 
   const body = {
+    // string (optional)
+    akGroups: 38400000-8cf0-11bd-b23e-10b96e4ef00d,
+    // boolean | Include inherited roles (requires users or ak_groups filter) (optional)
+    inherited: true,
     // Array<string> (optional)
     managed: ...,
     // boolean (optional)
@@ -1316,8 +1320,8 @@ async function example() {
     pageSize: 56,
     // string | A search term. (optional)
     search: search_example,
-    // Array<number> (optional)
-    users: ...,
+    // number (optional)
+    users: 56,
   } satisfies RbacRolesListRequest;
 
   try {
@@ -1337,6 +1341,8 @@ example().catch(console.error);
 
 | Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
+| **akGroups** | `string` |  | [Optional] [Defaults to `undefined`] |
+| **inherited** | `boolean` | Include inherited roles (requires users or ak_groups filter) | [Optional] [Defaults to `undefined`] |
 | **managed** | `Array<string>` |  | [Optional] |
 | **managedIsnull** | `boolean` |  | [Optional] [Defaults to `undefined`] |
 | **name** | `string` |  | [Optional] [Defaults to `undefined`] |
@@ -1344,7 +1350,7 @@ example().catch(console.error);
 | **page** | `number` | A page number within the paginated result set. | [Optional] [Defaults to `undefined`] |
 | **pageSize** | `number` | Number of results to return per page. | [Optional] [Defaults to `undefined`] |
 | **search** | `string` | A search term. | [Optional] [Defaults to `undefined`] |
-| **users** | `Array<number>` |  | [Optional] |
+| **users** | `number` |  | [Optional] [Defaults to `undefined`] |
 
 ### Return type
 

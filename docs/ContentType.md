@@ -9,6 +9,7 @@ Name | Type
 `id` | number
 `appLabel` | string
 `model` | string
+`verboseNamePlural` | string
 
 ## Example
 
@@ -20,6 +21,7 @@ const example = {
   "id": null,
   "appLabel": null,
   "model": null,
+  "verboseNamePlural": null,
 } satisfies ContentType
 
 console.log(example)
