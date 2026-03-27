@@ -1,6 +1,6 @@
 {
   "name": "@goauthentik/api",
-  "version": "2025.8.4",
+  "version": "2025.8.5",
   "description": "OpenAPI client for @goauthentik/api",
   "author": "OpenAPI-Generator",
   "repository": {
