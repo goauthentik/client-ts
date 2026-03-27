@@ -16,6 +16,7 @@ Name | Type
 `nssGidOffset` | number
 `authTerminateSessionOnExpiry` | boolean
 `systemConfig` | [Config](Config.md)
+`licenseStatus` | [LicenseStatusEnum](LicenseStatusEnum.md)
 
 ## Example
 
@@ -33,6 +34,7 @@ const example = {
   "nssGidOffset": null,
   "authTerminateSessionOnExpiry": null,
   "systemConfig": null,
+  "licenseStatus": null,
 } satisfies AgentConfig
 
 console.log(example)

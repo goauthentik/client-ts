@@ -268,6 +268,7 @@ export * from './License';
 export * from './LicenseFlagsEnum';
 export * from './LicenseForecast';
 export * from './LicenseRequest';
+export * from './LicenseStatusEnum';
 export * from './LicenseSummary';
 export * from './LicenseSummaryStatusEnum';
 export * from './Link';
