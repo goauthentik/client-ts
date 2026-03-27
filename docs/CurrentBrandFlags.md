@@ -7,6 +7,7 @@
 Name | Type
 ------------ | -------------
 `policiesBufferedAccessView` | boolean
+`flowsRefreshOthers` | boolean
 
 ## Example
 
@@ -16,6 +17,7 @@ import type { CurrentBrandFlags } from '@goauthentik/api'
 // TODO: Update the object below with actual values
 const example = {
   "policiesBufferedAccessView": null,
+  "flowsRefreshOthers": null,
 } satisfies CurrentBrandFlags
 
 console.log(example)
