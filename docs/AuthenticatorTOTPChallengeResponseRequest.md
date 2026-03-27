@@ -8,7 +8,7 @@ TOTP Challenge response, device is set by get_response_instance
 Name | Type
 ------------ | -------------
 `component` | string
-`code` | number
+`code` | string
 
 ## Example
 
