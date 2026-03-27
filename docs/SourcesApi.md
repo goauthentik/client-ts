@@ -4448,7 +4448,7 @@ async function example() {
   const body = {
     // boolean (optional)
     enabled: true,
-    // 'Heimdal' | 'MIT' | 'other' | KAdmin server type   (optional)
+    // 'Heimdal' | 'MIT' | KAdmin server type   (optional)
     kadminType: kadminType_example,
     // string (optional)
     name: name_example,
@@ -4496,7 +4496,7 @@ example().catch(console.error);
 | Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **enabled** | `boolean` |  | [Optional] [Defaults to `undefined`] |
-| **kadminType** | `Heimdal`, `MIT`, `other` | KAdmin server type   | [Optional] [Defaults to `undefined`] [Enum: Heimdal, MIT, other] |
+| **kadminType** | `Heimdal`, `MIT` | KAdmin server type   | [Optional] [Defaults to `undefined`] [Enum: Heimdal, MIT] |
 | **name** | `string` |  | [Optional] [Defaults to `undefined`] |
 | **ordering** | `string` | Which field to use when ordering the results. | [Optional] [Defaults to `undefined`] |
 | **page** | `number` | A page number within the paginated result set. | [Optional] [Defaults to `undefined`] |

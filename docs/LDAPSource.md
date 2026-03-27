@@ -26,6 +26,7 @@ Name | Type
 `userPathTemplate` | string
 `icon` | string
 `iconUrl` | string
+`iconThemedUrls` | [ThemedUrls](ThemedUrls.md)
 `serverUri` | string
 `peerCertificate` | string
 `clientCertificate` | string
@@ -76,6 +77,7 @@ const example = {
   "userPathTemplate": null,
   "icon": null,
   "iconUrl": null,
+  "iconThemedUrls": null,
   "serverUri": null,
   "peerCertificate": null,
   "clientCertificate": null,

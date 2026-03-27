@@ -26,6 +26,7 @@ Name | Type
 `userPathTemplate` | string
 `icon` | string
 `iconUrl` | string
+`iconThemedUrls` | [ThemedUrls](ThemedUrls.md)
 
 ## Example
 
@@ -53,6 +54,7 @@ const example = {
   "userPathTemplate": null,
   "icon": null,
   "iconUrl": null,
+  "iconThemedUrls": null,
 } satisfies Source
 
 console.log(example)

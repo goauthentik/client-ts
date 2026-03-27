@@ -19,6 +19,7 @@ Name | Type
 `metaLaunchUrl` | string
 `metaIcon` | string
 `metaIconUrl` | string
+`metaIconThemedUrls` | [ThemedUrls](ThemedUrls.md)
 `metaDescription` | string
 `metaPublisher` | string
 `policyEngineMode` | [PolicyEngineMode](PolicyEngineMode.md)
@@ -43,6 +44,7 @@ const example = {
   "metaLaunchUrl": null,
   "metaIcon": null,
   "metaIconUrl": null,
+  "metaIconThemedUrls": null,
   "metaDescription": null,
   "metaPublisher": null,
   "policyEngineMode": null,

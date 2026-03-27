@@ -26,6 +26,7 @@ Name | Type
 `userPathTemplate` | string
 `icon` | string
 `iconUrl` | string
+`iconThemedUrls` | [ThemedUrls](ThemedUrls.md)
 `groupMatchingMode` | [GroupMatchingModeEnum](GroupMatchingModeEnum.md)
 `realm` | string
 `krb5Conf` | string
@@ -66,6 +67,7 @@ const example = {
   "userPathTemplate": null,
   "icon": null,
   "iconUrl": null,
+  "iconThemedUrls": null,
   "groupMatchingMode": null,
   "realm": null,
   "krb5Conf": null,

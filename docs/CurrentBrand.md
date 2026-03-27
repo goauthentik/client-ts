@@ -10,7 +10,9 @@ Name | Type
 `matchedDomain` | string
 `brandingTitle` | string
 `brandingLogo` | string
+`brandingLogoThemedUrls` | [ThemedUrls](ThemedUrls.md)
 `brandingFavicon` | string
+`brandingFaviconThemedUrls` | [ThemedUrls](ThemedUrls.md)
 `brandingCustomCss` | string
 `uiFooterLinks` | [Array&lt;FooterLink&gt;](FooterLink.md)
 `uiTheme` | [UiThemeEnum](UiThemeEnum.md)
@@ -33,7 +35,9 @@ const example = {
   "matchedDomain": null,
   "brandingTitle": null,
   "brandingLogo": null,
+  "brandingLogoThemedUrls": null,
   "brandingFavicon": null,
+  "brandingFaviconThemedUrls": null,
   "brandingCustomCss": null,
   "uiFooterLinks": null,
   "uiTheme": null,

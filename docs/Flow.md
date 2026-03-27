@@ -15,6 +15,7 @@ Name | Type
 `designation` | [FlowDesignationEnum](FlowDesignationEnum.md)
 `background` | string
 `backgroundUrl` | string
+`backgroundThemedUrls` | [ThemedUrls](ThemedUrls.md)
 `stages` | Array&lt;string&gt;
 `policies` | Array&lt;string&gt;
 `cacheCount` | number
@@ -40,6 +41,7 @@ const example = {
   "designation": null,
   "background": null,
   "backgroundUrl": null,
+  "backgroundThemedUrls": null,
   "stages": null,
   "policies": null,
   "cacheCount": null,

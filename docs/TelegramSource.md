@@ -26,6 +26,7 @@ Name | Type
 `userPathTemplate` | string
 `icon` | string
 `iconUrl` | string
+`iconThemedUrls` | [ThemedUrls](ThemedUrls.md)
 `botUsername` | string
 `requestMessageAccess` | boolean
 `preAuthenticationFlow` | string
@@ -56,6 +57,7 @@ const example = {
   "userPathTemplate": null,
   "icon": null,
   "iconUrl": null,
+  "iconThemedUrls": null,
   "botUsername": null,
   "requestMessageAccess": null,
   "preAuthenticationFlow": null,

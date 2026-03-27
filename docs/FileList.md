@@ -10,6 +10,7 @@ Name | Type
 `name` | string
 `mimeType` | string
 `url` | string
+`themedUrls` | [ThemedUrls](ThemedUrls.md)
 
 ## Example
 
@@ -21,6 +22,7 @@ const example = {
   "name": null,
   "mimeType": null,
   "url": null,
+  "themedUrls": null,
 } satisfies FileList
 
 console.log(example)

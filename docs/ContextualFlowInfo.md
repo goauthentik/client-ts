@@ -9,6 +9,7 @@ Name | Type
 ------------ | -------------
 `title` | string
 `background` | string
+`backgroundThemedUrls` | [ThemedUrls](ThemedUrls.md)
 `cancelUrl` | string
 `layout` | [ContextualFlowInfoLayoutEnum](ContextualFlowInfoLayoutEnum.md)
 
@@ -21,6 +22,7 @@ import type { ContextualFlowInfo } from '@goauthentik/api'
 const example = {
   "title": null,
   "background": null,
+  "backgroundThemedUrls": null,
   "cancelUrl": null,
   "layout": null,
 } satisfies ContextualFlowInfo

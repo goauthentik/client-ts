@@ -26,6 +26,7 @@ Name | Type
 `userPathTemplate` | string
 `icon` | string
 `iconUrl` | string
+`iconThemedUrls` | [ThemedUrls](ThemedUrls.md)
 `groupMatchingMode` | [GroupMatchingModeEnum](GroupMatchingModeEnum.md)
 `providerType` | [ProviderTypeEnum](ProviderTypeEnum.md)
 `requestTokenUrl` | string
@@ -68,6 +69,7 @@ const example = {
   "userPathTemplate": null,
   "icon": null,
   "iconUrl": null,
+  "iconThemedUrls": null,
   "groupMatchingMode": null,
   "providerType": null,
   "requestTokenUrl": null,

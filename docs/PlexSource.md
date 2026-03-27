@@ -26,6 +26,7 @@ Name | Type
 `userPathTemplate` | string
 `icon` | string
 `iconUrl` | string
+`iconThemedUrls` | [ThemedUrls](ThemedUrls.md)
 `groupMatchingMode` | [GroupMatchingModeEnum](GroupMatchingModeEnum.md)
 `clientId` | string
 `allowedServers` | Array&lt;string&gt;
@@ -58,6 +59,7 @@ const example = {
   "userPathTemplate": null,
   "icon": null,
   "iconUrl": null,
+  "iconThemedUrls": null,
   "groupMatchingMode": null,
   "clientId": null,
   "allowedServers": null,

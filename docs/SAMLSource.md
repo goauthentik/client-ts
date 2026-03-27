@@ -26,6 +26,7 @@ Name | Type
 `userPathTemplate` | string
 `icon` | string
 `iconUrl` | string
+`iconThemedUrls` | [ThemedUrls](ThemedUrls.md)
 `groupMatchingMode` | [GroupMatchingModeEnum](GroupMatchingModeEnum.md)
 `preAuthenticationFlow` | string
 `issuer` | string
@@ -69,6 +70,7 @@ const example = {
   "userPathTemplate": null,
   "icon": null,
   "iconUrl": null,
+  "iconThemedUrls": null,
   "groupMatchingMode": null,
   "preAuthenticationFlow": null,
   "issuer": null,
