@@ -8,6 +8,7 @@ Name | Type
 ------------ | -------------
 `enterpriseAuditIncludeExpandedDiff` | boolean
 `policiesBufferedAccessView` | boolean
+`flowsContinuousLogin` | boolean
 `flowsRefreshOthers` | boolean
 
 ## Example
@@ -19,6 +20,7 @@ import type { CurrentBrandFlags } from '@goauthentik/api'
 const example = {
   "enterpriseAuditIncludeExpandedDiff": null,
   "policiesBufferedAccessView": null,
+  "flowsContinuousLogin": null,
   "flowsRefreshOthers": null,
 } satisfies CurrentBrandFlags
 
