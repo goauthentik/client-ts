@@ -54,7 +54,7 @@ jobs:
       matrix:
         tag: "${{ fromJson(needs.tags.outputs.tags) }}"
     steps:
-      - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v5
+      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v5
         with:
           node-version: latest
           registry-url: "https://registry.npmjs.org"
