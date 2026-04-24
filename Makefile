@@ -16,4 +16,5 @@ endif
 		--additional-properties=packageVersion=${version} \
 		--git-user-id goauthentik \
 		--git-repo-id client-ts
+	rm -rf dist *.tsbuildinfo
 	npm i
