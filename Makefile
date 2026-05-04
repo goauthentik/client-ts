@@ -14,7 +14,7 @@ endif
 		-o /local \
 		-c /local/config.yaml \
 		--additional-properties=packageVersion=${version} \
+		--additional-properties=licenseName=MIT \
 		--git-user-id goauthentik \
 		--git-repo-id client-ts
-	rm -rf dist *.tsbuildinfo
 	npm i
