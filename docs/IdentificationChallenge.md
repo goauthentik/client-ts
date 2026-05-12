@@ -14,6 +14,7 @@ Name | Type
 `passwordFields` | boolean
 `allowShowPassword` | boolean
 `applicationPre` | string
+`applicationPreLaunch` | string
 `flowDesignation` | [FlowDesignationEnum](FlowDesignationEnum.md)
 `captchaStage` | [CaptchaChallenge](CaptchaChallenge.md)
 `enrollUrl` | string
@@ -39,6 +40,7 @@ const example = {
   "passwordFields": null,
   "allowShowPassword": null,
   "applicationPre": null,
+  "applicationPreLaunch": null,
   "flowDesignation": null,
   "captchaStage": null,
   "enrollUrl": null,

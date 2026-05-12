@@ -7,6 +7,7 @@
 Name | Type
 ------------ | -------------
 `policiesBufferedAccessView` | boolean
+`flowsContinuousLogin` | boolean
 `flowsRefreshOthers` | boolean
 
 ## Example
@@ -17,6 +18,7 @@ import type { PatchedSettingsRequestFlags } from '@goauthentik/api'
 // TODO: Update the object below with actual values
 const example = {
   "policiesBufferedAccessView": null,
+  "flowsContinuousLogin": null,
   "flowsRefreshOthers": null,
 } satisfies PatchedSettingsRequestFlags
 
