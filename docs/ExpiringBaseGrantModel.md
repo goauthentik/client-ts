@@ -8,7 +8,7 @@ Serializer for BaseGrantModel and ExpiringBaseGrant
 Name | Type
 ------------ | -------------
 `pk` | number
-`provider` | [OAuth2Provider](OAuth2Provider.md)
+`provider` | [Provider](Provider.md)
 `user` | [User](User.md)
 `isExpired` | boolean
 `expires` | Date
