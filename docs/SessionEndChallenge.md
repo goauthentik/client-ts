@@ -15,6 +15,7 @@ Name | Type
 `applicationName` | string
 `applicationLaunchUrl` | string
 `invalidationFlowUrl` | string
+`overviewUrl` | string
 `brandName` | string
 
 ## Example
@@ -32,6 +33,7 @@ const example = {
   "applicationName": null,
   "applicationLaunchUrl": null,
   "invalidationFlowUrl": null,
+  "overviewUrl": null,
   "brandName": null,
 } satisfies SessionEndChallenge
 

@@ -76,6 +76,7 @@ Name | Type
 `applicationName` | string
 `applicationLaunchUrl` | string
 `invalidationFlowUrl` | string
+`overviewUrl` | string
 `brandName` | string
 `body` | string
 `botUsername` | string
@@ -158,6 +159,7 @@ const example = {
   "applicationName": null,
   "applicationLaunchUrl": null,
   "invalidationFlowUrl": null,
+  "overviewUrl": null,
   "brandName": null,
   "body": null,
   "botUsername": null,

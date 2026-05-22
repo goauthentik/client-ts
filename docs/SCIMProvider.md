@@ -23,6 +23,10 @@ Name | Type
 `authMode` | [SCIMAuthenticationModeEnum](SCIMAuthenticationModeEnum.md)
 `authOauth` | string
 `authOauthParams` | { [key: string]: any; }
+`authOauthTokenLastUpdated` | Date
+`authOauthTokenExpires` | Date
+`authOauthUrlCallback` | string
+`authOauthUrlStart` | string
 `compatibilityMode` | [CompatibilityModeEnum](CompatibilityModeEnum.md)
 `serviceProviderConfigCacheTimeout` | string
 `excludeUsersServiceAccount` | boolean
@@ -54,6 +58,10 @@ const example = {
   "authMode": null,
   "authOauth": null,
   "authOauthParams": null,
+  "authOauthTokenLastUpdated": null,
+  "authOauthTokenExpires": null,
+  "authOauthUrlCallback": null,
+  "authOauthUrlStart": null,
   "compatibilityMode": null,
   "serviceProviderConfigCacheTimeout": null,
   "excludeUsersServiceAccount": null,
