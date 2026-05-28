@@ -7,7 +7,6 @@ User source connection
 
 Name | Type
 ------------ | -------------
-`user` | number
 `source` | string
 `identifier` | string
 `accessToken` | string
@@ -20,7 +19,6 @@ import type { PatchedUserOAuthSourceConnectionRequest } from '@goauthentik/api'
 
 // TODO: Update the object below with actual values
 const example = {
-  "user": null,
   "source": null,
   "identifier": null,
   "accessToken": null,
