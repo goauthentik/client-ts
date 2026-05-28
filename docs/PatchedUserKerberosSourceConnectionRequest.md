@@ -7,7 +7,6 @@ User source connection
 
 Name | Type
 ------------ | -------------
-`user` | number
 `source` | string
 `identifier` | string
 
@@ -18,7 +17,6 @@ import type { PatchedUserKerberosSourceConnectionRequest } from '@goauthentik/ap
 
 // TODO: Update the object below with actual values
 const example = {
-  "user": null,
   "source": null,
   "identifier": null,
 } satisfies PatchedUserKerberosSourceConnectionRequest
