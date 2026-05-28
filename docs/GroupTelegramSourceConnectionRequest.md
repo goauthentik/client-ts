@@ -7,7 +7,6 @@ Group Source Connection
 
 Name | Type
 ------------ | -------------
-`group` | string
 `source` | string
 `identifier` | string
 
@@ -18,7 +17,6 @@ import type { GroupTelegramSourceConnectionRequest } from '@goauthentik/api'
 
 // TODO: Update the object below with actual values
 const example = {
-  "group": null,
   "source": null,
   "identifier": null,
 } satisfies GroupTelegramSourceConnectionRequest
