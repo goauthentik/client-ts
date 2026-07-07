@@ -10,6 +10,7 @@ Name | Type
 `component` | string
 `responseErrors` | { [key: string]: Array&lt;ErrorDetail&gt;; }
 `to` | string
+`finalRedirect` | boolean
 `clientId` | string
 `scope` | string
 `redirectUri` | string
@@ -29,6 +30,7 @@ const example = {
   "component": null,
   "responseErrors": null,
   "to": null,
+  "finalRedirect": null,
   "clientId": null,
   "scope": null,
   "redirectUri": null,

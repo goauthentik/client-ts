@@ -72,6 +72,7 @@ Name | Type
 `slug` | string
 `fields` | [Array&lt;StagePrompt&gt;](StagePrompt.md)
 `to` | string
+`finalRedirect` | boolean
 `applicationName` | string
 `applicationLaunchUrl` | string
 `invalidationFlowUrl` | string
@@ -153,6 +154,7 @@ const example = {
   "slug": null,
   "fields": null,
   "to": null,
+  "finalRedirect": null,
   "applicationName": null,
   "applicationLaunchUrl": null,
   "invalidationFlowUrl": null,
