@@ -11,6 +11,7 @@ Name | Type
 `component` | string
 `responseErrors` | { [key: string]: Array&lt;ErrorDetail&gt;; }
 `to` | string
+`finalRedirect` | boolean
 
 ## Example
 
@@ -23,6 +24,7 @@ const example = {
   "component": null,
   "responseErrors": null,
   "to": null,
+  "finalRedirect": null,
 } satisfies RedirectChallenge
 
 console.log(example)
