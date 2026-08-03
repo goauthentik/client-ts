@@ -18,6 +18,7 @@ Name | Type
 `userDeleteAction` | [OutgoingSyncDeleteAction](OutgoingSyncDeleteAction.md)
 `groupDeleteAction` | [OutgoingSyncDeleteAction](OutgoingSyncDeleteAction.md)
 `syncPageSize` | number
+`discoveryEnabled` | boolean
 `syncPageTimeout` | string
 `dryRun` | boolean
 
@@ -39,6 +40,7 @@ const example = {
   "userDeleteAction": null,
   "groupDeleteAction": null,
   "syncPageSize": null,
+  "discoveryEnabled": null,
   "syncPageTimeout": null,
   "dryRun": null,
 } satisfies PatchedMicrosoftEntraProviderRequest

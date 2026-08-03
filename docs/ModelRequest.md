@@ -20,6 +20,7 @@ Name | Type
 `syncPageSize` | number
 `syncPageTimeout` | string
 `dryRun` | boolean
+`discoveryEnabled` | boolean
 `authenticationFlow` | string
 `authorizationFlow` | string
 `invalidationFlow` | string
@@ -124,6 +125,7 @@ const example = {
   "syncPageSize": null,
   "syncPageTimeout": null,
   "dryRun": null,
+  "discoveryEnabled": null,
   "authenticationFlow": null,
   "authorizationFlow": null,
   "invalidationFlow": null,

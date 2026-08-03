@@ -32,6 +32,7 @@ Name | Type
 `excludeUsersServiceAccount` | boolean
 `syncPageSize` | number
 `syncPageTimeout` | string
+`discoveryEnabled` | boolean
 `groupFilters` | Array&lt;string&gt;
 `dryRun` | boolean
 
@@ -67,6 +68,7 @@ const example = {
   "excludeUsersServiceAccount": null,
   "syncPageSize": null,
   "syncPageTimeout": null,
+  "discoveryEnabled": null,
   "groupFilters": null,
   "dryRun": null,
 } satisfies SCIMProvider

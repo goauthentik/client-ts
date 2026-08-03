@@ -28,6 +28,7 @@ Name | Type
 `syncPageSize` | number
 `syncPageTimeout` | string
 `dryRun` | boolean
+`discoveryEnabled` | boolean
 
 ## Example
 
@@ -57,6 +58,7 @@ const example = {
   "syncPageSize": null,
   "syncPageTimeout": null,
   "dryRun": null,
+  "discoveryEnabled": null,
 } satisfies GoogleWorkspaceProvider
 
 console.log(example)
