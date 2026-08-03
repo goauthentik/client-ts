@@ -14,6 +14,7 @@ Name | Type
 `brandingFavicon` | string
 `brandingFaviconThemedUrls` | [ThemedUrls](ThemedUrls.md)
 `brandingCustomCss` | string
+`brandingMapTiles` | string
 `uiFooterLinks` | [Array&lt;FooterLink&gt;](FooterLink.md)
 `uiTheme` | [UiThemeEnum](UiThemeEnum.md)
 `flowAuthentication` | string
@@ -42,6 +43,7 @@ const example = {
   "brandingFavicon": null,
   "brandingFaviconThemedUrls": null,
   "brandingCustomCss": null,
+  "brandingMapTiles": null,
   "uiFooterLinks": null,
   "uiTheme": null,
   "flowAuthentication": null,

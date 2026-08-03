@@ -14,6 +14,7 @@ Name | Type
 `brandingFavicon` | string
 `brandingCustomCss` | string
 `brandingDefaultFlowBackground` | string
+`brandingMapTiles` | string
 `flowAuthentication` | string
 `flowUserSwitch` | string
 `flowInvalidation` | string
@@ -42,6 +43,7 @@ const example = {
   "brandingFavicon": null,
   "brandingCustomCss": null,
   "brandingDefaultFlowBackground": null,
+  "brandingMapTiles": null,
   "flowAuthentication": null,
   "flowUserSwitch": null,
   "flowInvalidation": null,
