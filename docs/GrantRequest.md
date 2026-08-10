@@ -12,6 +12,7 @@ Name | Type
 `requesterData` | { [key: string]: any; }
 `fulfillerData` | { [key: string]: any; }
 `revokedBy` | [PartialUser](PartialUser.md)
+`agentOwner` | [PartialUser](PartialUser.md)
 `isActive` | boolean
 `expires` | Date
 `status` | [RequestStatus](RequestStatus.md)
@@ -31,6 +32,7 @@ const example = {
   "requesterData": null,
   "fulfillerData": null,
   "revokedBy": null,
+  "agentOwner": null,
   "isActive": null,
   "expires": null,
   "status": null,

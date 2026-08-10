@@ -5,14 +5,21 @@ docs/AccessDeniedChallenge.md
 docs/AccountLockdownStage.md
 docs/AccountLockdownStageRequest.md
 docs/AdminApi.md
+docs/Agent.md
 docs/AgentAuthenticationResponse.md
 docs/AgentConfig.md
 docs/AgentConnector.md
 docs/AgentConnectorRequest.md
+docs/AgentCreateRequest.md
+docs/AgentCreated.md
+docs/AgentGrantRequestCreateRequest.md
+docs/AgentGrantRequestCreated.md
 docs/AgentPSSODeviceRegistrationRequest.md
 docs/AgentPSSODeviceRegistrationResponse.md
 docs/AgentPSSOUserRegistrationRequest.md
+docs/AgentRequest.md
 docs/AgentTokenResponse.md
+docs/AgentsApi.md
 docs/AlgEnum.md
 docs/App.md
 docs/AppEnum.md
@@ -379,6 +386,7 @@ docs/OutpostsApi.md
 docs/PKCEMethodEnum.md
 docs/PaginatedAccountLockdownStageList.md
 docs/PaginatedAgentConnectorList.md
+docs/PaginatedAgentList.md
 docs/PaginatedAppleIndependentSecureEnclaveList.md
 docs/PaginatedApplicationEntitlementList.md
 docs/PaginatedApplicationList.md
@@ -554,6 +562,7 @@ docs/PasswordStage.md
 docs/PasswordStageRequest.md
 docs/PatchedAccountLockdownStageRequest.md
 docs/PatchedAgentConnectorRequest.md
+docs/PatchedAgentRequest.md
 docs/PatchedAppleIndependentSecureEnclaveRequest.md
 docs/PatchedApplicationEntitlementRequest.md
 docs/PatchedApplicationRequest.md
@@ -700,6 +709,7 @@ docs/PlexSourceRequest.md
 docs/PlexTokenRedeemRequest.md
 docs/PoliciesApi.md
 docs/Policy.md
+docs/PolicyBehaviorEnum.md
 docs/PolicyBinding.md
 docs/PolicyBindingRequest.md
 docs/PolicyEngineMode.md
@@ -950,6 +960,7 @@ docs/WebAuthnHintEnum.md
 docs/Worker.md
 package.json
 src/apis/AdminApi.ts
+src/apis/AgentsApi.ts
 src/apis/AuthenticatorsApi.ts
 src/apis/CoreApi.ts
 src/apis/CryptoApi.ts
@@ -980,13 +991,19 @@ src/index.ts
 src/models/AccessDeniedChallenge.ts
 src/models/AccountLockdownStage.ts
 src/models/AccountLockdownStageRequest.ts
+src/models/Agent.ts
 src/models/AgentAuthenticationResponse.ts
 src/models/AgentConfig.ts
 src/models/AgentConnector.ts
 src/models/AgentConnectorRequest.ts
+src/models/AgentCreateRequest.ts
+src/models/AgentCreated.ts
+src/models/AgentGrantRequestCreateRequest.ts
+src/models/AgentGrantRequestCreated.ts
 src/models/AgentPSSODeviceRegistrationRequest.ts
 src/models/AgentPSSODeviceRegistrationResponse.ts
 src/models/AgentPSSOUserRegistrationRequest.ts
+src/models/AgentRequest.ts
 src/models/AgentTokenResponse.ts
 src/models/AlgEnum.ts
 src/models/App.ts
@@ -1343,6 +1360,7 @@ src/models/OutpostTypeEnum.ts
 src/models/PKCEMethodEnum.ts
 src/models/PaginatedAccountLockdownStageList.ts
 src/models/PaginatedAgentConnectorList.ts
+src/models/PaginatedAgentList.ts
 src/models/PaginatedAppleIndependentSecureEnclaveList.ts
 src/models/PaginatedApplicationEntitlementList.ts
 src/models/PaginatedApplicationList.ts
@@ -1518,6 +1536,7 @@ src/models/PasswordStage.ts
 src/models/PasswordStageRequest.ts
 src/models/PatchedAccountLockdownStageRequest.ts
 src/models/PatchedAgentConnectorRequest.ts
+src/models/PatchedAgentRequest.ts
 src/models/PatchedAppleIndependentSecureEnclaveRequest.ts
 src/models/PatchedApplicationEntitlementRequest.ts
 src/models/PatchedApplicationRequest.ts
@@ -1663,6 +1682,7 @@ src/models/PlexSourcePropertyMappingRequest.ts
 src/models/PlexSourceRequest.ts
 src/models/PlexTokenRedeemRequest.ts
 src/models/Policy.ts
+src/models/PolicyBehaviorEnum.ts
 src/models/PolicyBinding.ts
 src/models/PolicyBindingRequest.ts
 src/models/PolicyEngineMode.ts

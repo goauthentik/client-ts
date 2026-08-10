@@ -4,6 +4,7 @@ All URIs are relative to */api/v3*
 
 | Method | HTTP request | Description |
 |------------- | ------------- | -------------|
+| [**requestsGrantRequestsAgentCreate**](RequestsApi.md#requestsgrantrequestsagentcreate) | **POST** /requests/grant-requests/agent/ |  |
 | [**requestsGrantRequestsCreate**](RequestsApi.md#requestsgrantrequestscreate) | **POST** /requests/grant-requests/ |  |
 | [**requestsGrantRequestsDestroy**](RequestsApi.md#requestsgrantrequestsdestroy) | **DELETE** /requests/grant-requests/{uuid}/ |  |
 | [**requestsGrantRequestsFulfillPartialUpdate**](RequestsApi.md#requestsgrantrequestsfulfillpartialupdate) | **PATCH** /requests/grant-requests/{uuid}/fulfill/ |  |
@@ -33,6 +34,79 @@ All URIs are relative to */api/v3*
 | [**requestsRulesUpdate**](RequestsApi.md#requestsrulesupdate) | **PUT** /requests/rules/{uuid}/ |  |
 | [**requestsRulesUsedByList**](RequestsApi.md#requestsrulesusedbylist) | **GET** /requests/rules/{uuid}/used_by/ |  |
 
+
+
+## requestsGrantRequestsAgentCreate
+
+> AgentGrantRequestCreated requestsGrantRequestsAgentCreate(agentGrantRequestCreateRequest)
+
+
+
+Delegate access an agent\&#39;s owner already holds to the agent, time-boxed. Unlike &#x60;create&#x60; this persists the request directly instead of returning a flow link -- an agent authenticates with an API token and has no browser to run a flow in, so no justification is ever collected. That is why the agent may only ask for what its owner already has: the owner\&#39;s approval is then the whole decision, and no reviewer is asked to judge a request with nothing in it. The returned &#x60;fulfill_url&#x60; is what the agent hands to its owner so they can act on it.
+
+### Example
+
+```ts
+import {
+  Configuration,
+  RequestsApi,
+} from '@goauthentik/api';
+import type { RequestsGrantRequestsAgentCreateRequest } from '@goauthentik/api';
+
+async function example() {
+  console.log("🚀 Testing @goauthentik/api SDK...");
+  const config = new Configuration({ 
+    // Configure HTTP bearer authorization: authentik
+    accessToken: "YOUR BEARER TOKEN",
+  });
+  const api = new RequestsApi(config);
+
+  const body = {
+    // AgentGrantRequestCreateRequest
+    agentGrantRequestCreateRequest: ...,
+  } satisfies RequestsGrantRequestsAgentCreateRequest;
+
+  try {
+    const data = await api.requestsGrantRequestsAgentCreate(body);
+    console.log(data);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+// Run the test
+example().catch(console.error);
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **agentGrantRequestCreateRequest** | [AgentGrantRequestCreateRequest](AgentGrantRequestCreateRequest.md) |  | |
+
+### Return type
+
+[**AgentGrantRequestCreated**](AgentGrantRequestCreated.md)
+
+### Authorization
+
+[authentik](../README.md#authentik)
+
+### HTTP request headers
+
+- **Content-Type**: `application/json`
+- **Accept**: `application/json`
+
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **201** |  |  -  |
+| **400** |  |  -  |
+| **403** |  |  -  |
+
+[[Back to top]](#) [[Back to API list]](../README.md#api-endpoints) [[Back to Model list]](../README.md#models) [[Back to README]](../README.md)
 
 
 ## requestsGrantRequestsCreate
@@ -253,7 +327,7 @@ example().catch(console.error);
 
 ## requestsGrantRequestsList
 
-> PaginatedGrantRequestList requestsGrantRequestsList(createdBy, ordering, page, pageSize, search, status)
+> PaginatedGrantRequestList requestsGrantRequestsList(agentOwner, createdBy, ordering, page, pageSize, search, status)
 
 
 
@@ -275,6 +349,8 @@ async function example() {
   const api = new RequestsApi(config);
 
   const body = {
+    // number (optional)
+    agentOwner: 56,
     // number (optional)
     createdBy: 56,
     // string | Which field to use when ordering the results. (optional)
@@ -306,6 +382,7 @@ example().catch(console.error);
 
 | Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
+| **agentOwner** | `number` |  | [Optional] [Defaults to `undefined`] |
 | **createdBy** | `number` |  | [Optional] [Defaults to `undefined`] |
 | **ordering** | `string` | Which field to use when ordering the results. | [Optional] [Defaults to `undefined`] |
 | **page** | `number` | A page number within the paginated result set. | [Optional] [Defaults to `undefined`] |
@@ -339,7 +416,7 @@ example().catch(console.error);
 
 ## requestsGrantRequestsPendingReviewList
 
-> PaginatedGrantRequestList requestsGrantRequestsPendingReviewList(createdBy, ordering, page, pageSize, search, status)
+> PaginatedGrantRequestList requestsGrantRequestsPendingReviewList(agentOwner, createdBy, ordering, page, pageSize, search, status)
 
 
 
@@ -363,6 +440,8 @@ async function example() {
   const api = new RequestsApi(config);
 
   const body = {
+    // number (optional)
+    agentOwner: 56,
     // number (optional)
     createdBy: 56,
     // string | Which field to use when ordering the results. (optional)
@@ -394,6 +473,7 @@ example().catch(console.error);
 
 | Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
+| **agentOwner** | `number` |  | [Optional] [Defaults to `undefined`] |
 | **createdBy** | `number` |  | [Optional] [Defaults to `undefined`] |
 | **ordering** | `string` | Which field to use when ordering the results. | [Optional] [Defaults to `undefined`] |
 | **page** | `number` | A page number within the paginated result set. | [Optional] [Defaults to `undefined`] |
