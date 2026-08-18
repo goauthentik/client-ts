@@ -777,6 +777,7 @@ docs/RequestRuleRequest.md
 docs/RequestStatus.md
 docs/RequestableTarget.md
 docs/RequestsApi.md
+docs/ResumeOnMatchFailuresEnum.md
 docs/Review.md
 docs/ReviewRequest.md
 docs/Role.md
@@ -1744,6 +1745,7 @@ src/models/RequestRuleChildBindingRequest.ts
 src/models/RequestRuleRequest.ts
 src/models/RequestStatus.ts
 src/models/RequestableTarget.ts
+src/models/ResumeOnMatchFailuresEnum.ts
 src/models/Review.ts
 src/models/ReviewRequest.ts
 src/models/Role.ts

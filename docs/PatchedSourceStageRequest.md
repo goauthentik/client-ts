@@ -10,6 +10,7 @@ Name | Type
 `name` | string
 `source` | string
 `resumeTimeout` | string
+`resumeOnMatchFailures` | [Array&lt;ResumeOnMatchFailuresEnum&gt;](ResumeOnMatchFailuresEnum.md)
 
 ## Example
 
@@ -21,6 +22,7 @@ const example = {
   "name": null,
   "source": null,
   "resumeTimeout": null,
+  "resumeOnMatchFailures": null,
 } satisfies PatchedSourceStageRequest
 
 console.log(example)

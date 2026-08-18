@@ -216,7 +216,7 @@ example().catch(console.error);
 
 ## endpointsAgentsConnectorsAuthIaCreate
 
-> AgentAuthenticationResponse endpointsAgentsConnectorsAuthIaCreate()
+> AgentAuthenticationResponse endpointsAgentsConnectorsAuthIaCreate(loginHint)
 
 
 
@@ -237,8 +237,13 @@ async function example() {
   });
   const api = new EndpointsApi(config);
 
+  const body = {
+    // string (optional)
+    loginHint: loginHint_example,
+  } satisfies EndpointsAgentsConnectorsAuthIaCreateRequest;
+
   try {
-    const data = await api.endpointsAgentsConnectorsAuthIaCreate();
+    const data = await api.endpointsAgentsConnectorsAuthIaCreate(body);
     console.log(data);
   } catch (error) {
     console.error(error);
@@ -251,7 +256,10 @@ example().catch(console.error);
 
 ### Parameters
 
-This endpoint does not need any parameter.
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **loginHint** | `string` |  | [Optional] [Defaults to `undefined`] |
 
 ### Return type
 

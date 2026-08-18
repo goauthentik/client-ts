@@ -16,6 +16,7 @@ Name | Type
 `flowSet` | [Array&lt;FlowSet&gt;](FlowSet.md)
 `source` | string
 `resumeTimeout` | string
+`resumeOnMatchFailures` | [Array&lt;ResumeOnMatchFailuresEnum&gt;](ResumeOnMatchFailuresEnum.md)
 
 ## Example
 
@@ -33,6 +34,7 @@ const example = {
   "flowSet": null,
   "source": null,
   "resumeTimeout": null,
+  "resumeOnMatchFailures": null,
 } satisfies SourceStage
 
 console.log(example)
