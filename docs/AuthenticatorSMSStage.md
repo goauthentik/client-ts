@@ -19,8 +19,6 @@ Name | Type
 `provider` | [ProviderEnum](ProviderEnum.md)
 `fromNumber` | string
 `accountSid` | string
-`auth` | string
-`authPassword` | string
 `authType` | [AuthTypeEnum](AuthTypeEnum.md)
 `verifyOnly` | boolean
 `mapping` | string
@@ -44,8 +42,6 @@ const example = {
   "provider": null,
   "fromNumber": null,
   "accountSid": null,
-  "auth": null,
-  "authPassword": null,
   "authType": null,
   "verifyOnly": null,
   "mapping": null,

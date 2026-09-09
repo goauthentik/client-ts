@@ -18,7 +18,6 @@ Name | Type
 `verboseNamePlural` | string
 `metaModelName` | string
 `clientId` | string
-`clientSecret` | string
 `tenantId` | string
 `excludeUsersServiceAccount` | boolean
 `filterGroup` | string
@@ -47,7 +46,6 @@ const example = {
   "verboseNamePlural": null,
   "metaModelName": null,
   "clientId": null,
-  "clientSecret": null,
   "tenantId": null,
   "excludeUsersServiceAccount": null,
   "filterGroup": null,

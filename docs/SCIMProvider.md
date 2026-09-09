@@ -19,7 +19,6 @@ Name | Type
 `metaModelName` | string
 `url` | string
 `verifyCertificates` | boolean
-`token` | string
 `authMode` | [SCIMAuthenticationModeEnum](SCIMAuthenticationModeEnum.md)
 `authOauth` | string
 `authOauthParams` | { [key: string]: any; }
@@ -55,7 +54,6 @@ const example = {
   "metaModelName": null,
   "url": null,
   "verifyCertificates": null,
-  "token": null,
   "authMode": null,
   "authOauth": null,
   "authOauthParams": null,
