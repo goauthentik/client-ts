@@ -20,7 +20,6 @@ Name | Type
 `host` | string
 `port` | number
 `username` | string
-`password` | string
 `useTls` | boolean
 `useSsl` | boolean
 `timeout` | number
@@ -49,7 +48,6 @@ const example = {
   "host": null,
   "port": null,
   "username": null,
-  "password": null,
   "useTls": null,
   "useSsl": null,
   "timeout": null,

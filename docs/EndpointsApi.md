@@ -96,7 +96,9 @@ import type { EndpointsAgentsConnectorsAgentConfigRetrieveRequest } from '@goaut
 
 async function example() {
   console.log("🚀 Testing @goauthentik/api SDK...");
-  const api = new EndpointsApi();
+  const config = new Configuration({ 
+  });
+  const api = new EndpointsApi(config);
 
   try {
     const data = await api.endpointsAgentsConnectorsAgentConfigRetrieve();
@@ -120,7 +122,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-No authorization required
+[authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -157,7 +159,11 @@ import type { EndpointsAgentsConnectorsAuthFedCreateRequest } from '@goauthentik
 
 async function example() {
   console.log("🚀 Testing @goauthentik/api SDK...");
-  const api = new EndpointsApi();
+  const config = new Configuration({ 
+    // Configure HTTP bearer authorization: authentik_device_federation
+    accessToken: "YOUR BEARER TOKEN",
+  });
+  const api = new EndpointsApi(config);
 
   const body = {
     // string
@@ -189,7 +195,7 @@ example().catch(console.error);
 
 ### Authorization
 
-No authorization required
+[authentik_device_federation](../README.md#authentik_device_federation)
 
 ### HTTP request headers
 
@@ -227,7 +233,9 @@ import type { EndpointsAgentsConnectorsAuthIaCreateRequest } from '@goauthentik/
 
 async function example() {
   console.log("🚀 Testing @goauthentik/api SDK...");
-  const api = new EndpointsApi();
+  const config = new Configuration({ 
+  });
+  const api = new EndpointsApi(config);
 
   try {
     const data = await api.endpointsAgentsConnectorsAuthIaCreate();
@@ -251,7 +259,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-No authorization required
+[authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -288,7 +296,9 @@ import type { EndpointsAgentsConnectorsCheckInCreateRequest } from '@goauthentik
 
 async function example() {
   console.log("🚀 Testing @goauthentik/api SDK...");
-  const api = new EndpointsApi();
+  const config = new Configuration({ 
+  });
+  const api = new EndpointsApi(config);
 
   const body = {
     // DeviceFactsRequest (optional)
@@ -320,7 +330,7 @@ example().catch(console.error);
 
 ### Authorization
 
-No authorization required
+[authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -503,7 +513,11 @@ import type { EndpointsAgentsConnectorsEnrollCreateRequest } from '@goauthentik/
 
 async function example() {
   console.log("🚀 Testing @goauthentik/api SDK...");
-  const api = new EndpointsApi();
+  const config = new Configuration({ 
+    // Configure HTTP bearer authorization: authentik_device_enroll
+    accessToken: "YOUR BEARER TOKEN",
+  });
+  const api = new EndpointsApi(config);
 
   const body = {
     // EnrollRequest
@@ -535,7 +549,7 @@ example().catch(console.error);
 
 ### Authorization
 
-No authorization required
+[authentik_device_enroll](../README.md#authentik_device_enroll)
 
 ### HTTP request headers
 
@@ -2170,7 +2184,9 @@ import type { EndpointsAgentsPssoRegisterDeviceCreateRequest } from '@goauthenti
 
 async function example() {
   console.log("🚀 Testing @goauthentik/api SDK...");
-  const api = new EndpointsApi();
+  const config = new Configuration({ 
+  });
+  const api = new EndpointsApi(config);
 
   const body = {
     // AgentPSSODeviceRegistrationRequest
@@ -2202,7 +2218,7 @@ example().catch(console.error);
 
 ### Authorization
 
-No authorization required
+[authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -2237,7 +2253,9 @@ import type { EndpointsAgentsPssoRegisterUserCreateRequest } from '@goauthentik/
 
 async function example() {
   console.log("🚀 Testing @goauthentik/api SDK...");
-  const api = new EndpointsApi();
+  const config = new Configuration({ 
+  });
+  const api = new EndpointsApi(config);
 
   const body = {
     // AgentPSSOUserRegistrationRequest
@@ -2269,7 +2287,7 @@ example().catch(console.error);
 
 ### Authorization
 
-No authorization required
+[authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 

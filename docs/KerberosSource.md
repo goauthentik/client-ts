@@ -34,10 +34,8 @@ Name | Type
 `syncUsers` | boolean
 `syncUsersPassword` | boolean
 `syncPrincipal` | string
-`syncCcache` | string
 `connectivity` | { [key: string]: string; }
 `spnegoServerName` | string
-`spnegoCcache` | string
 `passwordLoginUpdateInternalPassword` | boolean
 `syncOutgoingTriggerMode` | [SyncOutgoingTriggerModeEnum](SyncOutgoingTriggerModeEnum.md)
 
@@ -75,10 +73,8 @@ const example = {
   "syncUsers": null,
   "syncUsersPassword": null,
   "syncPrincipal": null,
-  "syncCcache": null,
   "connectivity": null,
   "spnegoServerName": null,
-  "spnegoCcache": null,
   "passwordLoginUpdateInternalPassword": null,
   "syncOutgoingTriggerMode": null,
 } satisfies KerberosSource

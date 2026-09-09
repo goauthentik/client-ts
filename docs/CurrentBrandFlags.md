@@ -6,8 +6,6 @@
 
 Name | Type
 ------------ | -------------
-`coreDefaultAppAccess` | boolean
-`enterpriseAuditIncludeExpandedDiff` | boolean
 `flowsContinuousLogin` | boolean
 `flowsRefreshOthers` | boolean
 
@@ -18,8 +16,6 @@ import type { CurrentBrandFlags } from '@goauthentik/api'
 
 // TODO: Update the object below with actual values
 const example = {
-  "coreDefaultAppAccess": null,
-  "enterpriseAuditIncludeExpandedDiff": null,
   "flowsContinuousLogin": null,
   "flowsRefreshOthers": null,
 } satisfies CurrentBrandFlags

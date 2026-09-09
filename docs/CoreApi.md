@@ -2320,7 +2320,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -2394,7 +2394,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -2467,7 +2467,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -2576,7 +2576,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -2652,7 +2652,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -2728,7 +2728,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -2814,7 +2814,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -2890,7 +2890,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -2963,7 +2963,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -4114,7 +4114,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -4187,7 +4187,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -4260,7 +4260,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -4408,7 +4408,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -4484,7 +4484,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -4549,7 +4549,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -4709,7 +4709,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -4774,7 +4774,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -4850,7 +4850,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -4923,7 +4923,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -4999,7 +4999,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -5075,7 +5075,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -5148,7 +5148,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -5221,7 +5221,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -5297,7 +5297,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -5373,7 +5373,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -5449,7 +5449,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
@@ -5522,7 +5522,7 @@ example().catch(console.error);
 
 ### Authorization
 
-[authentik](../README.md#authentik)
+[authentik](../README.md#authentik), [authentik_device_auth](../README.md#authentik_device_auth)
 
 ### HTTP request headers
 
