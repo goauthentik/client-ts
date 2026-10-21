@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { DeviceFactsOSFamily } from './DeviceFactsOSFamily';
+import { mapValues } from '../runtime.js';
+import type { DeviceFactsOSFamily } from './DeviceFactsOSFamily.js';
 import {
     DeviceFactsOSFamilyFromJSON,
     DeviceFactsOSFamilyFromJSONTyped,
     DeviceFactsOSFamilyToJSON,
     DeviceFactsOSFamilyToJSONTyped,
-} from './DeviceFactsOSFamily';
+} from './DeviceFactsOSFamily.js';
 
 /**
  * For example:

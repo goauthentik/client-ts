@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { FlowInspectorPlan } from './FlowInspectorPlan';
+import { mapValues } from '../runtime.js';
+import type { FlowInspectorPlan } from './FlowInspectorPlan.js';
 import {
     FlowInspectorPlanFromJSON,
     FlowInspectorPlanFromJSONTyped,
     FlowInspectorPlanToJSON,
     FlowInspectorPlanToJSONTyped,
-} from './FlowInspectorPlan';
+} from './FlowInspectorPlan.js';
 
 /**
  * Serializer for inspect endpoint

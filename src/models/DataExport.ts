@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PartialUser } from './PartialUser';
+import { mapValues } from '../runtime.js';
+import type { PartialUser } from './PartialUser.js';
 import {
     PartialUserFromJSON,
     PartialUserFromJSONTyped,
     PartialUserToJSON,
     PartialUserToJSONTyped,
-} from './PartialUser';
-import type { ContentType } from './ContentType';
+} from './PartialUser.js';
+import type { ContentType } from './ContentType.js';
 import {
     ContentTypeFromJSON,
     ContentTypeFromJSONTyped,
     ContentTypeToJSON,
     ContentTypeToJSONTyped,
-} from './ContentType';
+} from './ContentType.js';
 
 /**
  * Mixin to validate that a valid enterprise license

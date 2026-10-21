@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { UsedByActionEnum } from './UsedByActionEnum';
+import { mapValues } from '../runtime.js';
+import type { UsedByActionEnum } from './UsedByActionEnum.js';
 import {
     UsedByActionEnumFromJSON,
     UsedByActionEnumFromJSONTyped,
     UsedByActionEnumToJSON,
     UsedByActionEnumToJSONTyped,
-} from './UsedByActionEnum';
+} from './UsedByActionEnum.js';
 
 /**
  * A list of all objects referencing the queried object

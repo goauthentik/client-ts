@@ -12,63 +12,63 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { OperatingSystem } from './OperatingSystem';
+import { mapValues } from '../runtime.js';
+import type { OperatingSystem } from './OperatingSystem.js';
 import {
     OperatingSystemFromJSON,
     OperatingSystemFromJSONTyped,
     OperatingSystemToJSON,
     OperatingSystemToJSONTyped,
-} from './OperatingSystem';
-import type { DeviceUser } from './DeviceUser';
+} from './OperatingSystem.js';
+import type { DeviceUser } from './DeviceUser.js';
 import {
     DeviceUserFromJSON,
     DeviceUserFromJSONTyped,
     DeviceUserToJSON,
     DeviceUserToJSONTyped,
-} from './DeviceUser';
-import type { Network } from './Network';
+} from './DeviceUser.js';
+import type { Network } from './Network.js';
 import {
     NetworkFromJSON,
     NetworkFromJSONTyped,
     NetworkToJSON,
     NetworkToJSONTyped,
-} from './Network';
-import type { DeviceGroup } from './DeviceGroup';
+} from './Network.js';
+import type { DeviceGroup } from './DeviceGroup.js';
 import {
     DeviceGroupFromJSON,
     DeviceGroupFromJSONTyped,
     DeviceGroupToJSON,
     DeviceGroupToJSONTyped,
-} from './DeviceGroup';
-import type { Hardware } from './Hardware';
+} from './DeviceGroup.js';
+import type { Hardware } from './Hardware.js';
 import {
     HardwareFromJSON,
     HardwareFromJSONTyped,
     HardwareToJSON,
     HardwareToJSONTyped,
-} from './Hardware';
-import type { Process } from './Process';
+} from './Hardware.js';
+import type { Process } from './Process.js';
 import {
     ProcessFromJSON,
     ProcessFromJSONTyped,
     ProcessToJSON,
     ProcessToJSONTyped,
-} from './Process';
-import type { Software } from './Software';
+} from './Process.js';
+import type { Software } from './Software.js';
 import {
     SoftwareFromJSON,
     SoftwareFromJSONTyped,
     SoftwareToJSON,
     SoftwareToJSONTyped,
-} from './Software';
-import type { Disk } from './Disk';
+} from './Software.js';
+import type { Disk } from './Disk.js';
 import {
     DiskFromJSON,
     DiskFromJSONTyped,
     DiskToJSON,
     DiskToJSONTyped,
-} from './Disk';
+} from './Disk.js';
 
 /**
  * 

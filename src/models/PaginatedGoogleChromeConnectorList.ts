@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { GoogleChromeConnector } from './GoogleChromeConnector';
+} from './Pagination.js';
+import type { GoogleChromeConnector } from './GoogleChromeConnector.js';
 import {
     GoogleChromeConnectorFromJSON,
     GoogleChromeConnectorFromJSONTyped,
     GoogleChromeConnectorToJSON,
     GoogleChromeConnectorToJSONTyped,
-} from './GoogleChromeConnector';
+} from './GoogleChromeConnector.js';
 
 /**
  * 

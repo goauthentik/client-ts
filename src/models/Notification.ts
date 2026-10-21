@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { SeverityEnum } from './SeverityEnum';
+import { mapValues } from '../runtime.js';
+import type { SeverityEnum } from './SeverityEnum.js';
 import {
     SeverityEnumFromJSON,
     SeverityEnumFromJSONTyped,
     SeverityEnumToJSON,
     SeverityEnumToJSONTyped,
-} from './SeverityEnum';
-import type { Event } from './Event';
+} from './SeverityEnum.js';
+import type { Event } from './Event.js';
 import {
     EventFromJSON,
     EventFromJSONTyped,
     EventToJSON,
     EventToJSONTyped,
-} from './Event';
+} from './Event.js';
 
 /**
  * Notification Serializer

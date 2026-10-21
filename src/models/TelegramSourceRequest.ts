@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PolicyEngineMode } from './PolicyEngineMode';
+import { mapValues } from '../runtime.js';
+import type { PolicyEngineMode } from './PolicyEngineMode.js';
 import {
     PolicyEngineModeFromJSON,
     PolicyEngineModeFromJSONTyped,
     PolicyEngineModeToJSON,
     PolicyEngineModeToJSONTyped,
-} from './PolicyEngineMode';
-import type { UserMatchingModeEnum } from './UserMatchingModeEnum';
+} from './PolicyEngineMode.js';
+import type { UserMatchingModeEnum } from './UserMatchingModeEnum.js';
 import {
     UserMatchingModeEnumFromJSON,
     UserMatchingModeEnumFromJSONTyped,
     UserMatchingModeEnumToJSON,
     UserMatchingModeEnumToJSONTyped,
-} from './UserMatchingModeEnum';
+} from './UserMatchingModeEnum.js';
 
 /**
  * Source Serializer

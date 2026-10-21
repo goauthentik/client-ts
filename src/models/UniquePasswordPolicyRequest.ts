@@ -12,7 +12,7 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
+import { mapValues } from '../runtime.js';
 /**
  * Password Uniqueness Policy Serializer
  * @export

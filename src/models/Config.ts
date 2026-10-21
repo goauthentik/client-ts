@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ErrorReportingConfig } from './ErrorReportingConfig';
+import { mapValues } from '../runtime.js';
+import type { ErrorReportingConfig } from './ErrorReportingConfig.js';
 import {
     ErrorReportingConfigFromJSON,
     ErrorReportingConfigFromJSONTyped,
     ErrorReportingConfigToJSON,
     ErrorReportingConfigToJSONTyped,
-} from './ErrorReportingConfig';
-import type { CapabilitiesEnum } from './CapabilitiesEnum';
+} from './ErrorReportingConfig.js';
+import type { CapabilitiesEnum } from './CapabilitiesEnum.js';
 import {
     CapabilitiesEnumFromJSON,
     CapabilitiesEnumFromJSONTyped,
     CapabilitiesEnumToJSON,
     CapabilitiesEnumToJSONTyped,
-} from './CapabilitiesEnum';
+} from './CapabilitiesEnum.js';
 
 /**
  * Serialize authentik Config into DRF Object

@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { FlowSet } from './FlowSet';
+import { mapValues } from '../runtime.js';
+import type { FlowSet } from './FlowSet.js';
 import {
     FlowSetFromJSON,
     FlowSetFromJSONTyped,
     FlowSetToJSON,
     FlowSetToJSONTyped,
-} from './FlowSet';
-import type { UserTypeEnum } from './UserTypeEnum';
+} from './FlowSet.js';
+import type { UserTypeEnum } from './UserTypeEnum.js';
 import {
     UserTypeEnumFromJSON,
     UserTypeEnumFromJSONTyped,
     UserTypeEnumToJSON,
     UserTypeEnumToJSONTyped,
-} from './UserTypeEnum';
-import type { UserCreationModeEnum } from './UserCreationModeEnum';
+} from './UserTypeEnum.js';
+import type { UserCreationModeEnum } from './UserCreationModeEnum.js';
 import {
     UserCreationModeEnumFromJSON,
     UserCreationModeEnumFromJSONTyped,
     UserCreationModeEnumToJSON,
     UserCreationModeEnumToJSONTyped,
-} from './UserCreationModeEnum';
+} from './UserCreationModeEnum.js';
 
 /**
  * UserWriteStage Serializer

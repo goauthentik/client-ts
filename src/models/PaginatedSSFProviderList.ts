@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { SSFProvider } from './SSFProvider';
+} from './Pagination.js';
+import type { SSFProvider } from './SSFProvider.js';
 import {
     SSFProviderFromJSON,
     SSFProviderFromJSONTyped,
     SSFProviderToJSON,
     SSFProviderToJSONTyped,
-} from './SSFProvider';
+} from './SSFProvider.js';
 
 /**
  * 

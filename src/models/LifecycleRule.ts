@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PartialUser } from './PartialUser';
+import { mapValues } from '../runtime.js';
+import type { PartialUser } from './PartialUser.js';
 import {
     PartialUserFromJSON,
     PartialUserFromJSONTyped,
     PartialUserToJSON,
     PartialUserToJSONTyped,
-} from './PartialUser';
-import type { ContentTypeEnum } from './ContentTypeEnum';
+} from './PartialUser.js';
+import type { ContentTypeEnum } from './ContentTypeEnum.js';
 import {
     ContentTypeEnumFromJSON,
     ContentTypeEnumFromJSONTyped,
     ContentTypeEnumToJSON,
     ContentTypeEnumToJSONTyped,
-} from './ContentTypeEnum';
-import type { PartialGroup } from './PartialGroup';
+} from './ContentTypeEnum.js';
+import type { PartialGroup } from './PartialGroup.js';
 import {
     PartialGroupFromJSON,
     PartialGroupFromJSONTyped,
     PartialGroupToJSON,
     PartialGroupToJSONTyped,
-} from './PartialGroup';
+} from './PartialGroup.js';
 
 /**
  * Mixin to validate that a valid enterprise license

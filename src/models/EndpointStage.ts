@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Connector } from './Connector';
+import { mapValues } from '../runtime.js';
+import type { Connector } from './Connector.js';
 import {
     ConnectorFromJSON,
     ConnectorFromJSONTyped,
     ConnectorToJSON,
     ConnectorToJSONTyped,
-} from './Connector';
-import type { StageModeEnum } from './StageModeEnum';
+} from './Connector.js';
+import type { StageModeEnum } from './StageModeEnum.js';
 import {
     StageModeEnumFromJSON,
     StageModeEnumFromJSONTyped,
     StageModeEnumToJSON,
     StageModeEnumToJSONTyped,
-} from './StageModeEnum';
-import type { FlowSet } from './FlowSet';
+} from './StageModeEnum.js';
+import type { FlowSet } from './FlowSet.js';
 import {
     FlowSetFromJSON,
     FlowSetFromJSONTyped,
     FlowSetToJSON,
     FlowSetToJSONTyped,
-} from './FlowSet';
+} from './FlowSet.js';
 
 /**
  * EndpointStage Serializer

@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { MutualTLSStage } from './MutualTLSStage';
+} from './Pagination.js';
+import type { MutualTLSStage } from './MutualTLSStage.js';
 import {
     MutualTLSStageFromJSON,
     MutualTLSStageFromJSONTyped,
     MutualTLSStageToJSON,
     MutualTLSStageToJSONTyped,
-} from './MutualTLSStage';
+} from './MutualTLSStage.js';
 
 /**
  * 

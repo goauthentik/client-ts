@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { AuthenticatorWebAuthnStage } from './AuthenticatorWebAuthnStage';
+} from './Pagination.js';
+import type { AuthenticatorWebAuthnStage } from './AuthenticatorWebAuthnStage.js';
 import {
     AuthenticatorWebAuthnStageFromJSON,
     AuthenticatorWebAuthnStageFromJSONTyped,
     AuthenticatorWebAuthnStageToJSON,
     AuthenticatorWebAuthnStageToJSONTyped,
-} from './AuthenticatorWebAuthnStage';
+} from './AuthenticatorWebAuthnStage.js';
 
 /**
  * 

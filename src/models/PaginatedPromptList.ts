@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { Prompt } from './Prompt';
+} from './Pagination.js';
+import type { Prompt } from './Prompt.js';
 import {
     PromptFromJSON,
     PromptFromJSONTyped,
     PromptToJSON,
     PromptToJSONTyped,
-} from './Prompt';
+} from './Prompt.js';
 
 /**
  * 

@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ErrorDetail } from './ErrorDetail';
+import { mapValues } from '../runtime.js';
+import type { ErrorDetail } from './ErrorDetail.js';
 import {
     ErrorDetailFromJSON,
     ErrorDetailFromJSONTyped,
     ErrorDetailToJSON,
     ErrorDetailToJSONTyped,
-} from './ErrorDetail';
-import type { ContextualFlowInfo } from './ContextualFlowInfo';
+} from './ErrorDetail.js';
+import type { ContextualFlowInfo } from './ContextualFlowInfo.js';
 import {
     ContextualFlowInfoFromJSON,
     ContextualFlowInfoFromJSONTyped,
     ContextualFlowInfoToJSON,
     ContextualFlowInfoToJSONTyped,
-} from './ContextualFlowInfo';
-import type { SAMLBindingsEnum } from './SAMLBindingsEnum';
+} from './ContextualFlowInfo.js';
+import type { SAMLBindingsEnum } from './SAMLBindingsEnum.js';
 import {
     SAMLBindingsEnumFromJSON,
     SAMLBindingsEnumFromJSONTyped,
     SAMLBindingsEnumToJSON,
     SAMLBindingsEnumToJSONTyped,
-} from './SAMLBindingsEnum';
+} from './SAMLBindingsEnum.js';
 
 /**
  * Challenge for native browser logout

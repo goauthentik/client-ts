@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { RadiusOutpostConfig } from './RadiusOutpostConfig';
+import { mapValues } from '../runtime.js';
+import type { RadiusOutpostConfig } from './RadiusOutpostConfig.js';
 import {
     RadiusOutpostConfigFromJSON,
     RadiusOutpostConfigFromJSONTyped,
     RadiusOutpostConfigToJSON,
     RadiusOutpostConfigToJSONTyped,
-} from './RadiusOutpostConfig';
-import type { Pagination } from './Pagination';
+} from './RadiusOutpostConfig.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

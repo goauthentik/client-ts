@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { ScopeMapping } from './ScopeMapping';
+} from './Pagination.js';
+import type { ScopeMapping } from './ScopeMapping.js';
 import {
     ScopeMappingFromJSON,
     ScopeMappingFromJSONTyped,
     ScopeMappingToJSON,
     ScopeMappingToJSONTyped,
-} from './ScopeMapping';
+} from './ScopeMapping.js';
 
 /**
  * 

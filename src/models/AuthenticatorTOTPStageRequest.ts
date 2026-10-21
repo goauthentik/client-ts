@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { DigitsEnum } from './DigitsEnum';
+import { mapValues } from '../runtime.js';
+import type { DigitsEnum } from './DigitsEnum.js';
 import {
     DigitsEnumFromJSON,
     DigitsEnumFromJSONTyped,
     DigitsEnumToJSON,
     DigitsEnumToJSONTyped,
-} from './DigitsEnum';
+} from './DigitsEnum.js';
 
 /**
  * AuthenticatorTOTPStage Serializer

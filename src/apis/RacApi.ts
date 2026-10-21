@@ -12,62 +12,62 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type ConnectionToken,
     ConnectionTokenFromJSON,
     ConnectionTokenToJSON,
-} from '../models/ConnectionToken';
+} from '../models/ConnectionToken.js';
 import {
     type ConnectionTokenRequest,
     ConnectionTokenRequestFromJSON,
     ConnectionTokenRequestToJSON,
-} from '../models/ConnectionTokenRequest';
+} from '../models/ConnectionTokenRequest.js';
 import {
     type Endpoint,
     EndpointFromJSON,
     EndpointToJSON,
-} from '../models/Endpoint';
+} from '../models/Endpoint.js';
 import {
     type EndpointRequest,
     EndpointRequestFromJSON,
     EndpointRequestToJSON,
-} from '../models/EndpointRequest';
+} from '../models/EndpointRequest.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type PaginatedConnectionTokenList,
     PaginatedConnectionTokenListFromJSON,
     PaginatedConnectionTokenListToJSON,
-} from '../models/PaginatedConnectionTokenList';
+} from '../models/PaginatedConnectionTokenList.js';
 import {
     type PaginatedEndpointList,
     PaginatedEndpointListFromJSON,
     PaginatedEndpointListToJSON,
-} from '../models/PaginatedEndpointList';
+} from '../models/PaginatedEndpointList.js';
 import {
     type PatchedConnectionTokenRequest,
     PatchedConnectionTokenRequestFromJSON,
     PatchedConnectionTokenRequestToJSON,
-} from '../models/PatchedConnectionTokenRequest';
+} from '../models/PatchedConnectionTokenRequest.js';
 import {
     type PatchedEndpointRequest,
     PatchedEndpointRequestFromJSON,
     PatchedEndpointRequestToJSON,
-} from '../models/PatchedEndpointRequest';
+} from '../models/PatchedEndpointRequest.js';
 import {
     type UsedBy,
     UsedByFromJSON,
     UsedByToJSON,
-} from '../models/UsedBy';
+} from '../models/UsedBy.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface RacConnectionTokensDestroyRequest {
     connectionTokenUuid: string;

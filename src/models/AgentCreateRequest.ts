@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PolicyBehaviorEnum } from './PolicyBehaviorEnum';
+import { mapValues } from '../runtime.js';
+import type { PolicyBehaviorEnum } from './PolicyBehaviorEnum.js';
 import {
     PolicyBehaviorEnumFromJSON,
     PolicyBehaviorEnumFromJSONTyped,
     PolicyBehaviorEnumToJSON,
     PolicyBehaviorEnumToJSONTyped,
-} from './PolicyBehaviorEnum';
+} from './PolicyBehaviorEnum.js';
 
 /**
  * Base serializer class which doesn't implement create/update methods

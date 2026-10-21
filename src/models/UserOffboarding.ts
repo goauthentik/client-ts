@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { OffboardingActionEnum } from './OffboardingActionEnum';
+import { mapValues } from '../runtime.js';
+import type { OffboardingActionEnum } from './OffboardingActionEnum.js';
 import {
     OffboardingActionEnumFromJSON,
     OffboardingActionEnumFromJSONTyped,
     OffboardingActionEnumToJSON,
     OffboardingActionEnumToJSONTyped,
-} from './OffboardingActionEnum';
-import type { PartialUser } from './PartialUser';
+} from './OffboardingActionEnum.js';
+import type { PartialUser } from './PartialUser.js';
 import {
     PartialUserFromJSON,
     PartialUserFromJSONTyped,
     PartialUserToJSON,
     PartialUserToJSONTyped,
-} from './PartialUser';
-import type { OffboardingStatusEnum } from './OffboardingStatusEnum';
+} from './PartialUser.js';
+import type { OffboardingStatusEnum } from './OffboardingStatusEnum.js';
 import {
     OffboardingStatusEnumFromJSON,
     OffboardingStatusEnumFromJSONTyped,
     OffboardingStatusEnumToJSON,
     OffboardingStatusEnumToJSONTyped,
-} from './OffboardingStatusEnum';
+} from './OffboardingStatusEnum.js';
 
 /**
  * Mixin to validate that a valid enterprise license

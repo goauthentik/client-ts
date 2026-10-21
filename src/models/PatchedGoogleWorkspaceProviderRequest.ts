@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { OutgoingSyncDeleteAction } from './OutgoingSyncDeleteAction';
+import { mapValues } from '../runtime.js';
+import type { OutgoingSyncDeleteAction } from './OutgoingSyncDeleteAction.js';
 import {
     OutgoingSyncDeleteActionFromJSON,
     OutgoingSyncDeleteActionFromJSONTyped,
     OutgoingSyncDeleteActionToJSON,
     OutgoingSyncDeleteActionToJSONTyped,
-} from './OutgoingSyncDeleteAction';
+} from './OutgoingSyncDeleteAction.js';
 
 /**
  * GoogleWorkspaceProvider Serializer

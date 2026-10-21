@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PartialUser } from './PartialUser';
+import { mapValues } from '../runtime.js';
+import type { PartialUser } from './PartialUser.js';
 import {
     PartialUserFromJSON,
     PartialUserFromJSONTyped,
     PartialUserToJSON,
     PartialUserToJSONTyped,
-} from './PartialUser';
-import type { StaticDeviceToken } from './StaticDeviceToken';
+} from './PartialUser.js';
+import type { StaticDeviceToken } from './StaticDeviceToken.js';
 import {
     StaticDeviceTokenFromJSON,
     StaticDeviceTokenFromJSONTyped,
     StaticDeviceTokenToJSON,
     StaticDeviceTokenToJSONTyped,
-} from './StaticDeviceToken';
+} from './StaticDeviceToken.js';
 
 /**
  * Serializer for static authenticator devices

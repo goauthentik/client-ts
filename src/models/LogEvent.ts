@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { LogLevelEnum } from './LogLevelEnum';
+import { mapValues } from '../runtime.js';
+import type { LogLevelEnum } from './LogLevelEnum.js';
 import {
     LogLevelEnumFromJSON,
     LogLevelEnumFromJSONTyped,
     LogLevelEnumToJSON,
     LogLevelEnumToJSONTyped,
-} from './LogLevelEnum';
+} from './LogLevelEnum.js';
 
 /**
  * Single log message with all context logged.

@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { StaticDevice } from './StaticDevice';
+import { mapValues } from '../runtime.js';
+import type { StaticDevice } from './StaticDevice.js';
 import {
     StaticDeviceFromJSON,
     StaticDeviceFromJSONTyped,
     StaticDeviceToJSON,
     StaticDeviceToJSONTyped,
-} from './StaticDevice';
-import type { Pagination } from './Pagination';
+} from './StaticDevice.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

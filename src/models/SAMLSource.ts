@@ -12,63 +12,63 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PolicyEngineMode } from './PolicyEngineMode';
+import { mapValues } from '../runtime.js';
+import type { PolicyEngineMode } from './PolicyEngineMode.js';
 import {
     PolicyEngineModeFromJSON,
     PolicyEngineModeFromJSONTyped,
     PolicyEngineModeToJSON,
     PolicyEngineModeToJSONTyped,
-} from './PolicyEngineMode';
-import type { BindingTypeEnum } from './BindingTypeEnum';
+} from './PolicyEngineMode.js';
+import type { BindingTypeEnum } from './BindingTypeEnum.js';
 import {
     BindingTypeEnumFromJSON,
     BindingTypeEnumFromJSONTyped,
     BindingTypeEnumToJSON,
     BindingTypeEnumToJSONTyped,
-} from './BindingTypeEnum';
-import type { DigestAlgorithmEnum } from './DigestAlgorithmEnum';
+} from './BindingTypeEnum.js';
+import type { DigestAlgorithmEnum } from './DigestAlgorithmEnum.js';
 import {
     DigestAlgorithmEnumFromJSON,
     DigestAlgorithmEnumFromJSONTyped,
     DigestAlgorithmEnumToJSON,
     DigestAlgorithmEnumToJSONTyped,
-} from './DigestAlgorithmEnum';
-import type { UserMatchingModeEnum } from './UserMatchingModeEnum';
+} from './DigestAlgorithmEnum.js';
+import type { UserMatchingModeEnum } from './UserMatchingModeEnum.js';
 import {
     UserMatchingModeEnumFromJSON,
     UserMatchingModeEnumFromJSONTyped,
     UserMatchingModeEnumToJSON,
     UserMatchingModeEnumToJSONTyped,
-} from './UserMatchingModeEnum';
-import type { SignatureAlgorithmEnum } from './SignatureAlgorithmEnum';
+} from './UserMatchingModeEnum.js';
+import type { SignatureAlgorithmEnum } from './SignatureAlgorithmEnum.js';
 import {
     SignatureAlgorithmEnumFromJSON,
     SignatureAlgorithmEnumFromJSONTyped,
     SignatureAlgorithmEnumToJSON,
     SignatureAlgorithmEnumToJSONTyped,
-} from './SignatureAlgorithmEnum';
-import type { ThemedUrls } from './ThemedUrls';
+} from './SignatureAlgorithmEnum.js';
+import type { ThemedUrls } from './ThemedUrls.js';
 import {
     ThemedUrlsFromJSON,
     ThemedUrlsFromJSONTyped,
     ThemedUrlsToJSON,
     ThemedUrlsToJSONTyped,
-} from './ThemedUrls';
-import type { SAMLNameIDPolicyEnum } from './SAMLNameIDPolicyEnum';
+} from './ThemedUrls.js';
+import type { SAMLNameIDPolicyEnum } from './SAMLNameIDPolicyEnum.js';
 import {
     SAMLNameIDPolicyEnumFromJSON,
     SAMLNameIDPolicyEnumFromJSONTyped,
     SAMLNameIDPolicyEnumToJSON,
     SAMLNameIDPolicyEnumToJSONTyped,
-} from './SAMLNameIDPolicyEnum';
-import type { GroupMatchingModeEnum } from './GroupMatchingModeEnum';
+} from './SAMLNameIDPolicyEnum.js';
+import type { GroupMatchingModeEnum } from './GroupMatchingModeEnum.js';
 import {
     GroupMatchingModeEnumFromJSON,
     GroupMatchingModeEnumFromJSONTyped,
     GroupMatchingModeEnumToJSON,
     GroupMatchingModeEnumToJSONTyped,
-} from './GroupMatchingModeEnum';
+} from './GroupMatchingModeEnum.js';
 
 /**
  * SAMLSource Serializer

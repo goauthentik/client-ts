@@ -12,7 +12,7 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
+import { mapValues } from '../runtime.js';
 /**
  * Info about a single blueprint instance file
  * @export

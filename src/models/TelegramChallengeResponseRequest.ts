@@ -12,7 +12,7 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
+import { mapValues } from '../runtime.js';
 /**
  * Base class for all challenge responses
  * @export

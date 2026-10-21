@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { AccountLockdownStage } from './AccountLockdownStage';
+} from './Pagination.js';
+import type { AccountLockdownStage } from './AccountLockdownStage.js';
 import {
     AccountLockdownStageFromJSON,
     AccountLockdownStageFromJSONTyped,
     AccountLockdownStageToJSON,
     AccountLockdownStageToJSONTyped,
-} from './AccountLockdownStage';
+} from './AccountLockdownStage.js';
 
 /**
  * 

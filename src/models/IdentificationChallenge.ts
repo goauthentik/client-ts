@@ -12,42 +12,42 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ErrorDetail } from './ErrorDetail';
+import { mapValues } from '../runtime.js';
+import type { ErrorDetail } from './ErrorDetail.js';
 import {
     ErrorDetailFromJSON,
     ErrorDetailFromJSONTyped,
     ErrorDetailToJSON,
     ErrorDetailToJSONTyped,
-} from './ErrorDetail';
-import type { ContextualFlowInfo } from './ContextualFlowInfo';
+} from './ErrorDetail.js';
+import type { ContextualFlowInfo } from './ContextualFlowInfo.js';
 import {
     ContextualFlowInfoFromJSON,
     ContextualFlowInfoFromJSONTyped,
     ContextualFlowInfoToJSON,
     ContextualFlowInfoToJSONTyped,
-} from './ContextualFlowInfo';
-import type { FlowDesignationEnum } from './FlowDesignationEnum';
+} from './ContextualFlowInfo.js';
+import type { FlowDesignationEnum } from './FlowDesignationEnum.js';
 import {
     FlowDesignationEnumFromJSON,
     FlowDesignationEnumFromJSONTyped,
     FlowDesignationEnumToJSON,
     FlowDesignationEnumToJSONTyped,
-} from './FlowDesignationEnum';
-import type { LoginSource } from './LoginSource';
+} from './FlowDesignationEnum.js';
+import type { LoginSource } from './LoginSource.js';
 import {
     LoginSourceFromJSON,
     LoginSourceFromJSONTyped,
     LoginSourceToJSON,
     LoginSourceToJSONTyped,
-} from './LoginSource';
-import type { CaptchaChallenge } from './CaptchaChallenge';
+} from './LoginSource.js';
+import type { CaptchaChallenge } from './CaptchaChallenge.js';
 import {
     CaptchaChallengeFromJSON,
     CaptchaChallengeFromJSONTyped,
     CaptchaChallengeToJSON,
     CaptchaChallengeToJSONTyped,
-} from './CaptchaChallenge';
+} from './CaptchaChallenge.js';
 
 /**
  * Identification challenges with all UI elements

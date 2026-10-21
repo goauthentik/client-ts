@@ -8,15 +8,31 @@
     "url": "https://github.com/goauthentik/client-ts.git"
   },
   "license": "MIT",
+  "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "module": "./dist/esm/index.js",
   "sideEffects": false,
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
-    "build": "tsc && tsc -p tsconfig.esm.json",
-    "prepare": "npm run build"
+    "build": "tsc",
+    "prepare": "pnpm run build"
   },
   "devDependencies": {
-    "typescript": "^4.0 || ^5.0"
-  }
+    "typescript": "^6.0.3"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": ">=24.20",
+      "onFail": "error"
+    }
+  },
+  "engines": {
+    "node": ">=24",
+    "pnpm": ">=12.4.0"
+  },
+  "packageManager": "pnpm@12.9.1+sha512.06b055fff5cd20dc12781de173ced3310ce0951bf2ec620211a16045d5444d5c93a663210764ef29a653a610459ba0368f0e74f84d80c54723cf95aae7bc0d6d"
 }

@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { LicenseSummaryStatusEnum } from './LicenseSummaryStatusEnum';
+import { mapValues } from '../runtime.js';
+import type { LicenseSummaryStatusEnum } from './LicenseSummaryStatusEnum.js';
 import {
     LicenseSummaryStatusEnumFromJSON,
     LicenseSummaryStatusEnumFromJSONTyped,
     LicenseSummaryStatusEnumToJSON,
     LicenseSummaryStatusEnumToJSONTyped,
-} from './LicenseSummaryStatusEnum';
-import type { LicenseFlagsEnum } from './LicenseFlagsEnum';
+} from './LicenseSummaryStatusEnum.js';
+import type { LicenseFlagsEnum } from './LicenseFlagsEnum.js';
 import {
     LicenseFlagsEnumFromJSON,
     LicenseFlagsEnumFromJSONTyped,
     LicenseFlagsEnumToJSON,
     LicenseFlagsEnumToJSONTyped,
-} from './LicenseFlagsEnum';
+} from './LicenseFlagsEnum.js';
 
 /**
  * Serializer for license status

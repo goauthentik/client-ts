@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { LastTaskStatusEnum } from './LastTaskStatusEnum';
+import { mapValues } from '../runtime.js';
+import type { LastTaskStatusEnum } from './LastTaskStatusEnum.js';
 import {
     LastTaskStatusEnumFromJSON,
     LastTaskStatusEnumFromJSONTyped,
     LastTaskStatusEnumToJSON,
     LastTaskStatusEnumToJSONTyped,
-} from './LastTaskStatusEnum';
+} from './LastTaskStatusEnum.js';
 
 /**
  * 

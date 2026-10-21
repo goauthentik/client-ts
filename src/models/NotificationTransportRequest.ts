@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { TransportModeEnum } from './TransportModeEnum';
+import { mapValues } from '../runtime.js';
+import type { TransportModeEnum } from './TransportModeEnum.js';
 import {
     TransportModeEnumFromJSON,
     TransportModeEnumFromJSONTyped,
     TransportModeEnumToJSON,
     TransportModeEnumToJSONTyped,
-} from './TransportModeEnum';
+} from './TransportModeEnum.js';
 
 /**
  * NotificationTransport Serializer

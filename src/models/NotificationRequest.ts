@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { EventRequest } from './EventRequest';
+import { mapValues } from '../runtime.js';
+import type { EventRequest } from './EventRequest.js';
 import {
     EventRequestFromJSON,
     EventRequestFromJSONTyped,
     EventRequestToJSON,
     EventRequestToJSONTyped,
-} from './EventRequest';
+} from './EventRequest.js';
 
 /**
  * Notification Serializer

@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { WebAuthnDeviceType } from './WebAuthnDeviceType';
+} from './Pagination.js';
+import type { WebAuthnDeviceType } from './WebAuthnDeviceType.js';
 import {
     WebAuthnDeviceTypeFromJSON,
     WebAuthnDeviceTypeFromJSONTyped,
     WebAuthnDeviceTypeToJSON,
     WebAuthnDeviceTypeToJSONTyped,
-} from './WebAuthnDeviceType';
+} from './WebAuthnDeviceType.js';
 
 /**
  * 

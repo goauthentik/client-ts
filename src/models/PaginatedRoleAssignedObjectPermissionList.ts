@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { RoleAssignedObjectPermission } from './RoleAssignedObjectPermission';
+} from './Pagination.js';
+import type { RoleAssignedObjectPermission } from './RoleAssignedObjectPermission.js';
 import {
     RoleAssignedObjectPermissionFromJSON,
     RoleAssignedObjectPermissionFromJSONTyped,
     RoleAssignedObjectPermissionToJSON,
     RoleAssignedObjectPermissionToJSONTyped,
-} from './RoleAssignedObjectPermission';
+} from './RoleAssignedObjectPermission.js';
 
 /**
  * 

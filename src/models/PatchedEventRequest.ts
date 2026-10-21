@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { EventActions } from './EventActions';
+import { mapValues } from '../runtime.js';
+import type { EventActions } from './EventActions.js';
 import {
     EventActionsFromJSON,
     EventActionsFromJSONTyped,
     EventActionsToJSON,
     EventActionsToJSONTyped,
-} from './EventActions';
+} from './EventActions.js';
 
 /**
  * Event Serializer

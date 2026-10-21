@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { RequestableTarget } from './RequestableTarget';
+import { mapValues } from '../runtime.js';
+import type { RequestableTarget } from './RequestableTarget.js';
 import {
     RequestableTargetFromJSON,
     RequestableTargetFromJSONTyped,
     RequestableTargetToJSON,
     RequestableTargetToJSONTyped,
-} from './RequestableTarget';
-import type { Pagination } from './Pagination';
+} from './RequestableTarget.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

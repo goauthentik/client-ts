@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { Flow } from './Flow';
+} from './Pagination.js';
+import type { Flow } from './Flow.js';
 import {
     FlowFromJSON,
     FlowFromJSONTyped,
     FlowToJSON,
     FlowToJSONTyped,
-} from './Flow';
+} from './Flow.js';
 
 /**
  * 

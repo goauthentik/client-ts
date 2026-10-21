@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Token } from './Token';
+import { mapValues } from '../runtime.js';
+import type { Token } from './Token.js';
 import {
     TokenFromJSON,
     TokenFromJSONTyped,
     TokenToJSON,
     TokenToJSONTyped,
-} from './Token';
+} from './Token.js';
 
 /**
  * SCIMSource Serializer

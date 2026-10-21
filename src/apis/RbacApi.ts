@@ -12,102 +12,102 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type InitialPermissions,
     InitialPermissionsFromJSON,
     InitialPermissionsToJSON,
-} from '../models/InitialPermissions';
+} from '../models/InitialPermissions.js';
 import {
     type InitialPermissionsRequest,
     InitialPermissionsRequestFromJSON,
     InitialPermissionsRequestToJSON,
-} from '../models/InitialPermissionsRequest';
+} from '../models/InitialPermissionsRequest.js';
 import {
     type PaginatedExtraRoleObjectPermissionList,
     PaginatedExtraRoleObjectPermissionListFromJSON,
     PaginatedExtraRoleObjectPermissionListToJSON,
-} from '../models/PaginatedExtraRoleObjectPermissionList';
+} from '../models/PaginatedExtraRoleObjectPermissionList.js';
 import {
     type PaginatedInitialPermissionsList,
     PaginatedInitialPermissionsListFromJSON,
     PaginatedInitialPermissionsListToJSON,
-} from '../models/PaginatedInitialPermissionsList';
+} from '../models/PaginatedInitialPermissionsList.js';
 import {
     type PaginatedPermissionList,
     PaginatedPermissionListFromJSON,
     PaginatedPermissionListToJSON,
-} from '../models/PaginatedPermissionList';
+} from '../models/PaginatedPermissionList.js';
 import {
     type PaginatedRoleAssignedObjectPermissionList,
     PaginatedRoleAssignedObjectPermissionListFromJSON,
     PaginatedRoleAssignedObjectPermissionListToJSON,
-} from '../models/PaginatedRoleAssignedObjectPermissionList';
+} from '../models/PaginatedRoleAssignedObjectPermissionList.js';
 import {
     type PaginatedRoleList,
     PaginatedRoleListFromJSON,
     PaginatedRoleListToJSON,
-} from '../models/PaginatedRoleList';
+} from '../models/PaginatedRoleList.js';
 import {
     type PatchedInitialPermissionsRequest,
     PatchedInitialPermissionsRequestFromJSON,
     PatchedInitialPermissionsRequestToJSON,
-} from '../models/PatchedInitialPermissionsRequest';
+} from '../models/PatchedInitialPermissionsRequest.js';
 import {
     type PatchedPermissionAssignRequest,
     PatchedPermissionAssignRequestFromJSON,
     PatchedPermissionAssignRequestToJSON,
-} from '../models/PatchedPermissionAssignRequest';
+} from '../models/PatchedPermissionAssignRequest.js';
 import {
     type PatchedRoleRequest,
     PatchedRoleRequestFromJSON,
     PatchedRoleRequestToJSON,
-} from '../models/PatchedRoleRequest';
+} from '../models/PatchedRoleRequest.js';
 import {
     type Permission,
     PermissionFromJSON,
     PermissionToJSON,
-} from '../models/Permission';
+} from '../models/Permission.js';
 import {
     type PermissionAssignRequest,
     PermissionAssignRequestFromJSON,
     PermissionAssignRequestToJSON,
-} from '../models/PermissionAssignRequest';
+} from '../models/PermissionAssignRequest.js';
 import {
     type PermissionAssignResult,
     PermissionAssignResultFromJSON,
     PermissionAssignResultToJSON,
-} from '../models/PermissionAssignResult';
+} from '../models/PermissionAssignResult.js';
 import {
     type Role,
     RoleFromJSON,
     RoleToJSON,
-} from '../models/Role';
+} from '../models/Role.js';
 import {
     type RoleRequest,
     RoleRequestFromJSON,
     RoleRequestToJSON,
-} from '../models/RoleRequest';
+} from '../models/RoleRequest.js';
 import {
     type UsedBy,
     UsedByFromJSON,
     UsedByToJSON,
-} from '../models/UsedBy';
+} from '../models/UsedBy.js';
 import {
     type UserAccountSerializerForRoleRequest,
     UserAccountSerializerForRoleRequestFromJSON,
     UserAccountSerializerForRoleRequestToJSON,
-} from '../models/UserAccountSerializerForRoleRequest';
+} from '../models/UserAccountSerializerForRoleRequest.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface RbacInitialPermissionsCreateRequest {
     initialPermissionsRequest: InitialPermissionsRequest;

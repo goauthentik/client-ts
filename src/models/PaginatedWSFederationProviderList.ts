@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { WSFederationProvider } from './WSFederationProvider';
+} from './Pagination.js';
+import type { WSFederationProvider } from './WSFederationProvider.js';
 import {
     WSFederationProviderFromJSON,
     WSFederationProviderFromJSONTyped,
     WSFederationProviderToJSON,
     WSFederationProviderToJSONTyped,
-} from './WSFederationProvider';
+} from './WSFederationProvider.js';
 
 /**
  * 

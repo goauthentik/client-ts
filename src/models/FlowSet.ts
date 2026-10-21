@@ -12,35 +12,35 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { DeniedActionEnum } from './DeniedActionEnum';
+import { mapValues } from '../runtime.js';
+import type { DeniedActionEnum } from './DeniedActionEnum.js';
 import {
     DeniedActionEnumFromJSON,
     DeniedActionEnumFromJSONTyped,
     DeniedActionEnumToJSON,
     DeniedActionEnumToJSONTyped,
-} from './DeniedActionEnum';
-import type { FlowLayoutEnum } from './FlowLayoutEnum';
+} from './DeniedActionEnum.js';
+import type { FlowLayoutEnum } from './FlowLayoutEnum.js';
 import {
     FlowLayoutEnumFromJSON,
     FlowLayoutEnumFromJSONTyped,
     FlowLayoutEnumToJSON,
     FlowLayoutEnumToJSONTyped,
-} from './FlowLayoutEnum';
-import type { PolicyEngineMode } from './PolicyEngineMode';
+} from './FlowLayoutEnum.js';
+import type { PolicyEngineMode } from './PolicyEngineMode.js';
 import {
     PolicyEngineModeFromJSON,
     PolicyEngineModeFromJSONTyped,
     PolicyEngineModeToJSON,
     PolicyEngineModeToJSONTyped,
-} from './PolicyEngineMode';
-import type { FlowDesignationEnum } from './FlowDesignationEnum';
+} from './PolicyEngineMode.js';
+import type { FlowDesignationEnum } from './FlowDesignationEnum.js';
 import {
     FlowDesignationEnumFromJSON,
     FlowDesignationEnumFromJSONTyped,
     FlowDesignationEnumToJSON,
     FlowDesignationEnumToJSONTyped,
-} from './FlowDesignationEnum';
+} from './FlowDesignationEnum.js';
 
 /**
  * Stripped down flow serializer

@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ContentType } from './ContentType';
+import { mapValues } from '../runtime.js';
+import type { ContentType } from './ContentType.js';
 import {
     ContentTypeFromJSON,
     ContentTypeFromJSONTyped,
     ContentTypeToJSON,
     ContentTypeToJSONTyped,
-} from './ContentType';
-import type { ObjectAttributeTypeEnum } from './ObjectAttributeTypeEnum';
+} from './ContentType.js';
+import type { ObjectAttributeTypeEnum } from './ObjectAttributeTypeEnum.js';
 import {
     ObjectAttributeTypeEnumFromJSON,
     ObjectAttributeTypeEnumFromJSONTyped,
     ObjectAttributeTypeEnumToJSON,
     ObjectAttributeTypeEnumToJSONTyped,
-} from './ObjectAttributeTypeEnum';
+} from './ObjectAttributeTypeEnum.js';
 
 /**
  * 

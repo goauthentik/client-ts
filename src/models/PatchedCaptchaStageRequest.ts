@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { RequestContentTypeEnum } from './RequestContentTypeEnum';
+import { mapValues } from '../runtime.js';
+import type { RequestContentTypeEnum } from './RequestContentTypeEnum.js';
 import {
     RequestContentTypeEnumFromJSON,
     RequestContentTypeEnumFromJSONTyped,
     RequestContentTypeEnumToJSON,
     RequestContentTypeEnumToJSONTyped,
-} from './RequestContentTypeEnum';
+} from './RequestContentTypeEnum.js';
 
 /**
  * CaptchaStage Serializer

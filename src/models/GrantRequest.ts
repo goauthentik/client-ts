@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PartialUser } from './PartialUser';
+import { mapValues } from '../runtime.js';
+import type { PartialUser } from './PartialUser.js';
 import {
     PartialUserFromJSON,
     PartialUserFromJSONTyped,
     PartialUserToJSON,
     PartialUserToJSONTyped,
-} from './PartialUser';
-import type { RequestableTarget } from './RequestableTarget';
+} from './PartialUser.js';
+import type { RequestableTarget } from './RequestableTarget.js';
 import {
     RequestableTargetFromJSON,
     RequestableTargetFromJSONTyped,
     RequestableTargetToJSON,
     RequestableTargetToJSONTyped,
-} from './RequestableTarget';
-import type { RequestStatus } from './RequestStatus';
+} from './RequestableTarget.js';
+import type { RequestStatus } from './RequestStatus.js';
 import {
     RequestStatusFromJSON,
     RequestStatusFromJSONTyped,
     RequestStatusToJSON,
     RequestStatusToJSONTyped,
-} from './RequestStatus';
+} from './RequestStatus.js';
 
 /**
  * Mixin to validate that a valid enterprise license

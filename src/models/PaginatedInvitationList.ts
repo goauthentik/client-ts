@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { Invitation } from './Invitation';
+} from './Pagination.js';
+import type { Invitation } from './Invitation.js';
 import {
     InvitationFromJSON,
     InvitationFromJSONTyped,
     InvitationToJSON,
     InvitationToJSONTyped,
-} from './Invitation';
+} from './Invitation.js';
 
 /**
  * 

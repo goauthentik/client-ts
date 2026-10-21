@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { LogEvent } from './LogEvent';
+import { mapValues } from '../runtime.js';
+import type { LogEvent } from './LogEvent.js';
 import {
     LogEventFromJSON,
     LogEventFromJSONTyped,
     LogEventToJSON,
     LogEventToJSONTyped,
-} from './LogEvent';
-import type { TaskAggregatedStatusEnum } from './TaskAggregatedStatusEnum';
+} from './LogEvent.js';
+import type { TaskAggregatedStatusEnum } from './TaskAggregatedStatusEnum.js';
 import {
     TaskAggregatedStatusEnumFromJSON,
     TaskAggregatedStatusEnumFromJSONTyped,
     TaskAggregatedStatusEnumToJSON,
     TaskAggregatedStatusEnumToJSONTyped,
-} from './TaskAggregatedStatusEnum';
-import type { TaskStatusEnum } from './TaskStatusEnum';
+} from './TaskAggregatedStatusEnum.js';
+import type { TaskStatusEnum } from './TaskStatusEnum.js';
 import {
     TaskStatusEnumFromJSON,
     TaskStatusEnumFromJSONTyped,
     TaskStatusEnumToJSON,
     TaskStatusEnumToJSONTyped,
-} from './TaskStatusEnum';
+} from './TaskStatusEnum.js';
 
 /**
  * 

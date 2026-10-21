@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { SyncObjectModelEnum } from './SyncObjectModelEnum';
+import { mapValues } from '../runtime.js';
+import type { SyncObjectModelEnum } from './SyncObjectModelEnum.js';
 import {
     SyncObjectModelEnumFromJSON,
     SyncObjectModelEnumFromJSONTyped,
     SyncObjectModelEnumToJSON,
     SyncObjectModelEnumToJSONTyped,
-} from './SyncObjectModelEnum';
+} from './SyncObjectModelEnum.js';
 
 /**
  * Sync object serializer

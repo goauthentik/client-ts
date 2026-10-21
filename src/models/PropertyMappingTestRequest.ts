@@ -12,7 +12,7 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
+import { mapValues } from '../runtime.js';
 /**
  * Test property mapping execution for a user/group with context
  * @export

@@ -12,216 +12,216 @@
  * Do not edit the class manually.
  */
 
-import type { AccessDeniedChallenge } from './AccessDeniedChallenge';
+import type { AccessDeniedChallenge } from './AccessDeniedChallenge.js';
 import {
     instanceOfAccessDeniedChallenge,
     AccessDeniedChallengeFromJSON,
     AccessDeniedChallengeFromJSONTyped,
     AccessDeniedChallengeToJSON,
-} from './AccessDeniedChallenge';
-import type { AppleLoginChallenge } from './AppleLoginChallenge';
+} from './AccessDeniedChallenge.js';
+import type { AppleLoginChallenge } from './AppleLoginChallenge.js';
 import {
     instanceOfAppleLoginChallenge,
     AppleLoginChallengeFromJSON,
     AppleLoginChallengeFromJSONTyped,
     AppleLoginChallengeToJSON,
-} from './AppleLoginChallenge';
-import type { AuthenticatorDuoChallenge } from './AuthenticatorDuoChallenge';
+} from './AppleLoginChallenge.js';
+import type { AuthenticatorDuoChallenge } from './AuthenticatorDuoChallenge.js';
 import {
     instanceOfAuthenticatorDuoChallenge,
     AuthenticatorDuoChallengeFromJSON,
     AuthenticatorDuoChallengeFromJSONTyped,
     AuthenticatorDuoChallengeToJSON,
-} from './AuthenticatorDuoChallenge';
-import type { AuthenticatorEmailChallenge } from './AuthenticatorEmailChallenge';
+} from './AuthenticatorDuoChallenge.js';
+import type { AuthenticatorEmailChallenge } from './AuthenticatorEmailChallenge.js';
 import {
     instanceOfAuthenticatorEmailChallenge,
     AuthenticatorEmailChallengeFromJSON,
     AuthenticatorEmailChallengeFromJSONTyped,
     AuthenticatorEmailChallengeToJSON,
-} from './AuthenticatorEmailChallenge';
-import type { AuthenticatorSMSChallenge } from './AuthenticatorSMSChallenge';
+} from './AuthenticatorEmailChallenge.js';
+import type { AuthenticatorSMSChallenge } from './AuthenticatorSMSChallenge.js';
 import {
     instanceOfAuthenticatorSMSChallenge,
     AuthenticatorSMSChallengeFromJSON,
     AuthenticatorSMSChallengeFromJSONTyped,
     AuthenticatorSMSChallengeToJSON,
-} from './AuthenticatorSMSChallenge';
-import type { AuthenticatorStaticChallenge } from './AuthenticatorStaticChallenge';
+} from './AuthenticatorSMSChallenge.js';
+import type { AuthenticatorStaticChallenge } from './AuthenticatorStaticChallenge.js';
 import {
     instanceOfAuthenticatorStaticChallenge,
     AuthenticatorStaticChallengeFromJSON,
     AuthenticatorStaticChallengeFromJSONTyped,
     AuthenticatorStaticChallengeToJSON,
-} from './AuthenticatorStaticChallenge';
-import type { AuthenticatorTOTPChallenge } from './AuthenticatorTOTPChallenge';
+} from './AuthenticatorStaticChallenge.js';
+import type { AuthenticatorTOTPChallenge } from './AuthenticatorTOTPChallenge.js';
 import {
     instanceOfAuthenticatorTOTPChallenge,
     AuthenticatorTOTPChallengeFromJSON,
     AuthenticatorTOTPChallengeFromJSONTyped,
     AuthenticatorTOTPChallengeToJSON,
-} from './AuthenticatorTOTPChallenge';
-import type { AuthenticatorValidationChallenge } from './AuthenticatorValidationChallenge';
+} from './AuthenticatorTOTPChallenge.js';
+import type { AuthenticatorValidationChallenge } from './AuthenticatorValidationChallenge.js';
 import {
     instanceOfAuthenticatorValidationChallenge,
     AuthenticatorValidationChallengeFromJSON,
     AuthenticatorValidationChallengeFromJSONTyped,
     AuthenticatorValidationChallengeToJSON,
-} from './AuthenticatorValidationChallenge';
-import type { AuthenticatorWebAuthnChallenge } from './AuthenticatorWebAuthnChallenge';
+} from './AuthenticatorValidationChallenge.js';
+import type { AuthenticatorWebAuthnChallenge } from './AuthenticatorWebAuthnChallenge.js';
 import {
     instanceOfAuthenticatorWebAuthnChallenge,
     AuthenticatorWebAuthnChallengeFromJSON,
     AuthenticatorWebAuthnChallengeFromJSONTyped,
     AuthenticatorWebAuthnChallengeToJSON,
-} from './AuthenticatorWebAuthnChallenge';
-import type { AutosubmitChallenge } from './AutosubmitChallenge';
+} from './AuthenticatorWebAuthnChallenge.js';
+import type { AutosubmitChallenge } from './AutosubmitChallenge.js';
 import {
     instanceOfAutosubmitChallenge,
     AutosubmitChallengeFromJSON,
     AutosubmitChallengeFromJSONTyped,
     AutosubmitChallengeToJSON,
-} from './AutosubmitChallenge';
-import type { CaptchaChallenge } from './CaptchaChallenge';
+} from './AutosubmitChallenge.js';
+import type { CaptchaChallenge } from './CaptchaChallenge.js';
 import {
     instanceOfCaptchaChallenge,
     CaptchaChallengeFromJSON,
     CaptchaChallengeFromJSONTyped,
     CaptchaChallengeToJSON,
-} from './CaptchaChallenge';
-import type { ConsentChallenge } from './ConsentChallenge';
+} from './CaptchaChallenge.js';
+import type { ConsentChallenge } from './ConsentChallenge.js';
 import {
     instanceOfConsentChallenge,
     ConsentChallengeFromJSON,
     ConsentChallengeFromJSONTyped,
     ConsentChallengeToJSON,
-} from './ConsentChallenge';
-import type { DummyChallenge } from './DummyChallenge';
+} from './ConsentChallenge.js';
+import type { DummyChallenge } from './DummyChallenge.js';
 import {
     instanceOfDummyChallenge,
     DummyChallengeFromJSON,
     DummyChallengeFromJSONTyped,
     DummyChallengeToJSON,
-} from './DummyChallenge';
-import type { EmailChallenge } from './EmailChallenge';
+} from './DummyChallenge.js';
+import type { EmailChallenge } from './EmailChallenge.js';
 import {
     instanceOfEmailChallenge,
     EmailChallengeFromJSON,
     EmailChallengeFromJSONTyped,
     EmailChallengeToJSON,
-} from './EmailChallenge';
-import type { EndpointAgentChallenge } from './EndpointAgentChallenge';
+} from './EmailChallenge.js';
+import type { EndpointAgentChallenge } from './EndpointAgentChallenge.js';
 import {
     instanceOfEndpointAgentChallenge,
     EndpointAgentChallengeFromJSON,
     EndpointAgentChallengeFromJSONTyped,
     EndpointAgentChallengeToJSON,
-} from './EndpointAgentChallenge';
-import type { FlowErrorChallenge } from './FlowErrorChallenge';
+} from './EndpointAgentChallenge.js';
+import type { FlowErrorChallenge } from './FlowErrorChallenge.js';
 import {
     instanceOfFlowErrorChallenge,
     FlowErrorChallengeFromJSON,
     FlowErrorChallengeFromJSONTyped,
     FlowErrorChallengeToJSON,
-} from './FlowErrorChallenge';
-import type { FrameChallenge } from './FrameChallenge';
+} from './FlowErrorChallenge.js';
+import type { FrameChallenge } from './FrameChallenge.js';
 import {
     instanceOfFrameChallenge,
     FrameChallengeFromJSON,
     FrameChallengeFromJSONTyped,
     FrameChallengeToJSON,
-} from './FrameChallenge';
-import type { IdentificationChallenge } from './IdentificationChallenge';
+} from './FrameChallenge.js';
+import type { IdentificationChallenge } from './IdentificationChallenge.js';
 import {
     instanceOfIdentificationChallenge,
     IdentificationChallengeFromJSON,
     IdentificationChallengeFromJSONTyped,
     IdentificationChallengeToJSON,
-} from './IdentificationChallenge';
-import type { IframeLogoutChallenge } from './IframeLogoutChallenge';
+} from './IdentificationChallenge.js';
+import type { IframeLogoutChallenge } from './IframeLogoutChallenge.js';
 import {
     instanceOfIframeLogoutChallenge,
     IframeLogoutChallengeFromJSON,
     IframeLogoutChallengeFromJSONTyped,
     IframeLogoutChallengeToJSON,
-} from './IframeLogoutChallenge';
-import type { NativeLogoutChallenge } from './NativeLogoutChallenge';
+} from './IframeLogoutChallenge.js';
+import type { NativeLogoutChallenge } from './NativeLogoutChallenge.js';
 import {
     instanceOfNativeLogoutChallenge,
     NativeLogoutChallengeFromJSON,
     NativeLogoutChallengeFromJSONTyped,
     NativeLogoutChallengeToJSON,
-} from './NativeLogoutChallenge';
-import type { OAuthDeviceCodeChallenge } from './OAuthDeviceCodeChallenge';
+} from './NativeLogoutChallenge.js';
+import type { OAuthDeviceCodeChallenge } from './OAuthDeviceCodeChallenge.js';
 import {
     instanceOfOAuthDeviceCodeChallenge,
     OAuthDeviceCodeChallengeFromJSON,
     OAuthDeviceCodeChallengeFromJSONTyped,
     OAuthDeviceCodeChallengeToJSON,
-} from './OAuthDeviceCodeChallenge';
-import type { OAuthDeviceCodeFinishChallenge } from './OAuthDeviceCodeFinishChallenge';
+} from './OAuthDeviceCodeChallenge.js';
+import type { OAuthDeviceCodeFinishChallenge } from './OAuthDeviceCodeFinishChallenge.js';
 import {
     instanceOfOAuthDeviceCodeFinishChallenge,
     OAuthDeviceCodeFinishChallengeFromJSON,
     OAuthDeviceCodeFinishChallengeFromJSONTyped,
     OAuthDeviceCodeFinishChallengeToJSON,
-} from './OAuthDeviceCodeFinishChallenge';
-import type { PasswordChallenge } from './PasswordChallenge';
+} from './OAuthDeviceCodeFinishChallenge.js';
+import type { PasswordChallenge } from './PasswordChallenge.js';
 import {
     instanceOfPasswordChallenge,
     PasswordChallengeFromJSON,
     PasswordChallengeFromJSONTyped,
     PasswordChallengeToJSON,
-} from './PasswordChallenge';
-import type { PlexAuthenticationChallenge } from './PlexAuthenticationChallenge';
+} from './PasswordChallenge.js';
+import type { PlexAuthenticationChallenge } from './PlexAuthenticationChallenge.js';
 import {
     instanceOfPlexAuthenticationChallenge,
     PlexAuthenticationChallengeFromJSON,
     PlexAuthenticationChallengeFromJSONTyped,
     PlexAuthenticationChallengeToJSON,
-} from './PlexAuthenticationChallenge';
-import type { PromptChallenge } from './PromptChallenge';
+} from './PlexAuthenticationChallenge.js';
+import type { PromptChallenge } from './PromptChallenge.js';
 import {
     instanceOfPromptChallenge,
     PromptChallengeFromJSON,
     PromptChallengeFromJSONTyped,
     PromptChallengeToJSON,
-} from './PromptChallenge';
-import type { RedirectChallenge } from './RedirectChallenge';
+} from './PromptChallenge.js';
+import type { RedirectChallenge } from './RedirectChallenge.js';
 import {
     instanceOfRedirectChallenge,
     RedirectChallengeFromJSON,
     RedirectChallengeFromJSONTyped,
     RedirectChallengeToJSON,
-} from './RedirectChallenge';
-import type { SessionEndChallenge } from './SessionEndChallenge';
+} from './RedirectChallenge.js';
+import type { SessionEndChallenge } from './SessionEndChallenge.js';
 import {
     instanceOfSessionEndChallenge,
     SessionEndChallengeFromJSON,
     SessionEndChallengeFromJSONTyped,
     SessionEndChallengeToJSON,
-} from './SessionEndChallenge';
-import type { ShellChallenge } from './ShellChallenge';
+} from './SessionEndChallenge.js';
+import type { ShellChallenge } from './ShellChallenge.js';
 import {
     instanceOfShellChallenge,
     ShellChallengeFromJSON,
     ShellChallengeFromJSONTyped,
     ShellChallengeToJSON,
-} from './ShellChallenge';
-import type { TelegramLoginChallenge } from './TelegramLoginChallenge';
+} from './ShellChallenge.js';
+import type { TelegramLoginChallenge } from './TelegramLoginChallenge.js';
 import {
     instanceOfTelegramLoginChallenge,
     TelegramLoginChallengeFromJSON,
     TelegramLoginChallengeFromJSONTyped,
     TelegramLoginChallengeToJSON,
-} from './TelegramLoginChallenge';
-import type { UserLoginChallenge } from './UserLoginChallenge';
+} from './TelegramLoginChallenge.js';
+import type { UserLoginChallenge } from './UserLoginChallenge.js';
 import {
     instanceOfUserLoginChallenge,
     UserLoginChallengeFromJSON,
     UserLoginChallengeFromJSONTyped,
     UserLoginChallengeToJSON,
-} from './UserLoginChallenge';
+} from './UserLoginChallenge.js';
 
 /**
  * @type ChallengeTypes

@@ -12,32 +12,32 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type DeliveryMethodEnum,
     DeliveryMethodEnumFromJSON,
     DeliveryMethodEnumToJSON,
-} from '../models/DeliveryMethodEnum';
+} from '../models/DeliveryMethodEnum.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type PaginatedSSFStreamList,
     PaginatedSSFStreamListFromJSON,
     PaginatedSSFStreamListToJSON,
-} from '../models/PaginatedSSFStreamList';
+} from '../models/PaginatedSSFStreamList.js';
 import {
     type SSFStream,
     SSFStreamFromJSON,
     SSFStreamToJSON,
-} from '../models/SSFStream';
+} from '../models/SSFStream.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface SsfStreamsDestroyRequest {
     uuid: string;

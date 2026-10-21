@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { EndpointAuthModeEnum } from './EndpointAuthModeEnum';
+import { mapValues } from '../runtime.js';
+import type { EndpointAuthModeEnum } from './EndpointAuthModeEnum.js';
 import {
     EndpointAuthModeEnumFromJSON,
     EndpointAuthModeEnumFromJSONTyped,
     EndpointAuthModeEnumToJSON,
     EndpointAuthModeEnumToJSONTyped,
-} from './EndpointAuthModeEnum';
-import type { ProtocolEnum } from './ProtocolEnum';
+} from './EndpointAuthModeEnum.js';
+import type { ProtocolEnum } from './ProtocolEnum.js';
 import {
     ProtocolEnumFromJSON,
     ProtocolEnumFromJSONTyped,
     ProtocolEnumToJSON,
     ProtocolEnumToJSONTyped,
-} from './ProtocolEnum';
-import type { RACProvider } from './RACProvider';
+} from './ProtocolEnum.js';
+import type { RACProvider } from './RACProvider.js';
 import {
     RACProviderFromJSON,
     RACProviderFromJSONTyped,
     RACProviderToJSON,
     RACProviderToJSONTyped,
-} from './RACProvider';
+} from './RACProvider.js';
 
 /**
  * Endpoint Serializer

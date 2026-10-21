@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { GroupSAMLSourceConnection } from './GroupSAMLSourceConnection';
+import { mapValues } from '../runtime.js';
+import type { GroupSAMLSourceConnection } from './GroupSAMLSourceConnection.js';
 import {
     GroupSAMLSourceConnectionFromJSON,
     GroupSAMLSourceConnectionFromJSONTyped,
     GroupSAMLSourceConnectionToJSON,
     GroupSAMLSourceConnectionToJSONTyped,
-} from './GroupSAMLSourceConnection';
-import type { Pagination } from './Pagination';
+} from './GroupSAMLSourceConnection.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

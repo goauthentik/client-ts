@@ -12,7 +12,7 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
+import { mapValues } from '../runtime.js';
 /**
  * Tenant recovery key creation request serializer
  * @export

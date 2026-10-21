@@ -1922,5 +1922,4 @@ src/models/WebAuthnHintEnum.ts
 src/models/Worker.ts
 src/models/index.ts
 src/runtime.ts
-tsconfig.esm.json
 tsconfig.json

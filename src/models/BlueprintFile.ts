@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Metadata } from './Metadata';
+import { mapValues } from '../runtime.js';
+import type { Metadata } from './Metadata.js';
 import {
     MetadataFromJSON,
     MetadataFromJSONTyped,
     MetadataToJSON,
     MetadataToJSONTyped,
-} from './Metadata';
+} from './Metadata.js';
 
 /**
  * 

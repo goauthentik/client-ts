@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { WebAuthnHintEnum } from './WebAuthnHintEnum';
+import { mapValues } from '../runtime.js';
+import type { WebAuthnHintEnum } from './WebAuthnHintEnum.js';
 import {
     WebAuthnHintEnumFromJSON,
     WebAuthnHintEnumFromJSONTyped,
     WebAuthnHintEnumToJSON,
     WebAuthnHintEnumToJSONTyped,
-} from './WebAuthnHintEnum';
-import type { UserVerificationEnum } from './UserVerificationEnum';
+} from './WebAuthnHintEnum.js';
+import type { UserVerificationEnum } from './UserVerificationEnum.js';
 import {
     UserVerificationEnumFromJSON,
     UserVerificationEnumFromJSONTyped,
     UserVerificationEnumToJSON,
     UserVerificationEnumToJSONTyped,
-} from './UserVerificationEnum';
-import type { AuthenticatorAttachmentEnum } from './AuthenticatorAttachmentEnum';
+} from './UserVerificationEnum.js';
+import type { AuthenticatorAttachmentEnum } from './AuthenticatorAttachmentEnum.js';
 import {
     AuthenticatorAttachmentEnumFromJSON,
     AuthenticatorAttachmentEnumFromJSONTyped,
     AuthenticatorAttachmentEnumToJSON,
     AuthenticatorAttachmentEnumToJSONTyped,
-} from './AuthenticatorAttachmentEnum';
+} from './AuthenticatorAttachmentEnum.js';
 
 /**
  * AuthenticatorWebAuthnStage Serializer

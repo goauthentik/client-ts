@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { SMSDevice } from './SMSDevice';
+import { mapValues } from '../runtime.js';
+import type { SMSDevice } from './SMSDevice.js';
 import {
     SMSDeviceFromJSON,
     SMSDeviceFromJSONTyped,
     SMSDeviceToJSON,
     SMSDeviceToJSONTyped,
-} from './SMSDevice';
-import type { Pagination } from './Pagination';
+} from './SMSDevice.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

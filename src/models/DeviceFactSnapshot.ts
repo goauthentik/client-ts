@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { VendorEnum } from './VendorEnum';
+import { mapValues } from '../runtime.js';
+import type { VendorEnum } from './VendorEnum.js';
 import {
     VendorEnumFromJSON,
     VendorEnumFromJSONTyped,
     VendorEnumToJSON,
     VendorEnumToJSONTyped,
-} from './VendorEnum';
-import type { DeviceFacts } from './DeviceFacts';
+} from './VendorEnum.js';
+import type { DeviceFacts } from './DeviceFacts.js';
 import {
     DeviceFactsFromJSON,
     DeviceFactsFromJSONTyped,
     DeviceFactsToJSON,
     DeviceFactsToJSONTyped,
-} from './DeviceFacts';
+} from './DeviceFacts.js';
 
 /**
  * 

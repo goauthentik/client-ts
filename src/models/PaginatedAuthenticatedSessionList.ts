@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { AuthenticatedSession } from './AuthenticatedSession';
+} from './Pagination.js';
+import type { AuthenticatedSession } from './AuthenticatedSession.js';
 import {
     AuthenticatedSessionFromJSON,
     AuthenticatedSessionFromJSONTyped,
     AuthenticatedSessionToJSON,
     AuthenticatedSessionToJSONTyped,
-} from './AuthenticatedSession';
+} from './AuthenticatedSession.js';
 
 /**
  * 

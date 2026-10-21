@@ -12,712 +12,712 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type AccountLockdownStage,
     AccountLockdownStageFromJSON,
     AccountLockdownStageToJSON,
-} from '../models/AccountLockdownStage';
+} from '../models/AccountLockdownStage.js';
 import {
     type AccountLockdownStageRequest,
     AccountLockdownStageRequestFromJSON,
     AccountLockdownStageRequestToJSON,
-} from '../models/AccountLockdownStageRequest';
+} from '../models/AccountLockdownStageRequest.js';
 import {
     type AuthTypeEnum,
     AuthTypeEnumFromJSON,
     AuthTypeEnumToJSON,
-} from '../models/AuthTypeEnum';
+} from '../models/AuthTypeEnum.js';
 import {
     type AuthenticatorAttachmentEnum,
     AuthenticatorAttachmentEnumFromJSON,
     AuthenticatorAttachmentEnumToJSON,
-} from '../models/AuthenticatorAttachmentEnum';
+} from '../models/AuthenticatorAttachmentEnum.js';
 import {
     type AuthenticatorDuoStage,
     AuthenticatorDuoStageFromJSON,
     AuthenticatorDuoStageToJSON,
-} from '../models/AuthenticatorDuoStage';
+} from '../models/AuthenticatorDuoStage.js';
 import {
     type AuthenticatorDuoStageDeviceImportResponse,
     AuthenticatorDuoStageDeviceImportResponseFromJSON,
     AuthenticatorDuoStageDeviceImportResponseToJSON,
-} from '../models/AuthenticatorDuoStageDeviceImportResponse';
+} from '../models/AuthenticatorDuoStageDeviceImportResponse.js';
 import {
     type AuthenticatorDuoStageManualDeviceImportRequest,
     AuthenticatorDuoStageManualDeviceImportRequestFromJSON,
     AuthenticatorDuoStageManualDeviceImportRequestToJSON,
-} from '../models/AuthenticatorDuoStageManualDeviceImportRequest';
+} from '../models/AuthenticatorDuoStageManualDeviceImportRequest.js';
 import {
     type AuthenticatorDuoStageRequest,
     AuthenticatorDuoStageRequestFromJSON,
     AuthenticatorDuoStageRequestToJSON,
-} from '../models/AuthenticatorDuoStageRequest';
+} from '../models/AuthenticatorDuoStageRequest.js';
 import {
     type AuthenticatorEmailStage,
     AuthenticatorEmailStageFromJSON,
     AuthenticatorEmailStageToJSON,
-} from '../models/AuthenticatorEmailStage';
+} from '../models/AuthenticatorEmailStage.js';
 import {
     type AuthenticatorEmailStageRequest,
     AuthenticatorEmailStageRequestFromJSON,
     AuthenticatorEmailStageRequestToJSON,
-} from '../models/AuthenticatorEmailStageRequest';
+} from '../models/AuthenticatorEmailStageRequest.js';
 import {
     type AuthenticatorEndpointGDTCStage,
     AuthenticatorEndpointGDTCStageFromJSON,
     AuthenticatorEndpointGDTCStageToJSON,
-} from '../models/AuthenticatorEndpointGDTCStage';
+} from '../models/AuthenticatorEndpointGDTCStage.js';
 import {
     type AuthenticatorEndpointGDTCStageRequest,
     AuthenticatorEndpointGDTCStageRequestFromJSON,
     AuthenticatorEndpointGDTCStageRequestToJSON,
-} from '../models/AuthenticatorEndpointGDTCStageRequest';
+} from '../models/AuthenticatorEndpointGDTCStageRequest.js';
 import {
     type AuthenticatorSMSStage,
     AuthenticatorSMSStageFromJSON,
     AuthenticatorSMSStageToJSON,
-} from '../models/AuthenticatorSMSStage';
+} from '../models/AuthenticatorSMSStage.js';
 import {
     type AuthenticatorSMSStageRequest,
     AuthenticatorSMSStageRequestFromJSON,
     AuthenticatorSMSStageRequestToJSON,
-} from '../models/AuthenticatorSMSStageRequest';
+} from '../models/AuthenticatorSMSStageRequest.js';
 import {
     type AuthenticatorStaticStage,
     AuthenticatorStaticStageFromJSON,
     AuthenticatorStaticStageToJSON,
-} from '../models/AuthenticatorStaticStage';
+} from '../models/AuthenticatorStaticStage.js';
 import {
     type AuthenticatorStaticStageRequest,
     AuthenticatorStaticStageRequestFromJSON,
     AuthenticatorStaticStageRequestToJSON,
-} from '../models/AuthenticatorStaticStageRequest';
+} from '../models/AuthenticatorStaticStageRequest.js';
 import {
     type AuthenticatorTOTPStage,
     AuthenticatorTOTPStageFromJSON,
     AuthenticatorTOTPStageToJSON,
-} from '../models/AuthenticatorTOTPStage';
+} from '../models/AuthenticatorTOTPStage.js';
 import {
     type AuthenticatorTOTPStageRequest,
     AuthenticatorTOTPStageRequestFromJSON,
     AuthenticatorTOTPStageRequestToJSON,
-} from '../models/AuthenticatorTOTPStageRequest';
+} from '../models/AuthenticatorTOTPStageRequest.js';
 import {
     type AuthenticatorValidateStage,
     AuthenticatorValidateStageFromJSON,
     AuthenticatorValidateStageToJSON,
-} from '../models/AuthenticatorValidateStage';
+} from '../models/AuthenticatorValidateStage.js';
 import {
     type AuthenticatorValidateStageRequest,
     AuthenticatorValidateStageRequestFromJSON,
     AuthenticatorValidateStageRequestToJSON,
-} from '../models/AuthenticatorValidateStageRequest';
+} from '../models/AuthenticatorValidateStageRequest.js';
 import {
     type AuthenticatorWebAuthnStage,
     AuthenticatorWebAuthnStageFromJSON,
     AuthenticatorWebAuthnStageToJSON,
-} from '../models/AuthenticatorWebAuthnStage';
+} from '../models/AuthenticatorWebAuthnStage.js';
 import {
     type AuthenticatorWebAuthnStageRequest,
     AuthenticatorWebAuthnStageRequestFromJSON,
     AuthenticatorWebAuthnStageRequestToJSON,
-} from '../models/AuthenticatorWebAuthnStageRequest';
+} from '../models/AuthenticatorWebAuthnStageRequest.js';
 import {
     type CaptchaStage,
     CaptchaStageFromJSON,
     CaptchaStageToJSON,
-} from '../models/CaptchaStage';
+} from '../models/CaptchaStage.js';
 import {
     type CaptchaStageRequest,
     CaptchaStageRequestFromJSON,
     CaptchaStageRequestToJSON,
-} from '../models/CaptchaStageRequest';
+} from '../models/CaptchaStageRequest.js';
 import {
     type CertAttributeEnum,
     CertAttributeEnumFromJSON,
     CertAttributeEnumToJSON,
-} from '../models/CertAttributeEnum';
+} from '../models/CertAttributeEnum.js';
 import {
     type ConsentModeEnum,
     ConsentModeEnumFromJSON,
     ConsentModeEnumToJSON,
-} from '../models/ConsentModeEnum';
+} from '../models/ConsentModeEnum.js';
 import {
     type ConsentStage,
     ConsentStageFromJSON,
     ConsentStageToJSON,
-} from '../models/ConsentStage';
+} from '../models/ConsentStage.js';
 import {
     type ConsentStageRequest,
     ConsentStageRequestFromJSON,
     ConsentStageRequestToJSON,
-} from '../models/ConsentStageRequest';
+} from '../models/ConsentStageRequest.js';
 import {
     type DenyStage,
     DenyStageFromJSON,
     DenyStageToJSON,
-} from '../models/DenyStage';
+} from '../models/DenyStage.js';
 import {
     type DenyStageRequest,
     DenyStageRequestFromJSON,
     DenyStageRequestToJSON,
-} from '../models/DenyStageRequest';
+} from '../models/DenyStageRequest.js';
 import {
     type DigitsEnum,
     DigitsEnumFromJSON,
     DigitsEnumToJSON,
-} from '../models/DigitsEnum';
+} from '../models/DigitsEnum.js';
 import {
     type DummyStage,
     DummyStageFromJSON,
     DummyStageToJSON,
-} from '../models/DummyStage';
+} from '../models/DummyStage.js';
 import {
     type DummyStageRequest,
     DummyStageRequestFromJSON,
     DummyStageRequestToJSON,
-} from '../models/DummyStageRequest';
+} from '../models/DummyStageRequest.js';
 import {
     type DuoDeviceEnrollmentStatus,
     DuoDeviceEnrollmentStatusFromJSON,
     DuoDeviceEnrollmentStatusToJSON,
-} from '../models/DuoDeviceEnrollmentStatus';
+} from '../models/DuoDeviceEnrollmentStatus.js';
 import {
     type EmailStage,
     EmailStageFromJSON,
     EmailStageToJSON,
-} from '../models/EmailStage';
+} from '../models/EmailStage.js';
 import {
     type EmailStageRequest,
     EmailStageRequestFromJSON,
     EmailStageRequestToJSON,
-} from '../models/EmailStageRequest';
+} from '../models/EmailStageRequest.js';
 import {
     type EndpointStage,
     EndpointStageFromJSON,
     EndpointStageToJSON,
-} from '../models/EndpointStage';
+} from '../models/EndpointStage.js';
 import {
     type EndpointStageRequest,
     EndpointStageRequestFromJSON,
     EndpointStageRequestToJSON,
-} from '../models/EndpointStageRequest';
+} from '../models/EndpointStageRequest.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type GeoipBindingEnum,
     GeoipBindingEnumFromJSON,
     GeoipBindingEnumToJSON,
-} from '../models/GeoipBindingEnum';
+} from '../models/GeoipBindingEnum.js';
 import {
     type IdentificationStage,
     IdentificationStageFromJSON,
     IdentificationStageToJSON,
-} from '../models/IdentificationStage';
+} from '../models/IdentificationStage.js';
 import {
     type IdentificationStageRequest,
     IdentificationStageRequestFromJSON,
     IdentificationStageRequestToJSON,
-} from '../models/IdentificationStageRequest';
+} from '../models/IdentificationStageRequest.js';
 import {
     type Invitation,
     InvitationFromJSON,
     InvitationToJSON,
-} from '../models/Invitation';
+} from '../models/Invitation.js';
 import {
     type InvitationRequest,
     InvitationRequestFromJSON,
     InvitationRequestToJSON,
-} from '../models/InvitationRequest';
+} from '../models/InvitationRequest.js';
 import {
     type InvitationSendEmailRequest,
     InvitationSendEmailRequestFromJSON,
     InvitationSendEmailRequestToJSON,
-} from '../models/InvitationSendEmailRequest';
+} from '../models/InvitationSendEmailRequest.js';
 import {
     type InvitationStage,
     InvitationStageFromJSON,
     InvitationStageToJSON,
-} from '../models/InvitationStage';
+} from '../models/InvitationStage.js';
 import {
     type InvitationStageRequest,
     InvitationStageRequestFromJSON,
     InvitationStageRequestToJSON,
-} from '../models/InvitationStageRequest';
+} from '../models/InvitationStageRequest.js';
 import {
     type MutualTLSStage,
     MutualTLSStageFromJSON,
     MutualTLSStageToJSON,
-} from '../models/MutualTLSStage';
+} from '../models/MutualTLSStage.js';
 import {
     type MutualTLSStageRequest,
     MutualTLSStageRequestFromJSON,
     MutualTLSStageRequestToJSON,
-} from '../models/MutualTLSStageRequest';
+} from '../models/MutualTLSStageRequest.js';
 import {
     type NetworkBindingEnum,
     NetworkBindingEnumFromJSON,
     NetworkBindingEnumToJSON,
-} from '../models/NetworkBindingEnum';
+} from '../models/NetworkBindingEnum.js';
 import {
     type NotConfiguredActionEnum,
     NotConfiguredActionEnumFromJSON,
     NotConfiguredActionEnumToJSON,
-} from '../models/NotConfiguredActionEnum';
+} from '../models/NotConfiguredActionEnum.js';
 import {
     type PaginatedAccountLockdownStageList,
     PaginatedAccountLockdownStageListFromJSON,
     PaginatedAccountLockdownStageListToJSON,
-} from '../models/PaginatedAccountLockdownStageList';
+} from '../models/PaginatedAccountLockdownStageList.js';
 import {
     type PaginatedAuthenticatorDuoStageList,
     PaginatedAuthenticatorDuoStageListFromJSON,
     PaginatedAuthenticatorDuoStageListToJSON,
-} from '../models/PaginatedAuthenticatorDuoStageList';
+} from '../models/PaginatedAuthenticatorDuoStageList.js';
 import {
     type PaginatedAuthenticatorEmailStageList,
     PaginatedAuthenticatorEmailStageListFromJSON,
     PaginatedAuthenticatorEmailStageListToJSON,
-} from '../models/PaginatedAuthenticatorEmailStageList';
+} from '../models/PaginatedAuthenticatorEmailStageList.js';
 import {
     type PaginatedAuthenticatorEndpointGDTCStageList,
     PaginatedAuthenticatorEndpointGDTCStageListFromJSON,
     PaginatedAuthenticatorEndpointGDTCStageListToJSON,
-} from '../models/PaginatedAuthenticatorEndpointGDTCStageList';
+} from '../models/PaginatedAuthenticatorEndpointGDTCStageList.js';
 import {
     type PaginatedAuthenticatorSMSStageList,
     PaginatedAuthenticatorSMSStageListFromJSON,
     PaginatedAuthenticatorSMSStageListToJSON,
-} from '../models/PaginatedAuthenticatorSMSStageList';
+} from '../models/PaginatedAuthenticatorSMSStageList.js';
 import {
     type PaginatedAuthenticatorStaticStageList,
     PaginatedAuthenticatorStaticStageListFromJSON,
     PaginatedAuthenticatorStaticStageListToJSON,
-} from '../models/PaginatedAuthenticatorStaticStageList';
+} from '../models/PaginatedAuthenticatorStaticStageList.js';
 import {
     type PaginatedAuthenticatorTOTPStageList,
     PaginatedAuthenticatorTOTPStageListFromJSON,
     PaginatedAuthenticatorTOTPStageListToJSON,
-} from '../models/PaginatedAuthenticatorTOTPStageList';
+} from '../models/PaginatedAuthenticatorTOTPStageList.js';
 import {
     type PaginatedAuthenticatorValidateStageList,
     PaginatedAuthenticatorValidateStageListFromJSON,
     PaginatedAuthenticatorValidateStageListToJSON,
-} from '../models/PaginatedAuthenticatorValidateStageList';
+} from '../models/PaginatedAuthenticatorValidateStageList.js';
 import {
     type PaginatedAuthenticatorWebAuthnStageList,
     PaginatedAuthenticatorWebAuthnStageListFromJSON,
     PaginatedAuthenticatorWebAuthnStageListToJSON,
-} from '../models/PaginatedAuthenticatorWebAuthnStageList';
+} from '../models/PaginatedAuthenticatorWebAuthnStageList.js';
 import {
     type PaginatedCaptchaStageList,
     PaginatedCaptchaStageListFromJSON,
     PaginatedCaptchaStageListToJSON,
-} from '../models/PaginatedCaptchaStageList';
+} from '../models/PaginatedCaptchaStageList.js';
 import {
     type PaginatedConsentStageList,
     PaginatedConsentStageListFromJSON,
     PaginatedConsentStageListToJSON,
-} from '../models/PaginatedConsentStageList';
+} from '../models/PaginatedConsentStageList.js';
 import {
     type PaginatedDenyStageList,
     PaginatedDenyStageListFromJSON,
     PaginatedDenyStageListToJSON,
-} from '../models/PaginatedDenyStageList';
+} from '../models/PaginatedDenyStageList.js';
 import {
     type PaginatedDummyStageList,
     PaginatedDummyStageListFromJSON,
     PaginatedDummyStageListToJSON,
-} from '../models/PaginatedDummyStageList';
+} from '../models/PaginatedDummyStageList.js';
 import {
     type PaginatedEmailStageList,
     PaginatedEmailStageListFromJSON,
     PaginatedEmailStageListToJSON,
-} from '../models/PaginatedEmailStageList';
+} from '../models/PaginatedEmailStageList.js';
 import {
     type PaginatedEndpointStageList,
     PaginatedEndpointStageListFromJSON,
     PaginatedEndpointStageListToJSON,
-} from '../models/PaginatedEndpointStageList';
+} from '../models/PaginatedEndpointStageList.js';
 import {
     type PaginatedIdentificationStageList,
     PaginatedIdentificationStageListFromJSON,
     PaginatedIdentificationStageListToJSON,
-} from '../models/PaginatedIdentificationStageList';
+} from '../models/PaginatedIdentificationStageList.js';
 import {
     type PaginatedInvitationList,
     PaginatedInvitationListFromJSON,
     PaginatedInvitationListToJSON,
-} from '../models/PaginatedInvitationList';
+} from '../models/PaginatedInvitationList.js';
 import {
     type PaginatedInvitationStageList,
     PaginatedInvitationStageListFromJSON,
     PaginatedInvitationStageListToJSON,
-} from '../models/PaginatedInvitationStageList';
+} from '../models/PaginatedInvitationStageList.js';
 import {
     type PaginatedMutualTLSStageList,
     PaginatedMutualTLSStageListFromJSON,
     PaginatedMutualTLSStageListToJSON,
-} from '../models/PaginatedMutualTLSStageList';
+} from '../models/PaginatedMutualTLSStageList.js';
 import {
     type PaginatedPasswordStageList,
     PaginatedPasswordStageListFromJSON,
     PaginatedPasswordStageListToJSON,
-} from '../models/PaginatedPasswordStageList';
+} from '../models/PaginatedPasswordStageList.js';
 import {
     type PaginatedPromptList,
     PaginatedPromptListFromJSON,
     PaginatedPromptListToJSON,
-} from '../models/PaginatedPromptList';
+} from '../models/PaginatedPromptList.js';
 import {
     type PaginatedPromptStageList,
     PaginatedPromptStageListFromJSON,
     PaginatedPromptStageListToJSON,
-} from '../models/PaginatedPromptStageList';
+} from '../models/PaginatedPromptStageList.js';
 import {
     type PaginatedRedirectStageList,
     PaginatedRedirectStageListFromJSON,
     PaginatedRedirectStageListToJSON,
-} from '../models/PaginatedRedirectStageList';
+} from '../models/PaginatedRedirectStageList.js';
 import {
     type PaginatedSourceStageList,
     PaginatedSourceStageListFromJSON,
     PaginatedSourceStageListToJSON,
-} from '../models/PaginatedSourceStageList';
+} from '../models/PaginatedSourceStageList.js';
 import {
     type PaginatedStageList,
     PaginatedStageListFromJSON,
     PaginatedStageListToJSON,
-} from '../models/PaginatedStageList';
+} from '../models/PaginatedStageList.js';
 import {
     type PaginatedUserDeleteStageList,
     PaginatedUserDeleteStageListFromJSON,
     PaginatedUserDeleteStageListToJSON,
-} from '../models/PaginatedUserDeleteStageList';
+} from '../models/PaginatedUserDeleteStageList.js';
 import {
     type PaginatedUserLoginStageList,
     PaginatedUserLoginStageListFromJSON,
     PaginatedUserLoginStageListToJSON,
-} from '../models/PaginatedUserLoginStageList';
+} from '../models/PaginatedUserLoginStageList.js';
 import {
     type PaginatedUserLogoutStageList,
     PaginatedUserLogoutStageListFromJSON,
     PaginatedUserLogoutStageListToJSON,
-} from '../models/PaginatedUserLogoutStageList';
+} from '../models/PaginatedUserLogoutStageList.js';
 import {
     type PaginatedUserWriteStageList,
     PaginatedUserWriteStageListFromJSON,
     PaginatedUserWriteStageListToJSON,
-} from '../models/PaginatedUserWriteStageList';
+} from '../models/PaginatedUserWriteStageList.js';
 import {
     type PaginatedWebAuthnDeviceTypeList,
     PaginatedWebAuthnDeviceTypeListFromJSON,
     PaginatedWebAuthnDeviceTypeListToJSON,
-} from '../models/PaginatedWebAuthnDeviceTypeList';
+} from '../models/PaginatedWebAuthnDeviceTypeList.js';
 import {
     type PasswordStage,
     PasswordStageFromJSON,
     PasswordStageToJSON,
-} from '../models/PasswordStage';
+} from '../models/PasswordStage.js';
 import {
     type PasswordStageRequest,
     PasswordStageRequestFromJSON,
     PasswordStageRequestToJSON,
-} from '../models/PasswordStageRequest';
+} from '../models/PasswordStageRequest.js';
 import {
     type PatchedAccountLockdownStageRequest,
     PatchedAccountLockdownStageRequestFromJSON,
     PatchedAccountLockdownStageRequestToJSON,
-} from '../models/PatchedAccountLockdownStageRequest';
+} from '../models/PatchedAccountLockdownStageRequest.js';
 import {
     type PatchedAuthenticatorDuoStageRequest,
     PatchedAuthenticatorDuoStageRequestFromJSON,
     PatchedAuthenticatorDuoStageRequestToJSON,
-} from '../models/PatchedAuthenticatorDuoStageRequest';
+} from '../models/PatchedAuthenticatorDuoStageRequest.js';
 import {
     type PatchedAuthenticatorEmailStageRequest,
     PatchedAuthenticatorEmailStageRequestFromJSON,
     PatchedAuthenticatorEmailStageRequestToJSON,
-} from '../models/PatchedAuthenticatorEmailStageRequest';
+} from '../models/PatchedAuthenticatorEmailStageRequest.js';
 import {
     type PatchedAuthenticatorEndpointGDTCStageRequest,
     PatchedAuthenticatorEndpointGDTCStageRequestFromJSON,
     PatchedAuthenticatorEndpointGDTCStageRequestToJSON,
-} from '../models/PatchedAuthenticatorEndpointGDTCStageRequest';
+} from '../models/PatchedAuthenticatorEndpointGDTCStageRequest.js';
 import {
     type PatchedAuthenticatorSMSStageRequest,
     PatchedAuthenticatorSMSStageRequestFromJSON,
     PatchedAuthenticatorSMSStageRequestToJSON,
-} from '../models/PatchedAuthenticatorSMSStageRequest';
+} from '../models/PatchedAuthenticatorSMSStageRequest.js';
 import {
     type PatchedAuthenticatorStaticStageRequest,
     PatchedAuthenticatorStaticStageRequestFromJSON,
     PatchedAuthenticatorStaticStageRequestToJSON,
-} from '../models/PatchedAuthenticatorStaticStageRequest';
+} from '../models/PatchedAuthenticatorStaticStageRequest.js';
 import {
     type PatchedAuthenticatorTOTPStageRequest,
     PatchedAuthenticatorTOTPStageRequestFromJSON,
     PatchedAuthenticatorTOTPStageRequestToJSON,
-} from '../models/PatchedAuthenticatorTOTPStageRequest';
+} from '../models/PatchedAuthenticatorTOTPStageRequest.js';
 import {
     type PatchedAuthenticatorValidateStageRequest,
     PatchedAuthenticatorValidateStageRequestFromJSON,
     PatchedAuthenticatorValidateStageRequestToJSON,
-} from '../models/PatchedAuthenticatorValidateStageRequest';
+} from '../models/PatchedAuthenticatorValidateStageRequest.js';
 import {
     type PatchedAuthenticatorWebAuthnStageRequest,
     PatchedAuthenticatorWebAuthnStageRequestFromJSON,
     PatchedAuthenticatorWebAuthnStageRequestToJSON,
-} from '../models/PatchedAuthenticatorWebAuthnStageRequest';
+} from '../models/PatchedAuthenticatorWebAuthnStageRequest.js';
 import {
     type PatchedCaptchaStageRequest,
     PatchedCaptchaStageRequestFromJSON,
     PatchedCaptchaStageRequestToJSON,
-} from '../models/PatchedCaptchaStageRequest';
+} from '../models/PatchedCaptchaStageRequest.js';
 import {
     type PatchedConsentStageRequest,
     PatchedConsentStageRequestFromJSON,
     PatchedConsentStageRequestToJSON,
-} from '../models/PatchedConsentStageRequest';
+} from '../models/PatchedConsentStageRequest.js';
 import {
     type PatchedDenyStageRequest,
     PatchedDenyStageRequestFromJSON,
     PatchedDenyStageRequestToJSON,
-} from '../models/PatchedDenyStageRequest';
+} from '../models/PatchedDenyStageRequest.js';
 import {
     type PatchedDummyStageRequest,
     PatchedDummyStageRequestFromJSON,
     PatchedDummyStageRequestToJSON,
-} from '../models/PatchedDummyStageRequest';
+} from '../models/PatchedDummyStageRequest.js';
 import {
     type PatchedEmailStageRequest,
     PatchedEmailStageRequestFromJSON,
     PatchedEmailStageRequestToJSON,
-} from '../models/PatchedEmailStageRequest';
+} from '../models/PatchedEmailStageRequest.js';
 import {
     type PatchedEndpointStageRequest,
     PatchedEndpointStageRequestFromJSON,
     PatchedEndpointStageRequestToJSON,
-} from '../models/PatchedEndpointStageRequest';
+} from '../models/PatchedEndpointStageRequest.js';
 import {
     type PatchedIdentificationStageRequest,
     PatchedIdentificationStageRequestFromJSON,
     PatchedIdentificationStageRequestToJSON,
-} from '../models/PatchedIdentificationStageRequest';
+} from '../models/PatchedIdentificationStageRequest.js';
 import {
     type PatchedInvitationRequest,
     PatchedInvitationRequestFromJSON,
     PatchedInvitationRequestToJSON,
-} from '../models/PatchedInvitationRequest';
+} from '../models/PatchedInvitationRequest.js';
 import {
     type PatchedInvitationStageRequest,
     PatchedInvitationStageRequestFromJSON,
     PatchedInvitationStageRequestToJSON,
-} from '../models/PatchedInvitationStageRequest';
+} from '../models/PatchedInvitationStageRequest.js';
 import {
     type PatchedMutualTLSStageRequest,
     PatchedMutualTLSStageRequestFromJSON,
     PatchedMutualTLSStageRequestToJSON,
-} from '../models/PatchedMutualTLSStageRequest';
+} from '../models/PatchedMutualTLSStageRequest.js';
 import {
     type PatchedPasswordStageRequest,
     PatchedPasswordStageRequestFromJSON,
     PatchedPasswordStageRequestToJSON,
-} from '../models/PatchedPasswordStageRequest';
+} from '../models/PatchedPasswordStageRequest.js';
 import {
     type PatchedPromptRequest,
     PatchedPromptRequestFromJSON,
     PatchedPromptRequestToJSON,
-} from '../models/PatchedPromptRequest';
+} from '../models/PatchedPromptRequest.js';
 import {
     type PatchedPromptStageRequest,
     PatchedPromptStageRequestFromJSON,
     PatchedPromptStageRequestToJSON,
-} from '../models/PatchedPromptStageRequest';
+} from '../models/PatchedPromptStageRequest.js';
 import {
     type PatchedRedirectStageRequest,
     PatchedRedirectStageRequestFromJSON,
     PatchedRedirectStageRequestToJSON,
-} from '../models/PatchedRedirectStageRequest';
+} from '../models/PatchedRedirectStageRequest.js';
 import {
     type PatchedSourceStageRequest,
     PatchedSourceStageRequestFromJSON,
     PatchedSourceStageRequestToJSON,
-} from '../models/PatchedSourceStageRequest';
+} from '../models/PatchedSourceStageRequest.js';
 import {
     type PatchedUserDeleteStageRequest,
     PatchedUserDeleteStageRequestFromJSON,
     PatchedUserDeleteStageRequestToJSON,
-} from '../models/PatchedUserDeleteStageRequest';
+} from '../models/PatchedUserDeleteStageRequest.js';
 import {
     type PatchedUserLoginStageRequest,
     PatchedUserLoginStageRequestFromJSON,
     PatchedUserLoginStageRequestToJSON,
-} from '../models/PatchedUserLoginStageRequest';
+} from '../models/PatchedUserLoginStageRequest.js';
 import {
     type PatchedUserLogoutStageRequest,
     PatchedUserLogoutStageRequestFromJSON,
     PatchedUserLogoutStageRequestToJSON,
-} from '../models/PatchedUserLogoutStageRequest';
+} from '../models/PatchedUserLogoutStageRequest.js';
 import {
     type PatchedUserWriteStageRequest,
     PatchedUserWriteStageRequestFromJSON,
     PatchedUserWriteStageRequestToJSON,
-} from '../models/PatchedUserWriteStageRequest';
+} from '../models/PatchedUserWriteStageRequest.js';
 import {
     type Prompt,
     PromptFromJSON,
     PromptToJSON,
-} from '../models/Prompt';
+} from '../models/Prompt.js';
 import {
     type PromptChallenge,
     PromptChallengeFromJSON,
     PromptChallengeToJSON,
-} from '../models/PromptChallenge';
+} from '../models/PromptChallenge.js';
 import {
     type PromptRequest,
     PromptRequestFromJSON,
     PromptRequestToJSON,
-} from '../models/PromptRequest';
+} from '../models/PromptRequest.js';
 import {
     type PromptStage,
     PromptStageFromJSON,
     PromptStageToJSON,
-} from '../models/PromptStage';
+} from '../models/PromptStage.js';
 import {
     type PromptStageRequest,
     PromptStageRequestFromJSON,
     PromptStageRequestToJSON,
-} from '../models/PromptStageRequest';
+} from '../models/PromptStageRequest.js';
 import {
     type PromptTypeEnum,
     PromptTypeEnumFromJSON,
     PromptTypeEnumToJSON,
-} from '../models/PromptTypeEnum';
+} from '../models/PromptTypeEnum.js';
 import {
     type ProviderEnum,
     ProviderEnumFromJSON,
     ProviderEnumToJSON,
-} from '../models/ProviderEnum';
+} from '../models/ProviderEnum.js';
 import {
     type RedirectStage,
     RedirectStageFromJSON,
     RedirectStageToJSON,
-} from '../models/RedirectStage';
+} from '../models/RedirectStage.js';
 import {
     type RedirectStageRequest,
     RedirectStageRequestFromJSON,
     RedirectStageRequestToJSON,
-} from '../models/RedirectStageRequest';
+} from '../models/RedirectStageRequest.js';
 import {
     type SourceStage,
     SourceStageFromJSON,
     SourceStageToJSON,
-} from '../models/SourceStage';
+} from '../models/SourceStage.js';
 import {
     type SourceStageRequest,
     SourceStageRequestFromJSON,
     SourceStageRequestToJSON,
-} from '../models/SourceStageRequest';
+} from '../models/SourceStageRequest.js';
 import {
     type Stage,
     StageFromJSON,
     StageToJSON,
-} from '../models/Stage';
+} from '../models/Stage.js';
 import {
     type StageModeEnum,
     StageModeEnumFromJSON,
     StageModeEnumToJSON,
-} from '../models/StageModeEnum';
+} from '../models/StageModeEnum.js';
 import {
     type TypeCreate,
     TypeCreateFromJSON,
     TypeCreateToJSON,
-} from '../models/TypeCreate';
+} from '../models/TypeCreate.js';
 import {
     type UsedBy,
     UsedByFromJSON,
     UsedByToJSON,
-} from '../models/UsedBy';
+} from '../models/UsedBy.js';
 import {
     type UserAttributeEnum,
     UserAttributeEnumFromJSON,
     UserAttributeEnumToJSON,
-} from '../models/UserAttributeEnum';
+} from '../models/UserAttributeEnum.js';
 import {
     type UserCreationModeEnum,
     UserCreationModeEnumFromJSON,
     UserCreationModeEnumToJSON,
-} from '../models/UserCreationModeEnum';
+} from '../models/UserCreationModeEnum.js';
 import {
     type UserDeleteStage,
     UserDeleteStageFromJSON,
     UserDeleteStageToJSON,
-} from '../models/UserDeleteStage';
+} from '../models/UserDeleteStage.js';
 import {
     type UserDeleteStageRequest,
     UserDeleteStageRequestFromJSON,
     UserDeleteStageRequestToJSON,
-} from '../models/UserDeleteStageRequest';
+} from '../models/UserDeleteStageRequest.js';
 import {
     type UserLoginStage,
     UserLoginStageFromJSON,
     UserLoginStageToJSON,
-} from '../models/UserLoginStage';
+} from '../models/UserLoginStage.js';
 import {
     type UserLoginStageRequest,
     UserLoginStageRequestFromJSON,
     UserLoginStageRequestToJSON,
-} from '../models/UserLoginStageRequest';
+} from '../models/UserLoginStageRequest.js';
 import {
     type UserLogoutStage,
     UserLogoutStageFromJSON,
     UserLogoutStageToJSON,
-} from '../models/UserLogoutStage';
+} from '../models/UserLogoutStage.js';
 import {
     type UserLogoutStageRequest,
     UserLogoutStageRequestFromJSON,
     UserLogoutStageRequestToJSON,
-} from '../models/UserLogoutStageRequest';
+} from '../models/UserLogoutStageRequest.js';
 import {
     type UserSetting,
     UserSettingFromJSON,
     UserSettingToJSON,
-} from '../models/UserSetting';
+} from '../models/UserSetting.js';
 import {
     type UserTypeEnum,
     UserTypeEnumFromJSON,
     UserTypeEnumToJSON,
-} from '../models/UserTypeEnum';
+} from '../models/UserTypeEnum.js';
 import {
     type UserVerificationEnum,
     UserVerificationEnumFromJSON,
     UserVerificationEnumToJSON,
-} from '../models/UserVerificationEnum';
+} from '../models/UserVerificationEnum.js';
 import {
     type UserWriteStage,
     UserWriteStageFromJSON,
     UserWriteStageToJSON,
-} from '../models/UserWriteStage';
+} from '../models/UserWriteStage.js';
 import {
     type UserWriteStageRequest,
     UserWriteStageRequestFromJSON,
     UserWriteStageRequestToJSON,
-} from '../models/UserWriteStageRequest';
+} from '../models/UserWriteStageRequest.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 import {
     type WebAuthnDeviceType,
     WebAuthnDeviceTypeFromJSON,
     WebAuthnDeviceTypeToJSON,
-} from '../models/WebAuthnDeviceType';
+} from '../models/WebAuthnDeviceType.js';
 
 export interface StagesAccountLockdownCreateRequest {
     accountLockdownStageRequest: AccountLockdownStageRequest;

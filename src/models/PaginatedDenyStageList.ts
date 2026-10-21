@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { DenyStage } from './DenyStage';
+import { mapValues } from '../runtime.js';
+import type { DenyStage } from './DenyStage.js';
 import {
     DenyStageFromJSON,
     DenyStageFromJSONTyped,
     DenyStageToJSON,
     DenyStageToJSONTyped,
-} from './DenyStage';
-import type { Pagination } from './Pagination';
+} from './DenyStage.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

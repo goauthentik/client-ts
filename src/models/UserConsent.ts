@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { User } from './User';
+import { mapValues } from '../runtime.js';
+import type { User } from './User.js';
 import {
     UserFromJSON,
     UserFromJSONTyped,
     UserToJSON,
     UserToJSONTyped,
-} from './User';
-import type { Application } from './Application';
+} from './User.js';
+import type { Application } from './Application.js';
 import {
     ApplicationFromJSON,
     ApplicationFromJSONTyped,
     ApplicationToJSON,
     ApplicationToJSONTyped,
-} from './Application';
+} from './Application.js';
 
 /**
  * UserConsent Serializer

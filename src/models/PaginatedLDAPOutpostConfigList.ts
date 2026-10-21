@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { LDAPOutpostConfig } from './LDAPOutpostConfig';
+} from './Pagination.js';
+import type { LDAPOutpostConfig } from './LDAPOutpostConfig.js';
 import {
     LDAPOutpostConfigFromJSON,
     LDAPOutpostConfigFromJSONTyped,
     LDAPOutpostConfigToJSON,
     LDAPOutpostConfigToJSONTyped,
-} from './LDAPOutpostConfig';
+} from './LDAPOutpostConfig.js';
 
 /**
  * 

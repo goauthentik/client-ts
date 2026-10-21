@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { DigitsEnum } from './DigitsEnum';
+import { mapValues } from '../runtime.js';
+import type { DigitsEnum } from './DigitsEnum.js';
 import {
     DigitsEnumFromJSON,
     DigitsEnumFromJSONTyped,
     DigitsEnumToJSON,
     DigitsEnumToJSONTyped,
-} from './DigitsEnum';
-import type { FlowSet } from './FlowSet';
+} from './DigitsEnum.js';
+import type { FlowSet } from './FlowSet.js';
 import {
     FlowSetFromJSON,
     FlowSetFromJSONTyped,
     FlowSetToJSON,
     FlowSetToJSONTyped,
-} from './FlowSet';
+} from './FlowSet.js';
 
 /**
  * AuthenticatorTOTPStage Serializer

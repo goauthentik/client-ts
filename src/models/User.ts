@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Role } from './Role';
+import { mapValues } from '../runtime.js';
+import type { Role } from './Role.js';
 import {
     RoleFromJSON,
     RoleFromJSONTyped,
     RoleToJSON,
     RoleToJSONTyped,
-} from './Role';
-import type { UserTypeEnum } from './UserTypeEnum';
+} from './Role.js';
+import type { UserTypeEnum } from './UserTypeEnum.js';
 import {
     UserTypeEnumFromJSON,
     UserTypeEnumFromJSONTyped,
     UserTypeEnumToJSON,
     UserTypeEnumToJSONTyped,
-} from './UserTypeEnum';
-import type { PartialGroup } from './PartialGroup';
+} from './UserTypeEnum.js';
+import type { PartialGroup } from './PartialGroup.js';
 import {
     PartialGroupFromJSON,
     PartialGroupFromJSONTyped,
     PartialGroupToJSON,
     PartialGroupToJSONTyped,
-} from './PartialGroup';
+} from './PartialGroup.js';
 
 /**
  * User Serializer

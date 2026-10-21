@@ -12,35 +12,35 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ProviderModelEnum } from './ProviderModelEnum';
+import { mapValues } from '../runtime.js';
+import type { ProviderModelEnum } from './ProviderModelEnum.js';
 import {
     ProviderModelEnumFromJSON,
     ProviderModelEnumFromJSONTyped,
     ProviderModelEnumToJSON,
     ProviderModelEnumToJSONTyped,
-} from './ProviderModelEnum';
-import type { ModelRequest } from './ModelRequest';
+} from './ProviderModelEnum.js';
+import type { ModelRequest } from './ModelRequest.js';
 import {
     ModelRequestFromJSON,
     ModelRequestFromJSONTyped,
     ModelRequestToJSON,
     ModelRequestToJSONTyped,
-} from './ModelRequest';
-import type { ApplicationRequest } from './ApplicationRequest';
+} from './ModelRequest.js';
+import type { ApplicationRequest } from './ApplicationRequest.js';
 import {
     ApplicationRequestFromJSON,
     ApplicationRequestFromJSONTyped,
     ApplicationRequestToJSON,
     ApplicationRequestToJSONTyped,
-} from './ApplicationRequest';
-import type { TransactionPolicyBindingRequest } from './TransactionPolicyBindingRequest';
+} from './ApplicationRequest.js';
+import type { TransactionPolicyBindingRequest } from './TransactionPolicyBindingRequest.js';
 import {
     TransactionPolicyBindingRequestFromJSON,
     TransactionPolicyBindingRequestFromJSONTyped,
     TransactionPolicyBindingRequestToJSON,
     TransactionPolicyBindingRequestToJSONTyped,
-} from './TransactionPolicyBindingRequest';
+} from './TransactionPolicyBindingRequest.js';
 
 /**
  * Serializer for creating a provider and an application in one transaction

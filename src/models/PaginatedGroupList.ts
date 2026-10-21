@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Group } from './Group';
+import { mapValues } from '../runtime.js';
+import type { Group } from './Group.js';
 import {
     GroupFromJSON,
     GroupFromJSONTyped,
     GroupToJSON,
     GroupToJSONTyped,
-} from './Group';
-import type { Pagination } from './Pagination';
+} from './Group.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

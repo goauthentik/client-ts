@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Connector } from './Connector';
+import { mapValues } from '../runtime.js';
+import type { Connector } from './Connector.js';
 import {
     ConnectorFromJSON,
     ConnectorFromJSONTyped,
     ConnectorToJSON,
     ConnectorToJSONTyped,
-} from './Connector';
-import type { Pagination } from './Pagination';
+} from './Connector.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

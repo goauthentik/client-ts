@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { CompatibilityModeEnum } from './CompatibilityModeEnum';
+import { mapValues } from '../runtime.js';
+import type { CompatibilityModeEnum } from './CompatibilityModeEnum.js';
 import {
     CompatibilityModeEnumFromJSON,
     CompatibilityModeEnumFromJSONTyped,
     CompatibilityModeEnumToJSON,
     CompatibilityModeEnumToJSONTyped,
-} from './CompatibilityModeEnum';
-import type { SCIMAuthenticationModeEnum } from './SCIMAuthenticationModeEnum';
+} from './CompatibilityModeEnum.js';
+import type { SCIMAuthenticationModeEnum } from './SCIMAuthenticationModeEnum.js';
 import {
     SCIMAuthenticationModeEnumFromJSON,
     SCIMAuthenticationModeEnumFromJSONTyped,
     SCIMAuthenticationModeEnumToJSON,
     SCIMAuthenticationModeEnumToJSONTyped,
-} from './SCIMAuthenticationModeEnum';
+} from './SCIMAuthenticationModeEnum.js';
 
 /**
  * SCIMProvider Serializer

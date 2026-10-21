@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { GrantRequest } from './GrantRequest';
+import { mapValues } from '../runtime.js';
+import type { GrantRequest } from './GrantRequest.js';
 import {
     GrantRequestFromJSON,
     GrantRequestFromJSONTyped,
     GrantRequestToJSON,
     GrantRequestToJSONTyped,
-} from './GrantRequest';
+} from './GrantRequest.js';
 
 /**
  * Response to an agent's access request: the request it created, plus the URL to hand to

@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { EnrollmentToken } from './EnrollmentToken';
+import { mapValues } from '../runtime.js';
+import type { EnrollmentToken } from './EnrollmentToken.js';
 import {
     EnrollmentTokenFromJSON,
     EnrollmentTokenFromJSONTyped,
     EnrollmentTokenToJSON,
     EnrollmentTokenToJSONTyped,
-} from './EnrollmentToken';
-import type { Pagination } from './Pagination';
+} from './EnrollmentToken.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

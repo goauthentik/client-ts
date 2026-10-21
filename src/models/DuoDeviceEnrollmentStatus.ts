@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { DuoResponseEnum } from './DuoResponseEnum';
+import { mapValues } from '../runtime.js';
+import type { DuoResponseEnum } from './DuoResponseEnum.js';
 import {
     DuoResponseEnumFromJSON,
     DuoResponseEnumFromJSONTyped,
     DuoResponseEnumToJSON,
     DuoResponseEnumToJSONTyped,
-} from './DuoResponseEnum';
+} from './DuoResponseEnum.js';
 
 /**
  * 

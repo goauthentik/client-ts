@@ -12,42 +12,42 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type ExpiringBaseGrantModel,
     ExpiringBaseGrantModelFromJSON,
     ExpiringBaseGrantModelToJSON,
-} from '../models/ExpiringBaseGrantModel';
+} from '../models/ExpiringBaseGrantModel.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type PaginatedExpiringBaseGrantModelList,
     PaginatedExpiringBaseGrantModelListFromJSON,
     PaginatedExpiringBaseGrantModelListToJSON,
-} from '../models/PaginatedExpiringBaseGrantModelList';
+} from '../models/PaginatedExpiringBaseGrantModelList.js';
 import {
     type PaginatedTokenModelList,
     PaginatedTokenModelListFromJSON,
     PaginatedTokenModelListToJSON,
-} from '../models/PaginatedTokenModelList';
+} from '../models/PaginatedTokenModelList.js';
 import {
     type TokenModel,
     TokenModelFromJSON,
     TokenModelToJSON,
-} from '../models/TokenModel';
+} from '../models/TokenModel.js';
 import {
     type UsedBy,
     UsedByFromJSON,
     UsedByToJSON,
-} from '../models/UsedBy';
+} from '../models/UsedBy.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface Oauth2AccessTokensDestroyRequest {
     id: number;

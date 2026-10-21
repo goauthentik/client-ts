@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { UserPlexSourceConnection } from './UserPlexSourceConnection';
+} from './Pagination.js';
+import type { UserPlexSourceConnection } from './UserPlexSourceConnection.js';
 import {
     UserPlexSourceConnectionFromJSON,
     UserPlexSourceConnectionFromJSONTyped,
     UserPlexSourceConnectionToJSON,
     UserPlexSourceConnectionToJSONTyped,
-} from './UserPlexSourceConnection';
+} from './UserPlexSourceConnection.js';
 
 /**
  * 

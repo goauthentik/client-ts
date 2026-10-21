@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { UserDeleteStage } from './UserDeleteStage';
+} from './Pagination.js';
+import type { UserDeleteStage } from './UserDeleteStage.js';
 import {
     UserDeleteStageFromJSON,
     UserDeleteStageFromJSONTyped,
     UserDeleteStageToJSON,
     UserDeleteStageToJSONTyped,
-} from './UserDeleteStage';
+} from './UserDeleteStage.js';
 
 /**
  * 

@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { StageModeEnum } from './StageModeEnum';
+import { mapValues } from '../runtime.js';
+import type { StageModeEnum } from './StageModeEnum.js';
 import {
     StageModeEnumFromJSON,
     StageModeEnumFromJSONTyped,
     StageModeEnumToJSON,
     StageModeEnumToJSONTyped,
-} from './StageModeEnum';
+} from './StageModeEnum.js';
 
 /**
  * EndpointStage Serializer

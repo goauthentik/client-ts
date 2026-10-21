@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { SAMLSourcePropertyMapping } from './SAMLSourcePropertyMapping';
+} from './Pagination.js';
+import type { SAMLSourcePropertyMapping } from './SAMLSourcePropertyMapping.js';
 import {
     SAMLSourcePropertyMappingFromJSON,
     SAMLSourcePropertyMappingFromJSONTyped,
     SAMLSourcePropertyMappingToJSON,
     SAMLSourcePropertyMappingToJSONTyped,
-} from './SAMLSourcePropertyMapping';
+} from './SAMLSourcePropertyMapping.js';
 
 /**
  * 

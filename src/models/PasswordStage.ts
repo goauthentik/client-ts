@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { BackendsEnum } from './BackendsEnum';
+import { mapValues } from '../runtime.js';
+import type { BackendsEnum } from './BackendsEnum.js';
 import {
     BackendsEnumFromJSON,
     BackendsEnumFromJSONTyped,
     BackendsEnumToJSON,
     BackendsEnumToJSONTyped,
-} from './BackendsEnum';
-import type { FlowSet } from './FlowSet';
+} from './BackendsEnum.js';
+import type { FlowSet } from './FlowSet.js';
 import {
     FlowSetFromJSON,
     FlowSetFromJSONTyped,
     FlowSetToJSON,
     FlowSetToJSONTyped,
-} from './FlowSet';
+} from './FlowSet.js';
 
 /**
  * PasswordStage Serializer

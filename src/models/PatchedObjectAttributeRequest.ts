@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ObjectAttributeTypeEnum } from './ObjectAttributeTypeEnum';
+import { mapValues } from '../runtime.js';
+import type { ObjectAttributeTypeEnum } from './ObjectAttributeTypeEnum.js';
 import {
     ObjectAttributeTypeEnumFromJSON,
     ObjectAttributeTypeEnumFromJSONTyped,
     ObjectAttributeTypeEnumToJSON,
     ObjectAttributeTypeEnumToJSONTyped,
-} from './ObjectAttributeTypeEnum';
+} from './ObjectAttributeTypeEnum.js';
 
 /**
  * 

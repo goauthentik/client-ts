@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { OAuthSourcePropertyMapping } from './OAuthSourcePropertyMapping';
+} from './Pagination.js';
+import type { OAuthSourcePropertyMapping } from './OAuthSourcePropertyMapping.js';
 import {
     OAuthSourcePropertyMappingFromJSON,
     OAuthSourcePropertyMappingFromJSONTyped,
     OAuthSourcePropertyMappingToJSON,
     OAuthSourcePropertyMappingToJSONTyped,
-} from './OAuthSourcePropertyMapping';
+} from './OAuthSourcePropertyMapping.js';
 
 /**
  * 

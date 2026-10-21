@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ContentTypeEnum } from './ContentTypeEnum';
+import { mapValues } from '../runtime.js';
+import type { ContentTypeEnum } from './ContentTypeEnum.js';
 import {
     ContentTypeEnumFromJSON,
     ContentTypeEnumFromJSONTyped,
     ContentTypeEnumToJSON,
     ContentTypeEnumToJSONTyped,
-} from './ContentTypeEnum';
+} from './ContentTypeEnum.js';
 
 /**
  * Mixin to validate that a valid enterprise license

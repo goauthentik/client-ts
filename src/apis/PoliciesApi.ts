@@ -12,252 +12,252 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type Cache,
     CacheFromJSON,
     CacheToJSON,
-} from '../models/Cache';
+} from '../models/Cache.js';
 import {
     type DetailedCountry,
     DetailedCountryFromJSON,
     DetailedCountryToJSON,
-} from '../models/DetailedCountry';
+} from '../models/DetailedCountry.js';
 import {
     type DummyPolicy,
     DummyPolicyFromJSON,
     DummyPolicyToJSON,
-} from '../models/DummyPolicy';
+} from '../models/DummyPolicy.js';
 import {
     type DummyPolicyRequest,
     DummyPolicyRequestFromJSON,
     DummyPolicyRequestToJSON,
-} from '../models/DummyPolicyRequest';
+} from '../models/DummyPolicyRequest.js';
 import {
     type EventActions,
     EventActionsFromJSON,
     EventActionsToJSON,
-} from '../models/EventActions';
+} from '../models/EventActions.js';
 import {
     type EventMatcherPolicy,
     EventMatcherPolicyFromJSON,
     EventMatcherPolicyToJSON,
-} from '../models/EventMatcherPolicy';
+} from '../models/EventMatcherPolicy.js';
 import {
     type EventMatcherPolicyRequest,
     EventMatcherPolicyRequestFromJSON,
     EventMatcherPolicyRequestToJSON,
-} from '../models/EventMatcherPolicyRequest';
+} from '../models/EventMatcherPolicyRequest.js';
 import {
     type ExpressionPolicy,
     ExpressionPolicyFromJSON,
     ExpressionPolicyToJSON,
-} from '../models/ExpressionPolicy';
+} from '../models/ExpressionPolicy.js';
 import {
     type ExpressionPolicyRequest,
     ExpressionPolicyRequestFromJSON,
     ExpressionPolicyRequestToJSON,
-} from '../models/ExpressionPolicyRequest';
+} from '../models/ExpressionPolicyRequest.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type GeoIPPolicy,
     GeoIPPolicyFromJSON,
     GeoIPPolicyToJSON,
-} from '../models/GeoIPPolicy';
+} from '../models/GeoIPPolicy.js';
 import {
     type GeoIPPolicyRequest,
     GeoIPPolicyRequestFromJSON,
     GeoIPPolicyRequestToJSON,
-} from '../models/GeoIPPolicyRequest';
+} from '../models/GeoIPPolicyRequest.js';
 import {
     type PaginatedDummyPolicyList,
     PaginatedDummyPolicyListFromJSON,
     PaginatedDummyPolicyListToJSON,
-} from '../models/PaginatedDummyPolicyList';
+} from '../models/PaginatedDummyPolicyList.js';
 import {
     type PaginatedEventMatcherPolicyList,
     PaginatedEventMatcherPolicyListFromJSON,
     PaginatedEventMatcherPolicyListToJSON,
-} from '../models/PaginatedEventMatcherPolicyList';
+} from '../models/PaginatedEventMatcherPolicyList.js';
 import {
     type PaginatedExpressionPolicyList,
     PaginatedExpressionPolicyListFromJSON,
     PaginatedExpressionPolicyListToJSON,
-} from '../models/PaginatedExpressionPolicyList';
+} from '../models/PaginatedExpressionPolicyList.js';
 import {
     type PaginatedGeoIPPolicyList,
     PaginatedGeoIPPolicyListFromJSON,
     PaginatedGeoIPPolicyListToJSON,
-} from '../models/PaginatedGeoIPPolicyList';
+} from '../models/PaginatedGeoIPPolicyList.js';
 import {
     type PaginatedPasswordExpiryPolicyList,
     PaginatedPasswordExpiryPolicyListFromJSON,
     PaginatedPasswordExpiryPolicyListToJSON,
-} from '../models/PaginatedPasswordExpiryPolicyList';
+} from '../models/PaginatedPasswordExpiryPolicyList.js';
 import {
     type PaginatedPasswordPolicyList,
     PaginatedPasswordPolicyListFromJSON,
     PaginatedPasswordPolicyListToJSON,
-} from '../models/PaginatedPasswordPolicyList';
+} from '../models/PaginatedPasswordPolicyList.js';
 import {
     type PaginatedPolicyBindingList,
     PaginatedPolicyBindingListFromJSON,
     PaginatedPolicyBindingListToJSON,
-} from '../models/PaginatedPolicyBindingList';
+} from '../models/PaginatedPolicyBindingList.js';
 import {
     type PaginatedPolicyList,
     PaginatedPolicyListFromJSON,
     PaginatedPolicyListToJSON,
-} from '../models/PaginatedPolicyList';
+} from '../models/PaginatedPolicyList.js';
 import {
     type PaginatedReputationList,
     PaginatedReputationListFromJSON,
     PaginatedReputationListToJSON,
-} from '../models/PaginatedReputationList';
+} from '../models/PaginatedReputationList.js';
 import {
     type PaginatedReputationPolicyList,
     PaginatedReputationPolicyListFromJSON,
     PaginatedReputationPolicyListToJSON,
-} from '../models/PaginatedReputationPolicyList';
+} from '../models/PaginatedReputationPolicyList.js';
 import {
     type PaginatedUniquePasswordPolicyList,
     PaginatedUniquePasswordPolicyListFromJSON,
     PaginatedUniquePasswordPolicyListToJSON,
-} from '../models/PaginatedUniquePasswordPolicyList';
+} from '../models/PaginatedUniquePasswordPolicyList.js';
 import {
     type PasswordExpiryPolicy,
     PasswordExpiryPolicyFromJSON,
     PasswordExpiryPolicyToJSON,
-} from '../models/PasswordExpiryPolicy';
+} from '../models/PasswordExpiryPolicy.js';
 import {
     type PasswordExpiryPolicyRequest,
     PasswordExpiryPolicyRequestFromJSON,
     PasswordExpiryPolicyRequestToJSON,
-} from '../models/PasswordExpiryPolicyRequest';
+} from '../models/PasswordExpiryPolicyRequest.js';
 import {
     type PasswordPolicy,
     PasswordPolicyFromJSON,
     PasswordPolicyToJSON,
-} from '../models/PasswordPolicy';
+} from '../models/PasswordPolicy.js';
 import {
     type PasswordPolicyRequest,
     PasswordPolicyRequestFromJSON,
     PasswordPolicyRequestToJSON,
-} from '../models/PasswordPolicyRequest';
+} from '../models/PasswordPolicyRequest.js';
 import {
     type PatchedDummyPolicyRequest,
     PatchedDummyPolicyRequestFromJSON,
     PatchedDummyPolicyRequestToJSON,
-} from '../models/PatchedDummyPolicyRequest';
+} from '../models/PatchedDummyPolicyRequest.js';
 import {
     type PatchedEventMatcherPolicyRequest,
     PatchedEventMatcherPolicyRequestFromJSON,
     PatchedEventMatcherPolicyRequestToJSON,
-} from '../models/PatchedEventMatcherPolicyRequest';
+} from '../models/PatchedEventMatcherPolicyRequest.js';
 import {
     type PatchedExpressionPolicyRequest,
     PatchedExpressionPolicyRequestFromJSON,
     PatchedExpressionPolicyRequestToJSON,
-} from '../models/PatchedExpressionPolicyRequest';
+} from '../models/PatchedExpressionPolicyRequest.js';
 import {
     type PatchedGeoIPPolicyRequest,
     PatchedGeoIPPolicyRequestFromJSON,
     PatchedGeoIPPolicyRequestToJSON,
-} from '../models/PatchedGeoIPPolicyRequest';
+} from '../models/PatchedGeoIPPolicyRequest.js';
 import {
     type PatchedPasswordExpiryPolicyRequest,
     PatchedPasswordExpiryPolicyRequestFromJSON,
     PatchedPasswordExpiryPolicyRequestToJSON,
-} from '../models/PatchedPasswordExpiryPolicyRequest';
+} from '../models/PatchedPasswordExpiryPolicyRequest.js';
 import {
     type PatchedPasswordPolicyRequest,
     PatchedPasswordPolicyRequestFromJSON,
     PatchedPasswordPolicyRequestToJSON,
-} from '../models/PatchedPasswordPolicyRequest';
+} from '../models/PatchedPasswordPolicyRequest.js';
 import {
     type PatchedPolicyBindingRequest,
     PatchedPolicyBindingRequestFromJSON,
     PatchedPolicyBindingRequestToJSON,
-} from '../models/PatchedPolicyBindingRequest';
+} from '../models/PatchedPolicyBindingRequest.js';
 import {
     type PatchedReputationPolicyRequest,
     PatchedReputationPolicyRequestFromJSON,
     PatchedReputationPolicyRequestToJSON,
-} from '../models/PatchedReputationPolicyRequest';
+} from '../models/PatchedReputationPolicyRequest.js';
 import {
     type PatchedUniquePasswordPolicyRequest,
     PatchedUniquePasswordPolicyRequestFromJSON,
     PatchedUniquePasswordPolicyRequestToJSON,
-} from '../models/PatchedUniquePasswordPolicyRequest';
+} from '../models/PatchedUniquePasswordPolicyRequest.js';
 import {
     type Policy,
     PolicyFromJSON,
     PolicyToJSON,
-} from '../models/Policy';
+} from '../models/Policy.js';
 import {
     type PolicyBinding,
     PolicyBindingFromJSON,
     PolicyBindingToJSON,
-} from '../models/PolicyBinding';
+} from '../models/PolicyBinding.js';
 import {
     type PolicyBindingRequest,
     PolicyBindingRequestFromJSON,
     PolicyBindingRequestToJSON,
-} from '../models/PolicyBindingRequest';
+} from '../models/PolicyBindingRequest.js';
 import {
     type PolicyTestRequest,
     PolicyTestRequestFromJSON,
     PolicyTestRequestToJSON,
-} from '../models/PolicyTestRequest';
+} from '../models/PolicyTestRequest.js';
 import {
     type PolicyTestResult,
     PolicyTestResultFromJSON,
     PolicyTestResultToJSON,
-} from '../models/PolicyTestResult';
+} from '../models/PolicyTestResult.js';
 import {
     type Reputation,
     ReputationFromJSON,
     ReputationToJSON,
-} from '../models/Reputation';
+} from '../models/Reputation.js';
 import {
     type ReputationPolicy,
     ReputationPolicyFromJSON,
     ReputationPolicyToJSON,
-} from '../models/ReputationPolicy';
+} from '../models/ReputationPolicy.js';
 import {
     type ReputationPolicyRequest,
     ReputationPolicyRequestFromJSON,
     ReputationPolicyRequestToJSON,
-} from '../models/ReputationPolicyRequest';
+} from '../models/ReputationPolicyRequest.js';
 import {
     type TypeCreate,
     TypeCreateFromJSON,
     TypeCreateToJSON,
-} from '../models/TypeCreate';
+} from '../models/TypeCreate.js';
 import {
     type UniquePasswordPolicy,
     UniquePasswordPolicyFromJSON,
     UniquePasswordPolicyToJSON,
-} from '../models/UniquePasswordPolicy';
+} from '../models/UniquePasswordPolicy.js';
 import {
     type UniquePasswordPolicyRequest,
     UniquePasswordPolicyRequestFromJSON,
     UniquePasswordPolicyRequestToJSON,
-} from '../models/UniquePasswordPolicyRequest';
+} from '../models/UniquePasswordPolicyRequest.js';
 import {
     type UsedBy,
     UsedByFromJSON,
     UsedByToJSON,
-} from '../models/UsedBy';
+} from '../models/UsedBy.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface PoliciesAllDestroyRequest {
     policyUuid: string;

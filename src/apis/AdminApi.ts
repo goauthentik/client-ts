@@ -12,67 +12,67 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type App,
     AppFromJSON,
     AppToJSON,
-} from '../models/App';
+} from '../models/App.js';
 import {
     type FileList,
     FileListFromJSON,
     FileListToJSON,
-} from '../models/FileList';
+} from '../models/FileList.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type PatchedSettingsRequest,
     PatchedSettingsRequestFromJSON,
     PatchedSettingsRequestToJSON,
-} from '../models/PatchedSettingsRequest';
+} from '../models/PatchedSettingsRequest.js';
 import {
     type Settings,
     SettingsFromJSON,
     SettingsToJSON,
-} from '../models/Settings';
+} from '../models/Settings.js';
 import {
     type SettingsRequest,
     SettingsRequestFromJSON,
     SettingsRequestToJSON,
-} from '../models/SettingsRequest';
+} from '../models/SettingsRequest.js';
 import {
     type SystemInfo,
     SystemInfoFromJSON,
     SystemInfoToJSON,
-} from '../models/SystemInfo';
+} from '../models/SystemInfo.js';
 import {
     type UsageEnum,
     UsageEnumFromJSON,
     UsageEnumToJSON,
-} from '../models/UsageEnum';
+} from '../models/UsageEnum.js';
 import {
     type UsedBy,
     UsedByFromJSON,
     UsedByToJSON,
-} from '../models/UsedBy';
+} from '../models/UsedBy.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 import {
     type Version,
     VersionFromJSON,
     VersionToJSON,
-} from '../models/Version';
+} from '../models/Version.js';
 import {
     type VersionHistory,
     VersionHistoryFromJSON,
     VersionHistoryToJSON,
-} from '../models/VersionHistory';
+} from '../models/VersionHistory.js';
 
 export interface AdminFileCreateRequest {
     file: Blob;

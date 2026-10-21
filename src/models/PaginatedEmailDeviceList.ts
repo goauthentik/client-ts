@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { EmailDevice } from './EmailDevice';
+import { mapValues } from '../runtime.js';
+import type { EmailDevice } from './EmailDevice.js';
 import {
     EmailDeviceFromJSON,
     EmailDeviceFromJSONTyped,
     EmailDeviceToJSON,
     EmailDeviceToJSONTyped,
-} from './EmailDevice';
-import type { Pagination } from './Pagination';
+} from './EmailDevice.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

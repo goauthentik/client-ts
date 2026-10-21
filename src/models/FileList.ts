@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ThemedUrls } from './ThemedUrls';
+import { mapValues } from '../runtime.js';
+import type { ThemedUrls } from './ThemedUrls.js';
 import {
     ThemedUrlsFromJSON,
     ThemedUrlsFromJSONTyped,
     ThemedUrlsToJSON,
     ThemedUrlsToJSONTyped,
-} from './ThemedUrls';
+} from './ThemedUrls.js';
 
 /**
  * Base serializer class which doesn't implement create/update methods

@@ -12,35 +12,35 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PolicyEngineMode } from './PolicyEngineMode';
+import { mapValues } from '../runtime.js';
+import type { PolicyEngineMode } from './PolicyEngineMode.js';
 import {
     PolicyEngineModeFromJSON,
     PolicyEngineModeFromJSONTyped,
     PolicyEngineModeToJSON,
     PolicyEngineModeToJSONTyped,
-} from './PolicyEngineMode';
-import type { UserMatchingModeEnum } from './UserMatchingModeEnum';
+} from './PolicyEngineMode.js';
+import type { UserMatchingModeEnum } from './UserMatchingModeEnum.js';
 import {
     UserMatchingModeEnumFromJSON,
     UserMatchingModeEnumFromJSONTyped,
     UserMatchingModeEnumToJSON,
     UserMatchingModeEnumToJSONTyped,
-} from './UserMatchingModeEnum';
-import type { ThemedUrls } from './ThemedUrls';
+} from './UserMatchingModeEnum.js';
+import type { ThemedUrls } from './ThemedUrls.js';
 import {
     ThemedUrlsFromJSON,
     ThemedUrlsFromJSONTyped,
     ThemedUrlsToJSON,
     ThemedUrlsToJSONTyped,
-} from './ThemedUrls';
-import type { GroupMatchingModeEnum } from './GroupMatchingModeEnum';
+} from './ThemedUrls.js';
+import type { GroupMatchingModeEnum } from './GroupMatchingModeEnum.js';
 import {
     GroupMatchingModeEnumFromJSON,
     GroupMatchingModeEnumFromJSONTyped,
     GroupMatchingModeEnumToJSON,
     GroupMatchingModeEnumToJSONTyped,
-} from './GroupMatchingModeEnum';
+} from './GroupMatchingModeEnum.js';
 
 /**
  * Plex Source Serializer

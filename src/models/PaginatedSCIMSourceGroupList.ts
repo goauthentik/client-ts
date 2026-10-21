@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { SCIMSourceGroup } from './SCIMSourceGroup';
+} from './Pagination.js';
+import type { SCIMSourceGroup } from './SCIMSourceGroup.js';
 import {
     SCIMSourceGroupFromJSON,
     SCIMSourceGroupFromJSONTyped,
     SCIMSourceGroupToJSON,
     SCIMSourceGroupToJSONTyped,
-} from './SCIMSourceGroup';
+} from './SCIMSourceGroup.js';
 
 /**
  * 

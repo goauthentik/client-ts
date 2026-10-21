@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Agent } from './Agent';
+import { mapValues } from '../runtime.js';
+import type { Agent } from './Agent.js';
 import {
     AgentFromJSON,
     AgentFromJSONTyped,
     AgentToJSON,
     AgentToJSONTyped,
-} from './Agent';
+} from './Agent.js';
 
 /**
  * Response returned once when an agent is created, carrying the one-time API token.

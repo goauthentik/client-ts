@@ -12,57 +12,57 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type InstallID,
     InstallIDFromJSON,
     InstallIDToJSON,
-} from '../models/InstallID';
+} from '../models/InstallID.js';
 import {
     type License,
     LicenseFromJSON,
     LicenseToJSON,
-} from '../models/License';
+} from '../models/License.js';
 import {
     type LicenseForecast,
     LicenseForecastFromJSON,
     LicenseForecastToJSON,
-} from '../models/LicenseForecast';
+} from '../models/LicenseForecast.js';
 import {
     type LicenseRequest,
     LicenseRequestFromJSON,
     LicenseRequestToJSON,
-} from '../models/LicenseRequest';
+} from '../models/LicenseRequest.js';
 import {
     type LicenseSummary,
     LicenseSummaryFromJSON,
     LicenseSummaryToJSON,
-} from '../models/LicenseSummary';
+} from '../models/LicenseSummary.js';
 import {
     type PaginatedLicenseList,
     PaginatedLicenseListFromJSON,
     PaginatedLicenseListToJSON,
-} from '../models/PaginatedLicenseList';
+} from '../models/PaginatedLicenseList.js';
 import {
     type PatchedLicenseRequest,
     PatchedLicenseRequestFromJSON,
     PatchedLicenseRequestToJSON,
-} from '../models/PatchedLicenseRequest';
+} from '../models/PatchedLicenseRequest.js';
 import {
     type UsedBy,
     UsedByFromJSON,
     UsedByToJSON,
-} from '../models/UsedBy';
+} from '../models/UsedBy.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface EnterpriseLicenseCreateRequest {
     licenseRequest: LicenseRequest;

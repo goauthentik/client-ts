@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { RequestContentTypeEnum } from './RequestContentTypeEnum';
+import { mapValues } from '../runtime.js';
+import type { RequestContentTypeEnum } from './RequestContentTypeEnum.js';
 import {
     RequestContentTypeEnumFromJSON,
     RequestContentTypeEnumFromJSONTyped,
     RequestContentTypeEnumToJSON,
     RequestContentTypeEnumToJSONTyped,
-} from './RequestContentTypeEnum';
-import type { FlowSet } from './FlowSet';
+} from './RequestContentTypeEnum.js';
+import type { FlowSet } from './FlowSet.js';
 import {
     FlowSetFromJSON,
     FlowSetFromJSONTyped,
     FlowSetToJSON,
     FlowSetToJSONTyped,
-} from './FlowSet';
+} from './FlowSet.js';
 
 /**
  * CaptchaStage Serializer

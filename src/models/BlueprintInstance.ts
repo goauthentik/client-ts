@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { BlueprintInstanceStatusEnum } from './BlueprintInstanceStatusEnum';
+import { mapValues } from '../runtime.js';
+import type { BlueprintInstanceStatusEnum } from './BlueprintInstanceStatusEnum.js';
 import {
     BlueprintInstanceStatusEnumFromJSON,
     BlueprintInstanceStatusEnumFromJSONTyped,
     BlueprintInstanceStatusEnumToJSON,
     BlueprintInstanceStatusEnumToJSONTyped,
-} from './BlueprintInstanceStatusEnum';
+} from './BlueprintInstanceStatusEnum.js';
 
 /**
  * Info about a single blueprint instance file

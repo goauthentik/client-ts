@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PartialUser } from './PartialUser';
+import { mapValues } from '../runtime.js';
+import type { PartialUser } from './PartialUser.js';
 import {
     PartialUserFromJSON,
     PartialUserFromJSONTyped,
     PartialUserToJSON,
     PartialUserToJSONTyped,
-} from './PartialUser';
-import type { Flow } from './Flow';
+} from './PartialUser.js';
+import type { Flow } from './Flow.js';
 import {
     FlowFromJSON,
     FlowFromJSONTyped,
     FlowToJSON,
     FlowToJSONTyped,
-} from './Flow';
+} from './Flow.js';
 
 /**
  * Invitation Serializer

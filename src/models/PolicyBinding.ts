@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PartialUser } from './PartialUser';
+import { mapValues } from '../runtime.js';
+import type { PartialUser } from './PartialUser.js';
 import {
     PartialUserFromJSON,
     PartialUserFromJSONTyped,
     PartialUserToJSON,
     PartialUserToJSONTyped,
-} from './PartialUser';
-import type { Policy } from './Policy';
+} from './PartialUser.js';
+import type { Policy } from './Policy.js';
 import {
     PolicyFromJSON,
     PolicyFromJSONTyped,
     PolicyToJSON,
     PolicyToJSONTyped,
-} from './Policy';
-import type { PartialGroup } from './PartialGroup';
+} from './Policy.js';
+import type { PartialGroup } from './PartialGroup.js';
 import {
     PartialGroupFromJSON,
     PartialGroupFromJSONTyped,
     PartialGroupToJSON,
     PartialGroupToJSONTyped,
-} from './PartialGroup';
+} from './PartialGroup.js';
 
 /**
  * PolicyBinding Serializer

@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { RoleModelPermission } from './RoleModelPermission';
+import { mapValues } from '../runtime.js';
+import type { RoleModelPermission } from './RoleModelPermission.js';
 import {
     RoleModelPermissionFromJSON,
     RoleModelPermissionFromJSONTyped,
     RoleModelPermissionToJSON,
     RoleModelPermissionToJSONTyped,
-} from './RoleModelPermission';
-import type { RoleObjectPermission } from './RoleObjectPermission';
+} from './RoleModelPermission.js';
+import type { RoleObjectPermission } from './RoleObjectPermission.js';
 import {
     RoleObjectPermissionFromJSON,
     RoleObjectPermissionFromJSONTyped,
     RoleObjectPermissionToJSON,
     RoleObjectPermissionToJSONTyped,
-} from './RoleObjectPermission';
+} from './RoleObjectPermission.js';
 
 /**
  * Roles assigned object permission serializer

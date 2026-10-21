@@ -12,83 +12,83 @@
  * Do not edit the class manually.
  */
 
-import type { GoogleWorkspaceProviderRequest } from './GoogleWorkspaceProviderRequest';
+import type { GoogleWorkspaceProviderRequest } from './GoogleWorkspaceProviderRequest.js';
 import {
     instanceOfGoogleWorkspaceProviderRequest,
     GoogleWorkspaceProviderRequestFromJSON,
     GoogleWorkspaceProviderRequestFromJSONTyped,
     GoogleWorkspaceProviderRequestToJSON,
-} from './GoogleWorkspaceProviderRequest';
-import type { LDAPProviderRequest } from './LDAPProviderRequest';
+} from './GoogleWorkspaceProviderRequest.js';
+import type { LDAPProviderRequest } from './LDAPProviderRequest.js';
 import {
     instanceOfLDAPProviderRequest,
     LDAPProviderRequestFromJSON,
     LDAPProviderRequestFromJSONTyped,
     LDAPProviderRequestToJSON,
-} from './LDAPProviderRequest';
-import type { MicrosoftEntraProviderRequest } from './MicrosoftEntraProviderRequest';
+} from './LDAPProviderRequest.js';
+import type { MicrosoftEntraProviderRequest } from './MicrosoftEntraProviderRequest.js';
 import {
     instanceOfMicrosoftEntraProviderRequest,
     MicrosoftEntraProviderRequestFromJSON,
     MicrosoftEntraProviderRequestFromJSONTyped,
     MicrosoftEntraProviderRequestToJSON,
-} from './MicrosoftEntraProviderRequest';
-import type { OAuth2ProviderRequest } from './OAuth2ProviderRequest';
+} from './MicrosoftEntraProviderRequest.js';
+import type { OAuth2ProviderRequest } from './OAuth2ProviderRequest.js';
 import {
     instanceOfOAuth2ProviderRequest,
     OAuth2ProviderRequestFromJSON,
     OAuth2ProviderRequestFromJSONTyped,
     OAuth2ProviderRequestToJSON,
-} from './OAuth2ProviderRequest';
-import type { ProxyProviderRequest } from './ProxyProviderRequest';
+} from './OAuth2ProviderRequest.js';
+import type { ProxyProviderRequest } from './ProxyProviderRequest.js';
 import {
     instanceOfProxyProviderRequest,
     ProxyProviderRequestFromJSON,
     ProxyProviderRequestFromJSONTyped,
     ProxyProviderRequestToJSON,
-} from './ProxyProviderRequest';
-import type { RACProviderRequest } from './RACProviderRequest';
+} from './ProxyProviderRequest.js';
+import type { RACProviderRequest } from './RACProviderRequest.js';
 import {
     instanceOfRACProviderRequest,
     RACProviderRequestFromJSON,
     RACProviderRequestFromJSONTyped,
     RACProviderRequestToJSON,
-} from './RACProviderRequest';
-import type { RadiusProviderRequest } from './RadiusProviderRequest';
+} from './RACProviderRequest.js';
+import type { RadiusProviderRequest } from './RadiusProviderRequest.js';
 import {
     instanceOfRadiusProviderRequest,
     RadiusProviderRequestFromJSON,
     RadiusProviderRequestFromJSONTyped,
     RadiusProviderRequestToJSON,
-} from './RadiusProviderRequest';
-import type { SAMLProviderRequest } from './SAMLProviderRequest';
+} from './RadiusProviderRequest.js';
+import type { SAMLProviderRequest } from './SAMLProviderRequest.js';
 import {
     instanceOfSAMLProviderRequest,
     SAMLProviderRequestFromJSON,
     SAMLProviderRequestFromJSONTyped,
     SAMLProviderRequestToJSON,
-} from './SAMLProviderRequest';
-import type { SCIMProviderRequest } from './SCIMProviderRequest';
+} from './SAMLProviderRequest.js';
+import type { SCIMProviderRequest } from './SCIMProviderRequest.js';
 import {
     instanceOfSCIMProviderRequest,
     SCIMProviderRequestFromJSON,
     SCIMProviderRequestFromJSONTyped,
     SCIMProviderRequestToJSON,
-} from './SCIMProviderRequest';
-import type { SSFProviderRequest } from './SSFProviderRequest';
+} from './SCIMProviderRequest.js';
+import type { SSFProviderRequest } from './SSFProviderRequest.js';
 import {
     instanceOfSSFProviderRequest,
     SSFProviderRequestFromJSON,
     SSFProviderRequestFromJSONTyped,
     SSFProviderRequestToJSON,
-} from './SSFProviderRequest';
-import type { WSFederationProviderRequest } from './WSFederationProviderRequest';
+} from './SSFProviderRequest.js';
+import type { WSFederationProviderRequest } from './WSFederationProviderRequest.js';
 import {
     instanceOfWSFederationProviderRequest,
     WSFederationProviderRequestFromJSON,
     WSFederationProviderRequestFromJSONTyped,
     WSFederationProviderRequestToJSON,
-} from './WSFederationProviderRequest';
+} from './WSFederationProviderRequest.js';
 
 /**
  * @type ModelRequest

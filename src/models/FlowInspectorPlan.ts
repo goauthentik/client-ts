@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { FlowStageBinding } from './FlowStageBinding';
+import { mapValues } from '../runtime.js';
+import type { FlowStageBinding } from './FlowStageBinding.js';
 import {
     FlowStageBindingFromJSON,
     FlowStageBindingFromJSONTyped,
     FlowStageBindingToJSON,
     FlowStageBindingToJSONTyped,
-} from './FlowStageBinding';
+} from './FlowStageBinding.js';
 
 /**
  * Serializer for an active FlowPlan

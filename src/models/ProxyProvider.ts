@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { RedirectURI } from './RedirectURI';
+import { mapValues } from '../runtime.js';
+import type { RedirectURI } from './RedirectURI.js';
 import {
     RedirectURIFromJSON,
     RedirectURIFromJSONTyped,
     RedirectURIToJSON,
     RedirectURIToJSONTyped,
-} from './RedirectURI';
-import type { ProxyMode } from './ProxyMode';
+} from './RedirectURI.js';
+import type { ProxyMode } from './ProxyMode.js';
 import {
     ProxyModeFromJSON,
     ProxyModeFromJSONTyped,
     ProxyModeToJSON,
     ProxyModeToJSONTyped,
-} from './ProxyMode';
+} from './ProxyMode.js';
 
 /**
  * ProxyProvider Serializer

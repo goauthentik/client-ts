@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { InvalidResponseActionEnum } from './InvalidResponseActionEnum';
+import { mapValues } from '../runtime.js';
+import type { InvalidResponseActionEnum } from './InvalidResponseActionEnum.js';
 import {
     InvalidResponseActionEnumFromJSON,
     InvalidResponseActionEnumFromJSONTyped,
     InvalidResponseActionEnumToJSON,
     InvalidResponseActionEnumToJSONTyped,
-} from './InvalidResponseActionEnum';
-import type { PolicyEngineMode } from './PolicyEngineMode';
+} from './InvalidResponseActionEnum.js';
+import type { PolicyEngineMode } from './PolicyEngineMode.js';
 import {
     PolicyEngineModeFromJSON,
     PolicyEngineModeFromJSONTyped,
     PolicyEngineModeToJSON,
     PolicyEngineModeToJSONTyped,
-} from './PolicyEngineMode';
-import type { Stage } from './Stage';
+} from './PolicyEngineMode.js';
+import type { Stage } from './Stage.js';
 import {
     StageFromJSON,
     StageFromJSONTyped,
     StageToJSON,
     StageToJSONTyped,
-} from './Stage';
+} from './Stage.js';
 
 /**
  * FlowStageBinding Serializer

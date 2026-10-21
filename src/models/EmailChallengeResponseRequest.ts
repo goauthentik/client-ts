@@ -12,7 +12,7 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
+import { mapValues } from '../runtime.js';
 /**
  * Email challenge resposen. No fields. This challenge is
  * always declared invalid to give the user a chance to retry

@@ -12,35 +12,35 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { SamlVersionEnum } from './SamlVersionEnum';
+import { mapValues } from '../runtime.js';
+import type { SamlVersionEnum } from './SamlVersionEnum.js';
 import {
     SamlVersionEnumFromJSON,
     SamlVersionEnumFromJSONTyped,
     SamlVersionEnumToJSON,
     SamlVersionEnumToJSONTyped,
-} from './SamlVersionEnum';
-import type { DigestAlgorithmEnum } from './DigestAlgorithmEnum';
+} from './SamlVersionEnum.js';
+import type { DigestAlgorithmEnum } from './DigestAlgorithmEnum.js';
 import {
     DigestAlgorithmEnumFromJSON,
     DigestAlgorithmEnumFromJSONTyped,
     DigestAlgorithmEnumToJSON,
     DigestAlgorithmEnumToJSONTyped,
-} from './DigestAlgorithmEnum';
-import type { SignatureAlgorithmEnum } from './SignatureAlgorithmEnum';
+} from './DigestAlgorithmEnum.js';
+import type { SignatureAlgorithmEnum } from './SignatureAlgorithmEnum.js';
 import {
     SignatureAlgorithmEnumFromJSON,
     SignatureAlgorithmEnumFromJSONTyped,
     SignatureAlgorithmEnumToJSON,
     SignatureAlgorithmEnumToJSONTyped,
-} from './SignatureAlgorithmEnum';
-import type { SAMLNameIDPolicyEnum } from './SAMLNameIDPolicyEnum';
+} from './SignatureAlgorithmEnum.js';
+import type { SAMLNameIDPolicyEnum } from './SAMLNameIDPolicyEnum.js';
 import {
     SAMLNameIDPolicyEnumFromJSON,
     SAMLNameIDPolicyEnumFromJSONTyped,
     SAMLNameIDPolicyEnumToJSON,
     SAMLNameIDPolicyEnumToJSONTyped,
-} from './SAMLNameIDPolicyEnum';
+} from './SAMLNameIDPolicyEnum.js';
 
 /**
  * WSFederationProvider Serializer

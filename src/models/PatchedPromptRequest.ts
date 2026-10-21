@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PromptTypeEnum } from './PromptTypeEnum';
+import { mapValues } from '../runtime.js';
+import type { PromptTypeEnum } from './PromptTypeEnum.js';
 import {
     PromptTypeEnumFromJSON,
     PromptTypeEnumFromJSONTyped,
     PromptTypeEnumToJSON,
     PromptTypeEnumToJSONTyped,
-} from './PromptTypeEnum';
+} from './PromptTypeEnum.js';
 
 /**
  * Prompt Serializer

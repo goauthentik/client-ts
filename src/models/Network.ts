@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { NetworkInterface } from './NetworkInterface';
+import { mapValues } from '../runtime.js';
+import type { NetworkInterface } from './NetworkInterface.js';
 import {
     NetworkInterfaceFromJSON,
     NetworkInterfaceFromJSONTyped,
     NetworkInterfaceToJSON,
     NetworkInterfaceToJSONTyped,
-} from './NetworkInterface';
+} from './NetworkInterface.js';
 
 /**
  * 

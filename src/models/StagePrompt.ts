@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PromptTypeEnum } from './PromptTypeEnum';
+import { mapValues } from '../runtime.js';
+import type { PromptTypeEnum } from './PromptTypeEnum.js';
 import {
     PromptTypeEnumFromJSON,
     PromptTypeEnumFromJSONTyped,
     PromptTypeEnumToJSON,
     PromptTypeEnumToJSONTyped,
-} from './PromptTypeEnum';
-import type { PromptChoice } from './PromptChoice';
+} from './PromptTypeEnum.js';
+import type { PromptChoice } from './PromptChoice.js';
 import {
     PromptChoiceFromJSON,
     PromptChoiceFromJSONTyped,
     PromptChoiceToJSON,
     PromptChoiceToJSONTyped,
-} from './PromptChoice';
+} from './PromptChoice.js';
 
 /**
  * Serializer for a single Prompt field

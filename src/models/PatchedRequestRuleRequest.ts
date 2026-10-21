@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PolicyEngineMode } from './PolicyEngineMode';
+import { mapValues } from '../runtime.js';
+import type { PolicyEngineMode } from './PolicyEngineMode.js';
 import {
     PolicyEngineModeFromJSON,
     PolicyEngineModeFromJSONTyped,
     PolicyEngineModeToJSON,
     PolicyEngineModeToJSONTyped,
-} from './PolicyEngineMode';
-import type { NotificationModeEnum } from './NotificationModeEnum';
+} from './PolicyEngineMode.js';
+import type { NotificationModeEnum } from './NotificationModeEnum.js';
 import {
     NotificationModeEnumFromJSON,
     NotificationModeEnumFromJSONTyped,
     NotificationModeEnumToJSON,
     NotificationModeEnumToJSONTyped,
-} from './NotificationModeEnum';
+} from './NotificationModeEnum.js';
 
 /**
  * Mixin to validate that a valid enterprise license

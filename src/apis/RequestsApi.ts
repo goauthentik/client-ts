@@ -12,122 +12,122 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type AgentGrantRequestCreateRequest,
     AgentGrantRequestCreateRequestFromJSON,
     AgentGrantRequestCreateRequestToJSON,
-} from '../models/AgentGrantRequestCreateRequest';
+} from '../models/AgentGrantRequestCreateRequest.js';
 import {
     type AgentGrantRequestCreated,
     AgentGrantRequestCreatedFromJSON,
     AgentGrantRequestCreatedToJSON,
-} from '../models/AgentGrantRequestCreated';
+} from '../models/AgentGrantRequestCreated.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type GrantRequest,
     GrantRequestFromJSON,
     GrantRequestToJSON,
-} from '../models/GrantRequest';
+} from '../models/GrantRequest.js';
 import {
     type GrantRequestCreateRequest,
     GrantRequestCreateRequestFromJSON,
     GrantRequestCreateRequestToJSON,
-} from '../models/GrantRequestCreateRequest';
+} from '../models/GrantRequestCreateRequest.js';
 import {
     type Link,
     LinkFromJSON,
     LinkToJSON,
-} from '../models/Link';
+} from '../models/Link.js';
 import {
     type PaginatedGrantRequestList,
     PaginatedGrantRequestListFromJSON,
     PaginatedGrantRequestListToJSON,
-} from '../models/PaginatedGrantRequestList';
+} from '../models/PaginatedGrantRequestList.js';
 import {
     type PaginatedRequestRuleBindingList,
     PaginatedRequestRuleBindingListFromJSON,
     PaginatedRequestRuleBindingListToJSON,
-} from '../models/PaginatedRequestRuleBindingList';
+} from '../models/PaginatedRequestRuleBindingList.js';
 import {
     type PaginatedRequestRuleChildBindingList,
     PaginatedRequestRuleChildBindingListFromJSON,
     PaginatedRequestRuleChildBindingListToJSON,
-} from '../models/PaginatedRequestRuleChildBindingList';
+} from '../models/PaginatedRequestRuleChildBindingList.js';
 import {
     type PaginatedRequestRuleList,
     PaginatedRequestRuleListFromJSON,
     PaginatedRequestRuleListToJSON,
-} from '../models/PaginatedRequestRuleList';
+} from '../models/PaginatedRequestRuleList.js';
 import {
     type PatchedGrantRequestFulfillRequest,
     PatchedGrantRequestFulfillRequestFromJSON,
     PatchedGrantRequestFulfillRequestToJSON,
-} from '../models/PatchedGrantRequestFulfillRequest';
+} from '../models/PatchedGrantRequestFulfillRequest.js';
 import {
     type PatchedRequestRuleBindingRequest,
     PatchedRequestRuleBindingRequestFromJSON,
     PatchedRequestRuleBindingRequestToJSON,
-} from '../models/PatchedRequestRuleBindingRequest';
+} from '../models/PatchedRequestRuleBindingRequest.js';
 import {
     type PatchedRequestRuleChildBindingRequest,
     PatchedRequestRuleChildBindingRequestFromJSON,
     PatchedRequestRuleChildBindingRequestToJSON,
-} from '../models/PatchedRequestRuleChildBindingRequest';
+} from '../models/PatchedRequestRuleChildBindingRequest.js';
 import {
     type PatchedRequestRuleRequest,
     PatchedRequestRuleRequestFromJSON,
     PatchedRequestRuleRequestToJSON,
-} from '../models/PatchedRequestRuleRequest';
+} from '../models/PatchedRequestRuleRequest.js';
 import {
     type RequestRule,
     RequestRuleFromJSON,
     RequestRuleToJSON,
-} from '../models/RequestRule';
+} from '../models/RequestRule.js';
 import {
     type RequestRuleBinding,
     RequestRuleBindingFromJSON,
     RequestRuleBindingToJSON,
-} from '../models/RequestRuleBinding';
+} from '../models/RequestRuleBinding.js';
 import {
     type RequestRuleBindingRequest,
     RequestRuleBindingRequestFromJSON,
     RequestRuleBindingRequestToJSON,
-} from '../models/RequestRuleBindingRequest';
+} from '../models/RequestRuleBindingRequest.js';
 import {
     type RequestRuleChildBinding,
     RequestRuleChildBindingFromJSON,
     RequestRuleChildBindingToJSON,
-} from '../models/RequestRuleChildBinding';
+} from '../models/RequestRuleChildBinding.js';
 import {
     type RequestRuleChildBindingRequest,
     RequestRuleChildBindingRequestFromJSON,
     RequestRuleChildBindingRequestToJSON,
-} from '../models/RequestRuleChildBindingRequest';
+} from '../models/RequestRuleChildBindingRequest.js';
 import {
     type RequestRuleRequest,
     RequestRuleRequestFromJSON,
     RequestRuleRequestToJSON,
-} from '../models/RequestRuleRequest';
+} from '../models/RequestRuleRequest.js';
 import {
     type RequestStatus,
     RequestStatusFromJSON,
     RequestStatusToJSON,
-} from '../models/RequestStatus';
+} from '../models/RequestStatus.js';
 import {
     type UsedBy,
     UsedByFromJSON,
     UsedByToJSON,
-} from '../models/UsedBy';
+} from '../models/UsedBy.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface RequestsGrantRequestsAgentCreateRequest {
     agentGrantRequestCreateRequest: AgentGrantRequestCreateRequest;

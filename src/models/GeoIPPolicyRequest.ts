@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { CountryCodeEnum } from './CountryCodeEnum';
+import { mapValues } from '../runtime.js';
+import type { CountryCodeEnum } from './CountryCodeEnum.js';
 import {
     CountryCodeEnumFromJSON,
     CountryCodeEnumFromJSONTyped,
     CountryCodeEnumToJSON,
     CountryCodeEnumToJSONTyped,
-} from './CountryCodeEnum';
+} from './CountryCodeEnum.js';
 
 /**
  * GeoIP Policy Serializer

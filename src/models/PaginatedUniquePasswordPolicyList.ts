@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { UniquePasswordPolicy } from './UniquePasswordPolicy';
+} from './Pagination.js';
+import type { UniquePasswordPolicy } from './UniquePasswordPolicy.js';
 import {
     UniquePasswordPolicyFromJSON,
     UniquePasswordPolicyFromJSONTyped,
     UniquePasswordPolicyToJSON,
     UniquePasswordPolicyToJSONTyped,
-} from './UniquePasswordPolicy';
+} from './UniquePasswordPolicy.js';
 
 /**
  * 

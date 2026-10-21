@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Source } from './Source';
+import { mapValues } from '../runtime.js';
+import type { Source } from './Source.js';
 import {
     SourceFromJSON,
     SourceFromJSONTyped,
     SourceToJSON,
     SourceToJSONTyped,
-} from './Source';
+} from './Source.js';
 
 /**
  * User source connection

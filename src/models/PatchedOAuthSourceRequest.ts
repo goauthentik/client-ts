@@ -12,49 +12,49 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PolicyEngineMode } from './PolicyEngineMode';
+import { mapValues } from '../runtime.js';
+import type { PolicyEngineMode } from './PolicyEngineMode.js';
 import {
     PolicyEngineModeFromJSON,
     PolicyEngineModeFromJSONTyped,
     PolicyEngineModeToJSON,
     PolicyEngineModeToJSONTyped,
-} from './PolicyEngineMode';
-import type { UserMatchingModeEnum } from './UserMatchingModeEnum';
+} from './PolicyEngineMode.js';
+import type { UserMatchingModeEnum } from './UserMatchingModeEnum.js';
 import {
     UserMatchingModeEnumFromJSON,
     UserMatchingModeEnumFromJSONTyped,
     UserMatchingModeEnumToJSON,
     UserMatchingModeEnumToJSONTyped,
-} from './UserMatchingModeEnum';
-import type { PKCEMethodEnum } from './PKCEMethodEnum';
+} from './UserMatchingModeEnum.js';
+import type { PKCEMethodEnum } from './PKCEMethodEnum.js';
 import {
     PKCEMethodEnumFromJSON,
     PKCEMethodEnumFromJSONTyped,
     PKCEMethodEnumToJSON,
     PKCEMethodEnumToJSONTyped,
-} from './PKCEMethodEnum';
-import type { GroupMatchingModeEnum } from './GroupMatchingModeEnum';
+} from './PKCEMethodEnum.js';
+import type { GroupMatchingModeEnum } from './GroupMatchingModeEnum.js';
 import {
     GroupMatchingModeEnumFromJSON,
     GroupMatchingModeEnumFromJSONTyped,
     GroupMatchingModeEnumToJSON,
     GroupMatchingModeEnumToJSONTyped,
-} from './GroupMatchingModeEnum';
-import type { AuthorizationCodeAuthMethodEnum } from './AuthorizationCodeAuthMethodEnum';
+} from './GroupMatchingModeEnum.js';
+import type { AuthorizationCodeAuthMethodEnum } from './AuthorizationCodeAuthMethodEnum.js';
 import {
     AuthorizationCodeAuthMethodEnumFromJSON,
     AuthorizationCodeAuthMethodEnumFromJSONTyped,
     AuthorizationCodeAuthMethodEnumToJSON,
     AuthorizationCodeAuthMethodEnumToJSONTyped,
-} from './AuthorizationCodeAuthMethodEnum';
-import type { ProviderTypeEnum } from './ProviderTypeEnum';
+} from './AuthorizationCodeAuthMethodEnum.js';
+import type { ProviderTypeEnum } from './ProviderTypeEnum.js';
 import {
     ProviderTypeEnumFromJSON,
     ProviderTypeEnumFromJSONTyped,
     ProviderTypeEnumToJSON,
     ProviderTypeEnumToJSONTyped,
-} from './ProviderTypeEnum';
+} from './ProviderTypeEnum.js';
 
 /**
  * OAuth Source Serializer

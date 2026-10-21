@@ -12,35 +12,35 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PolicyEngineMode } from './PolicyEngineMode';
+import { mapValues } from '../runtime.js';
+import type { PolicyEngineMode } from './PolicyEngineMode.js';
 import {
     PolicyEngineModeFromJSON,
     PolicyEngineModeFromJSONTyped,
     PolicyEngineModeToJSON,
     PolicyEngineModeToJSONTyped,
-} from './PolicyEngineMode';
-import type { UserMatchingModeEnum } from './UserMatchingModeEnum';
+} from './PolicyEngineMode.js';
+import type { UserMatchingModeEnum } from './UserMatchingModeEnum.js';
 import {
     UserMatchingModeEnumFromJSON,
     UserMatchingModeEnumFromJSONTyped,
     UserMatchingModeEnumToJSON,
     UserMatchingModeEnumToJSONTyped,
-} from './UserMatchingModeEnum';
-import type { ThemedUrls } from './ThemedUrls';
+} from './UserMatchingModeEnum.js';
+import type { ThemedUrls } from './ThemedUrls.js';
 import {
     ThemedUrlsFromJSON,
     ThemedUrlsFromJSONTyped,
     ThemedUrlsToJSON,
     ThemedUrlsToJSONTyped,
-} from './ThemedUrls';
-import type { SyncOutgoingTriggerModeEnum } from './SyncOutgoingTriggerModeEnum';
+} from './ThemedUrls.js';
+import type { SyncOutgoingTriggerModeEnum } from './SyncOutgoingTriggerModeEnum.js';
 import {
     SyncOutgoingTriggerModeEnumFromJSON,
     SyncOutgoingTriggerModeEnumFromJSONTyped,
     SyncOutgoingTriggerModeEnumToJSON,
     SyncOutgoingTriggerModeEnumToJSONTyped,
-} from './SyncOutgoingTriggerModeEnum';
+} from './SyncOutgoingTriggerModeEnum.js';
 
 /**
  * LDAP Source Serializer

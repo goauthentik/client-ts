@@ -12,49 +12,49 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { WebAuthnHintEnum } from './WebAuthnHintEnum';
+import { mapValues } from '../runtime.js';
+import type { WebAuthnHintEnum } from './WebAuthnHintEnum.js';
 import {
     WebAuthnHintEnumFromJSON,
     WebAuthnHintEnumFromJSONTyped,
     WebAuthnHintEnumToJSON,
     WebAuthnHintEnumToJSONTyped,
-} from './WebAuthnHintEnum';
-import type { WebAuthnDeviceType } from './WebAuthnDeviceType';
+} from './WebAuthnHintEnum.js';
+import type { WebAuthnDeviceType } from './WebAuthnDeviceType.js';
 import {
     WebAuthnDeviceTypeFromJSON,
     WebAuthnDeviceTypeFromJSONTyped,
     WebAuthnDeviceTypeToJSON,
     WebAuthnDeviceTypeToJSONTyped,
-} from './WebAuthnDeviceType';
-import type { UserVerificationEnum } from './UserVerificationEnum';
+} from './WebAuthnDeviceType.js';
+import type { UserVerificationEnum } from './UserVerificationEnum.js';
 import {
     UserVerificationEnumFromJSON,
     UserVerificationEnumFromJSONTyped,
     UserVerificationEnumToJSON,
     UserVerificationEnumToJSONTyped,
-} from './UserVerificationEnum';
-import type { NotConfiguredActionEnum } from './NotConfiguredActionEnum';
+} from './UserVerificationEnum.js';
+import type { NotConfiguredActionEnum } from './NotConfiguredActionEnum.js';
 import {
     NotConfiguredActionEnumFromJSON,
     NotConfiguredActionEnumFromJSONTyped,
     NotConfiguredActionEnumToJSON,
     NotConfiguredActionEnumToJSONTyped,
-} from './NotConfiguredActionEnum';
-import type { FlowSet } from './FlowSet';
+} from './NotConfiguredActionEnum.js';
+import type { FlowSet } from './FlowSet.js';
 import {
     FlowSetFromJSON,
     FlowSetFromJSONTyped,
     FlowSetToJSON,
     FlowSetToJSONTyped,
-} from './FlowSet';
-import type { DeviceClassesEnum } from './DeviceClassesEnum';
+} from './FlowSet.js';
+import type { DeviceClassesEnum } from './DeviceClassesEnum.js';
 import {
     DeviceClassesEnumFromJSON,
     DeviceClassesEnumFromJSONTyped,
     DeviceClassesEnumToJSON,
     DeviceClassesEnumToJSONTyped,
-} from './DeviceClassesEnum';
+} from './DeviceClassesEnum.js';
 
 /**
  * AuthenticatorValidateStage Serializer

@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { UserSwitchActionEnum } from './UserSwitchActionEnum';
+import { mapValues } from '../runtime.js';
+import type { UserSwitchActionEnum } from './UserSwitchActionEnum.js';
 import {
     UserSwitchActionEnumFromJSON,
     UserSwitchActionEnumFromJSONTyped,
     UserSwitchActionEnumToJSON,
     UserSwitchActionEnumToJSONTyped,
-} from './UserSwitchActionEnum';
+} from './UserSwitchActionEnum.js';
 
 /**
  * Request to add or switch users in the current browser.

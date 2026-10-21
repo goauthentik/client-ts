@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ConsentModeEnum } from './ConsentModeEnum';
+import { mapValues } from '../runtime.js';
+import type { ConsentModeEnum } from './ConsentModeEnum.js';
 import {
     ConsentModeEnumFromJSON,
     ConsentModeEnumFromJSONTyped,
     ConsentModeEnumToJSON,
     ConsentModeEnumToJSONTyped,
-} from './ConsentModeEnum';
+} from './ConsentModeEnum.js';
 
 /**
  * ConsentStage Serializer

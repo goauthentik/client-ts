@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ServiceConnection } from './ServiceConnection';
+import { mapValues } from '../runtime.js';
+import type { ServiceConnection } from './ServiceConnection.js';
 import {
     ServiceConnectionFromJSON,
     ServiceConnectionFromJSONTyped,
     ServiceConnectionToJSON,
     ServiceConnectionToJSONTyped,
-} from './ServiceConnection';
-import type { OutpostTypeEnum } from './OutpostTypeEnum';
+} from './ServiceConnection.js';
+import type { OutpostTypeEnum } from './OutpostTypeEnum.js';
 import {
     OutpostTypeEnumFromJSON,
     OutpostTypeEnumFromJSONTyped,
     OutpostTypeEnumToJSON,
     OutpostTypeEnumToJSONTyped,
-} from './OutpostTypeEnum';
-import type { Provider } from './Provider';
+} from './OutpostTypeEnum.js';
+import type { Provider } from './Provider.js';
 import {
     ProviderFromJSON,
     ProviderFromJSONTyped,
     ProviderToJSON,
     ProviderToJSONTyped,
-} from './Provider';
+} from './Provider.js';
 
 /**
  * Outpost Serializer

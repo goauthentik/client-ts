@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { GroupTelegramSourceConnection } from './GroupTelegramSourceConnection';
+} from './Pagination.js';
+import type { GroupTelegramSourceConnection } from './GroupTelegramSourceConnection.js';
 import {
     GroupTelegramSourceConnectionFromJSON,
     GroupTelegramSourceConnectionFromJSONTyped,
     GroupTelegramSourceConnectionToJSON,
     GroupTelegramSourceConnectionToJSONTyped,
-} from './GroupTelegramSourceConnection';
+} from './GroupTelegramSourceConnection.js';
 
 /**
  * 

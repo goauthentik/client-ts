@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { FleetConnector } from './FleetConnector';
+import { mapValues } from '../runtime.js';
+import type { FleetConnector } from './FleetConnector.js';
 import {
     FleetConnectorFromJSON,
     FleetConnectorFromJSONTyped,
     FleetConnectorToJSON,
     FleetConnectorToJSONTyped,
-} from './FleetConnector';
-import type { Pagination } from './Pagination';
+} from './FleetConnector.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

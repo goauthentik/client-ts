@@ -12,447 +12,447 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type ClientTypeEnum,
     ClientTypeEnumFromJSON,
     ClientTypeEnumToJSON,
-} from '../models/ClientTypeEnum';
+} from '../models/ClientTypeEnum.js';
 import {
     type DigestAlgorithmEnum,
     DigestAlgorithmEnumFromJSON,
     DigestAlgorithmEnumToJSON,
-} from '../models/DigestAlgorithmEnum';
+} from '../models/DigestAlgorithmEnum.js';
 import {
     type ForceBindingEnum,
     ForceBindingEnumFromJSON,
     ForceBindingEnumToJSON,
-} from '../models/ForceBindingEnum';
+} from '../models/ForceBindingEnum.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type GoogleWorkspaceProvider,
     GoogleWorkspaceProviderFromJSON,
     GoogleWorkspaceProviderToJSON,
-} from '../models/GoogleWorkspaceProvider';
+} from '../models/GoogleWorkspaceProvider.js';
 import {
     type GoogleWorkspaceProviderGroup,
     GoogleWorkspaceProviderGroupFromJSON,
     GoogleWorkspaceProviderGroupToJSON,
-} from '../models/GoogleWorkspaceProviderGroup';
+} from '../models/GoogleWorkspaceProviderGroup.js';
 import {
     type GoogleWorkspaceProviderGroupRequest,
     GoogleWorkspaceProviderGroupRequestFromJSON,
     GoogleWorkspaceProviderGroupRequestToJSON,
-} from '../models/GoogleWorkspaceProviderGroupRequest';
+} from '../models/GoogleWorkspaceProviderGroupRequest.js';
 import {
     type GoogleWorkspaceProviderRequest,
     GoogleWorkspaceProviderRequestFromJSON,
     GoogleWorkspaceProviderRequestToJSON,
-} from '../models/GoogleWorkspaceProviderRequest';
+} from '../models/GoogleWorkspaceProviderRequest.js';
 import {
     type GoogleWorkspaceProviderUser,
     GoogleWorkspaceProviderUserFromJSON,
     GoogleWorkspaceProviderUserToJSON,
-} from '../models/GoogleWorkspaceProviderUser';
+} from '../models/GoogleWorkspaceProviderUser.js';
 import {
     type GoogleWorkspaceProviderUserRequest,
     GoogleWorkspaceProviderUserRequestFromJSON,
     GoogleWorkspaceProviderUserRequestToJSON,
-} from '../models/GoogleWorkspaceProviderUserRequest';
+} from '../models/GoogleWorkspaceProviderUserRequest.js';
 import {
     type IssuerModeEnum,
     IssuerModeEnumFromJSON,
     IssuerModeEnumToJSON,
-} from '../models/IssuerModeEnum';
+} from '../models/IssuerModeEnum.js';
 import {
     type LDAPProvider,
     LDAPProviderFromJSON,
     LDAPProviderToJSON,
-} from '../models/LDAPProvider';
+} from '../models/LDAPProvider.js';
 import {
     type LDAPProviderRequest,
     LDAPProviderRequestFromJSON,
     LDAPProviderRequestToJSON,
-} from '../models/LDAPProviderRequest';
+} from '../models/LDAPProviderRequest.js';
 import {
     type MicrosoftEntraProvider,
     MicrosoftEntraProviderFromJSON,
     MicrosoftEntraProviderToJSON,
-} from '../models/MicrosoftEntraProvider';
+} from '../models/MicrosoftEntraProvider.js';
 import {
     type MicrosoftEntraProviderGroup,
     MicrosoftEntraProviderGroupFromJSON,
     MicrosoftEntraProviderGroupToJSON,
-} from '../models/MicrosoftEntraProviderGroup';
+} from '../models/MicrosoftEntraProviderGroup.js';
 import {
     type MicrosoftEntraProviderGroupRequest,
     MicrosoftEntraProviderGroupRequestFromJSON,
     MicrosoftEntraProviderGroupRequestToJSON,
-} from '../models/MicrosoftEntraProviderGroupRequest';
+} from '../models/MicrosoftEntraProviderGroupRequest.js';
 import {
     type MicrosoftEntraProviderRequest,
     MicrosoftEntraProviderRequestFromJSON,
     MicrosoftEntraProviderRequestToJSON,
-} from '../models/MicrosoftEntraProviderRequest';
+} from '../models/MicrosoftEntraProviderRequest.js';
 import {
     type MicrosoftEntraProviderUser,
     MicrosoftEntraProviderUserFromJSON,
     MicrosoftEntraProviderUserToJSON,
-} from '../models/MicrosoftEntraProviderUser';
+} from '../models/MicrosoftEntraProviderUser.js';
 import {
     type MicrosoftEntraProviderUserRequest,
     MicrosoftEntraProviderUserRequestFromJSON,
     MicrosoftEntraProviderUserRequestToJSON,
-} from '../models/MicrosoftEntraProviderUserRequest';
+} from '../models/MicrosoftEntraProviderUserRequest.js';
 import {
     type OAuth2DynamicClientRegistration,
     OAuth2DynamicClientRegistrationFromJSON,
     OAuth2DynamicClientRegistrationToJSON,
-} from '../models/OAuth2DynamicClientRegistration';
+} from '../models/OAuth2DynamicClientRegistration.js';
 import {
     type OAuth2DynamicClientRegistrationRequest,
     OAuth2DynamicClientRegistrationRequestFromJSON,
     OAuth2DynamicClientRegistrationRequestToJSON,
-} from '../models/OAuth2DynamicClientRegistrationRequest';
+} from '../models/OAuth2DynamicClientRegistrationRequest.js';
 import {
     type OAuth2Provider,
     OAuth2ProviderFromJSON,
     OAuth2ProviderToJSON,
-} from '../models/OAuth2Provider';
+} from '../models/OAuth2Provider.js';
 import {
     type OAuth2ProviderRequest,
     OAuth2ProviderRequestFromJSON,
     OAuth2ProviderRequestToJSON,
-} from '../models/OAuth2ProviderRequest';
+} from '../models/OAuth2ProviderRequest.js';
 import {
     type OAuth2ProviderSetupURLs,
     OAuth2ProviderSetupURLsFromJSON,
     OAuth2ProviderSetupURLsToJSON,
-} from '../models/OAuth2ProviderSetupURLs';
+} from '../models/OAuth2ProviderSetupURLs.js';
 import {
     type PaginatedGoogleWorkspaceProviderGroupList,
     PaginatedGoogleWorkspaceProviderGroupListFromJSON,
     PaginatedGoogleWorkspaceProviderGroupListToJSON,
-} from '../models/PaginatedGoogleWorkspaceProviderGroupList';
+} from '../models/PaginatedGoogleWorkspaceProviderGroupList.js';
 import {
     type PaginatedGoogleWorkspaceProviderList,
     PaginatedGoogleWorkspaceProviderListFromJSON,
     PaginatedGoogleWorkspaceProviderListToJSON,
-} from '../models/PaginatedGoogleWorkspaceProviderList';
+} from '../models/PaginatedGoogleWorkspaceProviderList.js';
 import {
     type PaginatedGoogleWorkspaceProviderUserList,
     PaginatedGoogleWorkspaceProviderUserListFromJSON,
     PaginatedGoogleWorkspaceProviderUserListToJSON,
-} from '../models/PaginatedGoogleWorkspaceProviderUserList';
+} from '../models/PaginatedGoogleWorkspaceProviderUserList.js';
 import {
     type PaginatedLDAPProviderList,
     PaginatedLDAPProviderListFromJSON,
     PaginatedLDAPProviderListToJSON,
-} from '../models/PaginatedLDAPProviderList';
+} from '../models/PaginatedLDAPProviderList.js';
 import {
     type PaginatedMicrosoftEntraProviderGroupList,
     PaginatedMicrosoftEntraProviderGroupListFromJSON,
     PaginatedMicrosoftEntraProviderGroupListToJSON,
-} from '../models/PaginatedMicrosoftEntraProviderGroupList';
+} from '../models/PaginatedMicrosoftEntraProviderGroupList.js';
 import {
     type PaginatedMicrosoftEntraProviderList,
     PaginatedMicrosoftEntraProviderListFromJSON,
     PaginatedMicrosoftEntraProviderListToJSON,
-} from '../models/PaginatedMicrosoftEntraProviderList';
+} from '../models/PaginatedMicrosoftEntraProviderList.js';
 import {
     type PaginatedMicrosoftEntraProviderUserList,
     PaginatedMicrosoftEntraProviderUserListFromJSON,
     PaginatedMicrosoftEntraProviderUserListToJSON,
-} from '../models/PaginatedMicrosoftEntraProviderUserList';
+} from '../models/PaginatedMicrosoftEntraProviderUserList.js';
 import {
     type PaginatedOAuth2DynamicClientRegistrationList,
     PaginatedOAuth2DynamicClientRegistrationListFromJSON,
     PaginatedOAuth2DynamicClientRegistrationListToJSON,
-} from '../models/PaginatedOAuth2DynamicClientRegistrationList';
+} from '../models/PaginatedOAuth2DynamicClientRegistrationList.js';
 import {
     type PaginatedOAuth2ProviderList,
     PaginatedOAuth2ProviderListFromJSON,
     PaginatedOAuth2ProviderListToJSON,
-} from '../models/PaginatedOAuth2ProviderList';
+} from '../models/PaginatedOAuth2ProviderList.js';
 import {
     type PaginatedProviderList,
     PaginatedProviderListFromJSON,
     PaginatedProviderListToJSON,
-} from '../models/PaginatedProviderList';
+} from '../models/PaginatedProviderList.js';
 import {
     type PaginatedProxyProviderList,
     PaginatedProxyProviderListFromJSON,
     PaginatedProxyProviderListToJSON,
-} from '../models/PaginatedProxyProviderList';
+} from '../models/PaginatedProxyProviderList.js';
 import {
     type PaginatedRACProviderList,
     PaginatedRACProviderListFromJSON,
     PaginatedRACProviderListToJSON,
-} from '../models/PaginatedRACProviderList';
+} from '../models/PaginatedRACProviderList.js';
 import {
     type PaginatedRadiusProviderList,
     PaginatedRadiusProviderListFromJSON,
     PaginatedRadiusProviderListToJSON,
-} from '../models/PaginatedRadiusProviderList';
+} from '../models/PaginatedRadiusProviderList.js';
 import {
     type PaginatedSAMLProviderList,
     PaginatedSAMLProviderListFromJSON,
     PaginatedSAMLProviderListToJSON,
-} from '../models/PaginatedSAMLProviderList';
+} from '../models/PaginatedSAMLProviderList.js';
 import {
     type PaginatedSCIMProviderGroupList,
     PaginatedSCIMProviderGroupListFromJSON,
     PaginatedSCIMProviderGroupListToJSON,
-} from '../models/PaginatedSCIMProviderGroupList';
+} from '../models/PaginatedSCIMProviderGroupList.js';
 import {
     type PaginatedSCIMProviderList,
     PaginatedSCIMProviderListFromJSON,
     PaginatedSCIMProviderListToJSON,
-} from '../models/PaginatedSCIMProviderList';
+} from '../models/PaginatedSCIMProviderList.js';
 import {
     type PaginatedSCIMProviderUserList,
     PaginatedSCIMProviderUserListFromJSON,
     PaginatedSCIMProviderUserListToJSON,
-} from '../models/PaginatedSCIMProviderUserList';
+} from '../models/PaginatedSCIMProviderUserList.js';
 import {
     type PaginatedSSFProviderList,
     PaginatedSSFProviderListFromJSON,
     PaginatedSSFProviderListToJSON,
-} from '../models/PaginatedSSFProviderList';
+} from '../models/PaginatedSSFProviderList.js';
 import {
     type PaginatedWSFederationProviderList,
     PaginatedWSFederationProviderListFromJSON,
     PaginatedWSFederationProviderListToJSON,
-} from '../models/PaginatedWSFederationProviderList';
+} from '../models/PaginatedWSFederationProviderList.js';
 import {
     type PatchedGoogleWorkspaceProviderRequest,
     PatchedGoogleWorkspaceProviderRequestFromJSON,
     PatchedGoogleWorkspaceProviderRequestToJSON,
-} from '../models/PatchedGoogleWorkspaceProviderRequest';
+} from '../models/PatchedGoogleWorkspaceProviderRequest.js';
 import {
     type PatchedLDAPProviderRequest,
     PatchedLDAPProviderRequestFromJSON,
     PatchedLDAPProviderRequestToJSON,
-} from '../models/PatchedLDAPProviderRequest';
+} from '../models/PatchedLDAPProviderRequest.js';
 import {
     type PatchedMicrosoftEntraProviderRequest,
     PatchedMicrosoftEntraProviderRequestFromJSON,
     PatchedMicrosoftEntraProviderRequestToJSON,
-} from '../models/PatchedMicrosoftEntraProviderRequest';
+} from '../models/PatchedMicrosoftEntraProviderRequest.js';
 import {
     type PatchedOAuth2DynamicClientRegistrationRequest,
     PatchedOAuth2DynamicClientRegistrationRequestFromJSON,
     PatchedOAuth2DynamicClientRegistrationRequestToJSON,
-} from '../models/PatchedOAuth2DynamicClientRegistrationRequest';
+} from '../models/PatchedOAuth2DynamicClientRegistrationRequest.js';
 import {
     type PatchedOAuth2ProviderRequest,
     PatchedOAuth2ProviderRequestFromJSON,
     PatchedOAuth2ProviderRequestToJSON,
-} from '../models/PatchedOAuth2ProviderRequest';
+} from '../models/PatchedOAuth2ProviderRequest.js';
 import {
     type PatchedProxyProviderRequest,
     PatchedProxyProviderRequestFromJSON,
     PatchedProxyProviderRequestToJSON,
-} from '../models/PatchedProxyProviderRequest';
+} from '../models/PatchedProxyProviderRequest.js';
 import {
     type PatchedRACProviderRequest,
     PatchedRACProviderRequestFromJSON,
     PatchedRACProviderRequestToJSON,
-} from '../models/PatchedRACProviderRequest';
+} from '../models/PatchedRACProviderRequest.js';
 import {
     type PatchedRadiusProviderRequest,
     PatchedRadiusProviderRequestFromJSON,
     PatchedRadiusProviderRequestToJSON,
-} from '../models/PatchedRadiusProviderRequest';
+} from '../models/PatchedRadiusProviderRequest.js';
 import {
     type PatchedSAMLProviderRequest,
     PatchedSAMLProviderRequestFromJSON,
     PatchedSAMLProviderRequestToJSON,
-} from '../models/PatchedSAMLProviderRequest';
+} from '../models/PatchedSAMLProviderRequest.js';
 import {
     type PatchedSCIMProviderRequest,
     PatchedSCIMProviderRequestFromJSON,
     PatchedSCIMProviderRequestToJSON,
-} from '../models/PatchedSCIMProviderRequest';
+} from '../models/PatchedSCIMProviderRequest.js';
 import {
     type PatchedSSFProviderRequest,
     PatchedSSFProviderRequestFromJSON,
     PatchedSSFProviderRequestToJSON,
-} from '../models/PatchedSSFProviderRequest';
+} from '../models/PatchedSSFProviderRequest.js';
 import {
     type PatchedWSFederationProviderRequest,
     PatchedWSFederationProviderRequestFromJSON,
     PatchedWSFederationProviderRequestToJSON,
-} from '../models/PatchedWSFederationProviderRequest';
+} from '../models/PatchedWSFederationProviderRequest.js';
 import {
     type PropertyMappingPreview,
     PropertyMappingPreviewFromJSON,
     PropertyMappingPreviewToJSON,
-} from '../models/PropertyMappingPreview';
+} from '../models/PropertyMappingPreview.js';
 import {
     type Provider,
     ProviderFromJSON,
     ProviderToJSON,
-} from '../models/Provider';
+} from '../models/Provider.js';
 import {
     type ProxyProvider,
     ProxyProviderFromJSON,
     ProxyProviderToJSON,
-} from '../models/ProxyProvider';
+} from '../models/ProxyProvider.js';
 import {
     type ProxyProviderRequest,
     ProxyProviderRequestFromJSON,
     ProxyProviderRequestToJSON,
-} from '../models/ProxyProviderRequest';
+} from '../models/ProxyProviderRequest.js';
 import {
     type RACProvider,
     RACProviderFromJSON,
     RACProviderToJSON,
-} from '../models/RACProvider';
+} from '../models/RACProvider.js';
 import {
     type RACProviderRequest,
     RACProviderRequestFromJSON,
     RACProviderRequestToJSON,
-} from '../models/RACProviderRequest';
+} from '../models/RACProviderRequest.js';
 import {
     type RadiusProvider,
     RadiusProviderFromJSON,
     RadiusProviderToJSON,
-} from '../models/RadiusProvider';
+} from '../models/RadiusProvider.js';
 import {
     type RadiusProviderRequest,
     RadiusProviderRequestFromJSON,
     RadiusProviderRequestToJSON,
-} from '../models/RadiusProviderRequest';
+} from '../models/RadiusProviderRequest.js';
 import {
     type SAMLBindingsEnum,
     SAMLBindingsEnumFromJSON,
     SAMLBindingsEnumToJSON,
-} from '../models/SAMLBindingsEnum';
+} from '../models/SAMLBindingsEnum.js';
 import {
     type SAMLLogoutMethods,
     SAMLLogoutMethodsFromJSON,
     SAMLLogoutMethodsToJSON,
-} from '../models/SAMLLogoutMethods';
+} from '../models/SAMLLogoutMethods.js';
 import {
     type SAMLMetadata,
     SAMLMetadataFromJSON,
     SAMLMetadataToJSON,
-} from '../models/SAMLMetadata';
+} from '../models/SAMLMetadata.js';
 import {
     type SAMLNameIDPolicyEnum,
     SAMLNameIDPolicyEnumFromJSON,
     SAMLNameIDPolicyEnumToJSON,
-} from '../models/SAMLNameIDPolicyEnum';
+} from '../models/SAMLNameIDPolicyEnum.js';
 import {
     type SAMLProvider,
     SAMLProviderFromJSON,
     SAMLProviderToJSON,
-} from '../models/SAMLProvider';
+} from '../models/SAMLProvider.js';
 import {
     type SAMLProviderRequest,
     SAMLProviderRequestFromJSON,
     SAMLProviderRequestToJSON,
-} from '../models/SAMLProviderRequest';
+} from '../models/SAMLProviderRequest.js';
 import {
     type SCIMProvider,
     SCIMProviderFromJSON,
     SCIMProviderToJSON,
-} from '../models/SCIMProvider';
+} from '../models/SCIMProvider.js';
 import {
     type SCIMProviderGroup,
     SCIMProviderGroupFromJSON,
     SCIMProviderGroupToJSON,
-} from '../models/SCIMProviderGroup';
+} from '../models/SCIMProviderGroup.js';
 import {
     type SCIMProviderGroupRequest,
     SCIMProviderGroupRequestFromJSON,
     SCIMProviderGroupRequestToJSON,
-} from '../models/SCIMProviderGroupRequest';
+} from '../models/SCIMProviderGroupRequest.js';
 import {
     type SCIMProviderRequest,
     SCIMProviderRequestFromJSON,
     SCIMProviderRequestToJSON,
-} from '../models/SCIMProviderRequest';
+} from '../models/SCIMProviderRequest.js';
 import {
     type SCIMProviderUser,
     SCIMProviderUserFromJSON,
     SCIMProviderUserToJSON,
-} from '../models/SCIMProviderUser';
+} from '../models/SCIMProviderUser.js';
 import {
     type SCIMProviderUserRequest,
     SCIMProviderUserRequestFromJSON,
     SCIMProviderUserRequestToJSON,
-} from '../models/SCIMProviderUserRequest';
+} from '../models/SCIMProviderUserRequest.js';
 import {
     type SSFProvider,
     SSFProviderFromJSON,
     SSFProviderToJSON,
-} from '../models/SSFProvider';
+} from '../models/SSFProvider.js';
 import {
     type SSFProviderRequest,
     SSFProviderRequestFromJSON,
     SSFProviderRequestToJSON,
-} from '../models/SSFProviderRequest';
+} from '../models/SSFProviderRequest.js';
 import {
     type SamlVersionEnum,
     SamlVersionEnumFromJSON,
     SamlVersionEnumToJSON,
-} from '../models/SamlVersionEnum';
+} from '../models/SamlVersionEnum.js';
 import {
     type SignatureAlgorithmEnum,
     SignatureAlgorithmEnumFromJSON,
     SignatureAlgorithmEnumToJSON,
-} from '../models/SignatureAlgorithmEnum';
+} from '../models/SignatureAlgorithmEnum.js';
 import {
     type SubModeEnum,
     SubModeEnumFromJSON,
     SubModeEnumToJSON,
-} from '../models/SubModeEnum';
+} from '../models/SubModeEnum.js';
 import {
     type SyncObjectRequest,
     SyncObjectRequestFromJSON,
     SyncObjectRequestToJSON,
-} from '../models/SyncObjectRequest';
+} from '../models/SyncObjectRequest.js';
 import {
     type SyncObjectResult,
     SyncObjectResultFromJSON,
     SyncObjectResultToJSON,
-} from '../models/SyncObjectResult';
+} from '../models/SyncObjectResult.js';
 import {
     type SyncStatus,
     SyncStatusFromJSON,
     SyncStatusToJSON,
-} from '../models/SyncStatus';
+} from '../models/SyncStatus.js';
 import {
     type TypeCreate,
     TypeCreateFromJSON,
     TypeCreateToJSON,
-} from '../models/TypeCreate';
+} from '../models/TypeCreate.js';
 import {
     type UsedBy,
     UsedByFromJSON,
     UsedByToJSON,
-} from '../models/UsedBy';
+} from '../models/UsedBy.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 import {
     type WSFederationProvider,
     WSFederationProviderFromJSON,
     WSFederationProviderToJSON,
-} from '../models/WSFederationProvider';
+} from '../models/WSFederationProvider.js';
 import {
     type WSFederationProviderRequest,
     WSFederationProviderRequestFromJSON,
     WSFederationProviderRequestToJSON,
-} from '../models/WSFederationProviderRequest';
+} from '../models/WSFederationProviderRequest.js';
 
 export interface ProvidersAllDestroyRequest {
     id: number;

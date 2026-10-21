@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { RequestStatus } from './RequestStatus';
+import { mapValues } from '../runtime.js';
+import type { RequestStatus } from './RequestStatus.js';
 import {
     RequestStatusFromJSON,
     RequestStatusFromJSONTyped,
     RequestStatusToJSON,
     RequestStatusToJSONTyped,
-} from './RequestStatus';
+} from './RequestStatus.js';
 
 /**
  * Base serializer class which doesn't implement create/update methods

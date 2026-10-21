@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { ProxyOutpostConfig } from './ProxyOutpostConfig';
+} from './Pagination.js';
+import type { ProxyOutpostConfig } from './ProxyOutpostConfig.js';
 import {
     ProxyOutpostConfigFromJSON,
     ProxyOutpostConfigFromJSONTyped,
     ProxyOutpostConfigToJSON,
     ProxyOutpostConfigToJSONTyped,
-} from './ProxyOutpostConfig';
+} from './ProxyOutpostConfig.js';
 
 /**
  * 

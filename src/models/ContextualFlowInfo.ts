@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ThemedUrls } from './ThemedUrls';
+import { mapValues } from '../runtime.js';
+import type { ThemedUrls } from './ThemedUrls.js';
 import {
     ThemedUrlsFromJSON,
     ThemedUrlsFromJSONTyped,
     ThemedUrlsToJSON,
     ThemedUrlsToJSONTyped,
-} from './ThemedUrls';
-import type { ContextualFlowInfoLayoutEnum } from './ContextualFlowInfoLayoutEnum';
+} from './ThemedUrls.js';
+import type { ContextualFlowInfoLayoutEnum } from './ContextualFlowInfoLayoutEnum.js';
 import {
     ContextualFlowInfoLayoutEnumFromJSON,
     ContextualFlowInfoLayoutEnumFromJSONTyped,
     ContextualFlowInfoLayoutEnumToJSON,
     ContextualFlowInfoLayoutEnumToJSONTyped,
-} from './ContextualFlowInfoLayoutEnum';
+} from './ContextualFlowInfoLayoutEnum.js';
 
 /**
  * Contextual flow information for a challenge

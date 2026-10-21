@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PartialUser } from './PartialUser';
+import { mapValues } from '../runtime.js';
+import type { PartialUser } from './PartialUser.js';
 import {
     PartialUserFromJSON,
     PartialUserFromJSONTyped,
     PartialUserToJSON,
     PartialUserToJSONTyped,
-} from './PartialUser';
-import type { Role } from './Role';
+} from './PartialUser.js';
+import type { Role } from './Role.js';
 import {
     RoleFromJSON,
     RoleFromJSONTyped,
     RoleToJSON,
     RoleToJSONTyped,
-} from './Role';
-import type { RelatedGroup } from './RelatedGroup';
+} from './Role.js';
+import type { RelatedGroup } from './RelatedGroup.js';
 import {
     RelatedGroupFromJSON,
     RelatedGroupFromJSONTyped,
     RelatedGroupToJSON,
     RelatedGroupToJSONTyped,
-} from './RelatedGroup';
+} from './RelatedGroup.js';
 
 /**
  * Group Serializer

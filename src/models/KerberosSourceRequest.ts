@@ -12,42 +12,42 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { KadminTypeEnum } from './KadminTypeEnum';
+import { mapValues } from '../runtime.js';
+import type { KadminTypeEnum } from './KadminTypeEnum.js';
 import {
     KadminTypeEnumFromJSON,
     KadminTypeEnumFromJSONTyped,
     KadminTypeEnumToJSON,
     KadminTypeEnumToJSONTyped,
-} from './KadminTypeEnum';
-import type { PolicyEngineMode } from './PolicyEngineMode';
+} from './KadminTypeEnum.js';
+import type { PolicyEngineMode } from './PolicyEngineMode.js';
 import {
     PolicyEngineModeFromJSON,
     PolicyEngineModeFromJSONTyped,
     PolicyEngineModeToJSON,
     PolicyEngineModeToJSONTyped,
-} from './PolicyEngineMode';
-import type { UserMatchingModeEnum } from './UserMatchingModeEnum';
+} from './PolicyEngineMode.js';
+import type { UserMatchingModeEnum } from './UserMatchingModeEnum.js';
 import {
     UserMatchingModeEnumFromJSON,
     UserMatchingModeEnumFromJSONTyped,
     UserMatchingModeEnumToJSON,
     UserMatchingModeEnumToJSONTyped,
-} from './UserMatchingModeEnum';
-import type { SyncOutgoingTriggerModeEnum } from './SyncOutgoingTriggerModeEnum';
+} from './UserMatchingModeEnum.js';
+import type { SyncOutgoingTriggerModeEnum } from './SyncOutgoingTriggerModeEnum.js';
 import {
     SyncOutgoingTriggerModeEnumFromJSON,
     SyncOutgoingTriggerModeEnumFromJSONTyped,
     SyncOutgoingTriggerModeEnumToJSON,
     SyncOutgoingTriggerModeEnumToJSONTyped,
-} from './SyncOutgoingTriggerModeEnum';
-import type { GroupMatchingModeEnum } from './GroupMatchingModeEnum';
+} from './SyncOutgoingTriggerModeEnum.js';
+import type { GroupMatchingModeEnum } from './GroupMatchingModeEnum.js';
 import {
     GroupMatchingModeEnumFromJSON,
     GroupMatchingModeEnumFromJSONTyped,
     GroupMatchingModeEnumToJSON,
     GroupMatchingModeEnumToJSONTyped,
-} from './GroupMatchingModeEnum';
+} from './GroupMatchingModeEnum.js';
 
 /**
  * Kerberos Source Serializer

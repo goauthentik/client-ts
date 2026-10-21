@@ -12,137 +12,137 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type DockerServiceConnection,
     DockerServiceConnectionFromJSON,
     DockerServiceConnectionToJSON,
-} from '../models/DockerServiceConnection';
+} from '../models/DockerServiceConnection.js';
 import {
     type DockerServiceConnectionRequest,
     DockerServiceConnectionRequestFromJSON,
     DockerServiceConnectionRequestToJSON,
-} from '../models/DockerServiceConnectionRequest';
+} from '../models/DockerServiceConnectionRequest.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type KubernetesServiceConnection,
     KubernetesServiceConnectionFromJSON,
     KubernetesServiceConnectionToJSON,
-} from '../models/KubernetesServiceConnection';
+} from '../models/KubernetesServiceConnection.js';
 import {
     type KubernetesServiceConnectionRequest,
     KubernetesServiceConnectionRequestFromJSON,
     KubernetesServiceConnectionRequestToJSON,
-} from '../models/KubernetesServiceConnectionRequest';
+} from '../models/KubernetesServiceConnectionRequest.js';
 import {
     type LDAPCheckAccess,
     LDAPCheckAccessFromJSON,
     LDAPCheckAccessToJSON,
-} from '../models/LDAPCheckAccess';
+} from '../models/LDAPCheckAccess.js';
 import {
     type Outpost,
     OutpostFromJSON,
     OutpostToJSON,
-} from '../models/Outpost';
+} from '../models/Outpost.js';
 import {
     type OutpostDefaultConfig,
     OutpostDefaultConfigFromJSON,
     OutpostDefaultConfigToJSON,
-} from '../models/OutpostDefaultConfig';
+} from '../models/OutpostDefaultConfig.js';
 import {
     type OutpostHealth,
     OutpostHealthFromJSON,
     OutpostHealthToJSON,
-} from '../models/OutpostHealth';
+} from '../models/OutpostHealth.js';
 import {
     type OutpostRequest,
     OutpostRequestFromJSON,
     OutpostRequestToJSON,
-} from '../models/OutpostRequest';
+} from '../models/OutpostRequest.js';
 import {
     type PaginatedDockerServiceConnectionList,
     PaginatedDockerServiceConnectionListFromJSON,
     PaginatedDockerServiceConnectionListToJSON,
-} from '../models/PaginatedDockerServiceConnectionList';
+} from '../models/PaginatedDockerServiceConnectionList.js';
 import {
     type PaginatedKubernetesServiceConnectionList,
     PaginatedKubernetesServiceConnectionListFromJSON,
     PaginatedKubernetesServiceConnectionListToJSON,
-} from '../models/PaginatedKubernetesServiceConnectionList';
+} from '../models/PaginatedKubernetesServiceConnectionList.js';
 import {
     type PaginatedLDAPOutpostConfigList,
     PaginatedLDAPOutpostConfigListFromJSON,
     PaginatedLDAPOutpostConfigListToJSON,
-} from '../models/PaginatedLDAPOutpostConfigList';
+} from '../models/PaginatedLDAPOutpostConfigList.js';
 import {
     type PaginatedOutpostList,
     PaginatedOutpostListFromJSON,
     PaginatedOutpostListToJSON,
-} from '../models/PaginatedOutpostList';
+} from '../models/PaginatedOutpostList.js';
 import {
     type PaginatedProxyOutpostConfigList,
     PaginatedProxyOutpostConfigListFromJSON,
     PaginatedProxyOutpostConfigListToJSON,
-} from '../models/PaginatedProxyOutpostConfigList';
+} from '../models/PaginatedProxyOutpostConfigList.js';
 import {
     type PaginatedRadiusOutpostConfigList,
     PaginatedRadiusOutpostConfigListFromJSON,
     PaginatedRadiusOutpostConfigListToJSON,
-} from '../models/PaginatedRadiusOutpostConfigList';
+} from '../models/PaginatedRadiusOutpostConfigList.js';
 import {
     type PaginatedServiceConnectionList,
     PaginatedServiceConnectionListFromJSON,
     PaginatedServiceConnectionListToJSON,
-} from '../models/PaginatedServiceConnectionList';
+} from '../models/PaginatedServiceConnectionList.js';
 import {
     type PatchedDockerServiceConnectionRequest,
     PatchedDockerServiceConnectionRequestFromJSON,
     PatchedDockerServiceConnectionRequestToJSON,
-} from '../models/PatchedDockerServiceConnectionRequest';
+} from '../models/PatchedDockerServiceConnectionRequest.js';
 import {
     type PatchedKubernetesServiceConnectionRequest,
     PatchedKubernetesServiceConnectionRequestFromJSON,
     PatchedKubernetesServiceConnectionRequestToJSON,
-} from '../models/PatchedKubernetesServiceConnectionRequest';
+} from '../models/PatchedKubernetesServiceConnectionRequest.js';
 import {
     type PatchedOutpostRequest,
     PatchedOutpostRequestFromJSON,
     PatchedOutpostRequestToJSON,
-} from '../models/PatchedOutpostRequest';
+} from '../models/PatchedOutpostRequest.js';
 import {
     type RadiusCheckAccess,
     RadiusCheckAccessFromJSON,
     RadiusCheckAccessToJSON,
-} from '../models/RadiusCheckAccess';
+} from '../models/RadiusCheckAccess.js';
 import {
     type ServiceConnection,
     ServiceConnectionFromJSON,
     ServiceConnectionToJSON,
-} from '../models/ServiceConnection';
+} from '../models/ServiceConnection.js';
 import {
     type ServiceConnectionState,
     ServiceConnectionStateFromJSON,
     ServiceConnectionStateToJSON,
-} from '../models/ServiceConnectionState';
+} from '../models/ServiceConnectionState.js';
 import {
     type TypeCreate,
     TypeCreateFromJSON,
     TypeCreateToJSON,
-} from '../models/TypeCreate';
+} from '../models/TypeCreate.js';
 import {
     type UsedBy,
     UsedByFromJSON,
     UsedByToJSON,
-} from '../models/UsedBy';
+} from '../models/UsedBy.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface OutpostsInstancesCreateRequest {
     outpostRequest: OutpostRequest;

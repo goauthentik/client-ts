@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Group } from './Group';
+import { mapValues } from '../runtime.js';
+import type { Group } from './Group.js';
 import {
     GroupFromJSON,
     GroupFromJSONTyped,
     GroupToJSON,
     GroupToJSONTyped,
-} from './Group';
-import type { SeverityEnum } from './SeverityEnum';
+} from './Group.js';
+import type { SeverityEnum } from './SeverityEnum.js';
 import {
     SeverityEnumFromJSON,
     SeverityEnumFromJSONTyped,
     SeverityEnumToJSON,
     SeverityEnumToJSONTyped,
-} from './SeverityEnum';
+} from './SeverityEnum.js';
 
 /**
  * NotificationRule Serializer

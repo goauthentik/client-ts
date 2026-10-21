@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { GeoIPPolicyCountriesObjInner } from './GeoIPPolicyCountriesObjInner';
+import { mapValues } from '../runtime.js';
+import type { GeoIPPolicyCountriesObjInner } from './GeoIPPolicyCountriesObjInner.js';
 import {
     GeoIPPolicyCountriesObjInnerFromJSON,
     GeoIPPolicyCountriesObjInnerFromJSONTyped,
     GeoIPPolicyCountriesObjInnerToJSON,
     GeoIPPolicyCountriesObjInnerToJSONTyped,
-} from './GeoIPPolicyCountriesObjInner';
-import type { CountryCodeEnum } from './CountryCodeEnum';
+} from './GeoIPPolicyCountriesObjInner.js';
+import type { CountryCodeEnum } from './CountryCodeEnum.js';
 import {
     CountryCodeEnumFromJSON,
     CountryCodeEnumFromJSONTyped,
     CountryCodeEnumToJSON,
     CountryCodeEnumToJSONTyped,
-} from './CountryCodeEnum';
+} from './CountryCodeEnum.js';
 
 /**
  * GeoIP Policy Serializer

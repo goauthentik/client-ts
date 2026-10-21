@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { AuthenticatedSessionGeoIp } from './AuthenticatedSessionGeoIp';
+import { mapValues } from '../runtime.js';
+import type { AuthenticatedSessionGeoIp } from './AuthenticatedSessionGeoIp.js';
 import {
     AuthenticatedSessionGeoIpFromJSON,
     AuthenticatedSessionGeoIpFromJSONTyped,
     AuthenticatedSessionGeoIpToJSON,
     AuthenticatedSessionGeoIpToJSONTyped,
-} from './AuthenticatedSessionGeoIp';
-import type { AuthenticatedSessionAsn } from './AuthenticatedSessionAsn';
+} from './AuthenticatedSessionGeoIp.js';
+import type { AuthenticatedSessionAsn } from './AuthenticatedSessionAsn.js';
 import {
     AuthenticatedSessionAsnFromJSON,
     AuthenticatedSessionAsnFromJSONTyped,
     AuthenticatedSessionAsnToJSON,
     AuthenticatedSessionAsnToJSONTyped,
-} from './AuthenticatedSessionAsn';
-import type { AuthenticatedSessionUserAgent } from './AuthenticatedSessionUserAgent';
+} from './AuthenticatedSessionAsn.js';
+import type { AuthenticatedSessionUserAgent } from './AuthenticatedSessionUserAgent.js';
 import {
     AuthenticatedSessionUserAgentFromJSON,
     AuthenticatedSessionUserAgentFromJSONTyped,
     AuthenticatedSessionUserAgentToJSON,
     AuthenticatedSessionUserAgentToJSONTyped,
-} from './AuthenticatedSessionUserAgent';
+} from './AuthenticatedSessionUserAgent.js';
 
 /**
  * AuthenticatedSession Serializer

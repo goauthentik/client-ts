@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { DeviceChallengeRequest } from './DeviceChallengeRequest';
+import { mapValues } from '../runtime.js';
+import type { DeviceChallengeRequest } from './DeviceChallengeRequest.js';
 import {
     DeviceChallengeRequestFromJSON,
     DeviceChallengeRequestFromJSONTyped,
     DeviceChallengeRequestToJSON,
     DeviceChallengeRequestToJSONTyped,
-} from './DeviceChallengeRequest';
+} from './DeviceChallengeRequest.js';
 
 /**
  * Challenge used for Code-based and WebAuthn authenticators

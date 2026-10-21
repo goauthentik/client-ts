@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PartialGroup } from './PartialGroup';
+import { mapValues } from '../runtime.js';
+import type { PartialGroup } from './PartialGroup.js';
 import {
     PartialGroupFromJSON,
     PartialGroupFromJSONTyped,
     PartialGroupToJSON,
     PartialGroupToJSONTyped,
-} from './PartialGroup';
-import type { Source } from './Source';
+} from './PartialGroup.js';
+import type { Source } from './Source.js';
 import {
     SourceFromJSON,
     SourceFromJSONTyped,
     SourceToJSON,
     SourceToJSONTyped,
-} from './Source';
+} from './Source.js';
 
 /**
  * Group Source Connection

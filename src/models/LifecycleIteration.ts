@@ -12,35 +12,35 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ContentTypeEnum } from './ContentTypeEnum';
+import { mapValues } from '../runtime.js';
+import type { ContentTypeEnum } from './ContentTypeEnum.js';
 import {
     ContentTypeEnumFromJSON,
     ContentTypeEnumFromJSONTyped,
     ContentTypeEnumToJSON,
     ContentTypeEnumToJSONTyped,
-} from './ContentTypeEnum';
-import type { RelatedRule } from './RelatedRule';
+} from './ContentTypeEnum.js';
+import type { RelatedRule } from './RelatedRule.js';
 import {
     RelatedRuleFromJSON,
     RelatedRuleFromJSONTyped,
     RelatedRuleToJSON,
     RelatedRuleToJSONTyped,
-} from './RelatedRule';
-import type { Review } from './Review';
+} from './RelatedRule.js';
+import type { Review } from './Review.js';
 import {
     ReviewFromJSON,
     ReviewFromJSONTyped,
     ReviewToJSON,
     ReviewToJSONTyped,
-} from './Review';
-import type { LifecycleIterationStateEnum } from './LifecycleIterationStateEnum';
+} from './Review.js';
+import type { LifecycleIterationStateEnum } from './LifecycleIterationStateEnum.js';
 import {
     LifecycleIterationStateEnumFromJSON,
     LifecycleIterationStateEnumFromJSONTyped,
     LifecycleIterationStateEnumToJSON,
     LifecycleIterationStateEnumToJSONTyped,
-} from './LifecycleIterationStateEnum';
+} from './LifecycleIterationStateEnum.js';
 
 /**
  * Mixin to validate that a valid enterprise license

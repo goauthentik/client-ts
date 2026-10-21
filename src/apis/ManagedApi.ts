@@ -12,52 +12,52 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type BlueprintFile,
     BlueprintFileFromJSON,
     BlueprintFileToJSON,
-} from '../models/BlueprintFile';
+} from '../models/BlueprintFile.js';
 import {
     type BlueprintImportResult,
     BlueprintImportResultFromJSON,
     BlueprintImportResultToJSON,
-} from '../models/BlueprintImportResult';
+} from '../models/BlueprintImportResult.js';
 import {
     type BlueprintInstance,
     BlueprintInstanceFromJSON,
     BlueprintInstanceToJSON,
-} from '../models/BlueprintInstance';
+} from '../models/BlueprintInstance.js';
 import {
     type BlueprintInstanceRequest,
     BlueprintInstanceRequestFromJSON,
     BlueprintInstanceRequestToJSON,
-} from '../models/BlueprintInstanceRequest';
+} from '../models/BlueprintInstanceRequest.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type PaginatedBlueprintInstanceList,
     PaginatedBlueprintInstanceListFromJSON,
     PaginatedBlueprintInstanceListToJSON,
-} from '../models/PaginatedBlueprintInstanceList';
+} from '../models/PaginatedBlueprintInstanceList.js';
 import {
     type PatchedBlueprintInstanceRequest,
     PatchedBlueprintInstanceRequestFromJSON,
     PatchedBlueprintInstanceRequestToJSON,
-} from '../models/PatchedBlueprintInstanceRequest';
+} from '../models/PatchedBlueprintInstanceRequest.js';
 import {
     type UsedBy,
     UsedByFromJSON,
     UsedByToJSON,
-} from '../models/UsedBy';
+} from '../models/UsedBy.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface ManagedBlueprintsApplyCreateRequest {
     instanceUuid: string;

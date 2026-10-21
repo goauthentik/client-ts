@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { MicrosoftEntraProviderMapping } from './MicrosoftEntraProviderMapping';
+} from './Pagination.js';
+import type { MicrosoftEntraProviderMapping } from './MicrosoftEntraProviderMapping.js';
 import {
     MicrosoftEntraProviderMappingFromJSON,
     MicrosoftEntraProviderMappingFromJSONTyped,
     MicrosoftEntraProviderMappingToJSON,
     MicrosoftEntraProviderMappingToJSONTyped,
-} from './MicrosoftEntraProviderMapping';
+} from './MicrosoftEntraProviderMapping.js';
 
 /**
  * 

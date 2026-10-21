@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PartialUser } from './PartialUser';
+import { mapValues } from '../runtime.js';
+import type { PartialUser } from './PartialUser.js';
 import {
     PartialUserFromJSON,
     PartialUserFromJSONTyped,
     PartialUserToJSON,
     PartialUserToJSONTyped,
-} from './PartialUser';
-import type { Endpoint } from './Endpoint';
+} from './PartialUser.js';
+import type { Endpoint } from './Endpoint.js';
 import {
     EndpointFromJSON,
     EndpointFromJSONTyped,
     EndpointToJSON,
     EndpointToJSONTyped,
-} from './Endpoint';
-import type { RACProvider } from './RACProvider';
+} from './Endpoint.js';
+import type { RACProvider } from './RACProvider.js';
 import {
     RACProviderFromJSON,
     RACProviderFromJSONTyped,
     RACProviderToJSON,
     RACProviderToJSONTyped,
-} from './RACProvider';
+} from './RACProvider.js';
 
 /**
  * ConnectionToken Serializer

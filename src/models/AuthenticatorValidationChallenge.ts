@@ -12,35 +12,35 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ErrorDetail } from './ErrorDetail';
+import { mapValues } from '../runtime.js';
+import type { ErrorDetail } from './ErrorDetail.js';
 import {
     ErrorDetailFromJSON,
     ErrorDetailFromJSONTyped,
     ErrorDetailToJSON,
     ErrorDetailToJSONTyped,
-} from './ErrorDetail';
-import type { ContextualFlowInfo } from './ContextualFlowInfo';
+} from './ErrorDetail.js';
+import type { ContextualFlowInfo } from './ContextualFlowInfo.js';
 import {
     ContextualFlowInfoFromJSON,
     ContextualFlowInfoFromJSONTyped,
     ContextualFlowInfoToJSON,
     ContextualFlowInfoToJSONTyped,
-} from './ContextualFlowInfo';
-import type { SelectableStage } from './SelectableStage';
+} from './ContextualFlowInfo.js';
+import type { SelectableStage } from './SelectableStage.js';
 import {
     SelectableStageFromJSON,
     SelectableStageFromJSONTyped,
     SelectableStageToJSON,
     SelectableStageToJSONTyped,
-} from './SelectableStage';
-import type { DeviceChallenge } from './DeviceChallenge';
+} from './SelectableStage.js';
+import type { DeviceChallenge } from './DeviceChallenge.js';
 import {
     DeviceChallengeFromJSON,
     DeviceChallengeFromJSONTyped,
     DeviceChallengeToJSON,
     DeviceChallengeToJSONTyped,
-} from './DeviceChallenge';
+} from './DeviceChallenge.js';
 
 /**
  * Authenticator challenge

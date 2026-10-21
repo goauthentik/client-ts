@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Connector } from './Connector';
+import { mapValues } from '../runtime.js';
+import type { Connector } from './Connector.js';
 import {
     ConnectorFromJSON,
     ConnectorFromJSONTyped,
     ConnectorToJSON,
     ConnectorToJSONTyped,
-} from './Connector';
-import type { DeviceFactSnapshot } from './DeviceFactSnapshot';
+} from './Connector.js';
+import type { DeviceFactSnapshot } from './DeviceFactSnapshot.js';
 import {
     DeviceFactSnapshotFromJSON,
     DeviceFactSnapshotFromJSONTyped,
     DeviceFactSnapshotToJSON,
     DeviceFactSnapshotToJSONTyped,
-} from './DeviceFactSnapshot';
+} from './DeviceFactSnapshot.js';
 
 /**
  * 

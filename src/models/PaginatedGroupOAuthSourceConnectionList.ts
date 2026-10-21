@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { GroupOAuthSourceConnection } from './GroupOAuthSourceConnection';
+import { mapValues } from '../runtime.js';
+import type { GroupOAuthSourceConnection } from './GroupOAuthSourceConnection.js';
 import {
     GroupOAuthSourceConnectionFromJSON,
     GroupOAuthSourceConnectionFromJSONTyped,
     GroupOAuthSourceConnectionToJSON,
     GroupOAuthSourceConnectionToJSONTyped,
-} from './GroupOAuthSourceConnection';
-import type { Pagination } from './Pagination';
+} from './GroupOAuthSourceConnection.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

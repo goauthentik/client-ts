@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Agent } from './Agent';
+import { mapValues } from '../runtime.js';
+import type { Agent } from './Agent.js';
 import {
     AgentFromJSON,
     AgentFromJSONTyped,
     AgentToJSON,
     AgentToJSONTyped,
-} from './Agent';
-import type { Pagination } from './Pagination';
+} from './Agent.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

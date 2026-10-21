@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { GeoipBindingEnum } from './GeoipBindingEnum';
+import { mapValues } from '../runtime.js';
+import type { GeoipBindingEnum } from './GeoipBindingEnum.js';
 import {
     GeoipBindingEnumFromJSON,
     GeoipBindingEnumFromJSONTyped,
     GeoipBindingEnumToJSON,
     GeoipBindingEnumToJSONTyped,
-} from './GeoipBindingEnum';
-import type { NetworkBindingEnum } from './NetworkBindingEnum';
+} from './GeoipBindingEnum.js';
+import type { NetworkBindingEnum } from './NetworkBindingEnum.js';
 import {
     NetworkBindingEnumFromJSON,
     NetworkBindingEnumFromJSONTyped,
     NetworkBindingEnumToJSON,
     NetworkBindingEnumToJSONTyped,
-} from './NetworkBindingEnum';
+} from './NetworkBindingEnum.js';
 
 /**
  * UserLoginStage Serializer

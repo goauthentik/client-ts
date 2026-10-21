@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { GroupPlexSourceConnection } from './GroupPlexSourceConnection';
+} from './Pagination.js';
+import type { GroupPlexSourceConnection } from './GroupPlexSourceConnection.js';
 import {
     GroupPlexSourceConnectionFromJSON,
     GroupPlexSourceConnectionFromJSONTyped,
     GroupPlexSourceConnectionToJSON,
     GroupPlexSourceConnectionToJSONTyped,
-} from './GroupPlexSourceConnection';
+} from './GroupPlexSourceConnection.js';
 
 /**
  * 

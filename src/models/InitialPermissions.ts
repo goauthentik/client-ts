@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Permission } from './Permission';
+import { mapValues } from '../runtime.js';
+import type { Permission } from './Permission.js';
 import {
     PermissionFromJSON,
     PermissionFromJSONTyped,
     PermissionToJSON,
     PermissionToJSONTyped,
-} from './Permission';
+} from './Permission.js';
 
 /**
  * InitialPermissions serializer

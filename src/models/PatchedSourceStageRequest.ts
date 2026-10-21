@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ResumeOnMatchFailuresEnum } from './ResumeOnMatchFailuresEnum';
+import { mapValues } from '../runtime.js';
+import type { ResumeOnMatchFailuresEnum } from './ResumeOnMatchFailuresEnum.js';
 import {
     ResumeOnMatchFailuresEnumFromJSON,
     ResumeOnMatchFailuresEnumFromJSONTyped,
     ResumeOnMatchFailuresEnumToJSON,
     ResumeOnMatchFailuresEnumToJSONTyped,
-} from './ResumeOnMatchFailuresEnum';
+} from './ResumeOnMatchFailuresEnum.js';
 
 /**
  * SourceStage Serializer

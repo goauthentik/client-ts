@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { ConsentStage } from './ConsentStage';
+} from './Pagination.js';
+import type { ConsentStage } from './ConsentStage.js';
 import {
     ConsentStageFromJSON,
     ConsentStageFromJSONTyped,
     ConsentStageToJSON,
     ConsentStageToJSONTyped,
-} from './ConsentStage';
+} from './ConsentStage.js';
 
 /**
  * 

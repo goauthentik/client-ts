@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { EndpointDevice } from './EndpointDevice';
+} from './Pagination.js';
+import type { EndpointDevice } from './EndpointDevice.js';
 import {
     EndpointDeviceFromJSON,
     EndpointDeviceFromJSONTyped,
     EndpointDeviceToJSON,
     EndpointDeviceToJSONTyped,
-} from './EndpointDevice';
+} from './EndpointDevice.js';
 
 /**
  * 

@@ -12,47 +12,47 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type Agent,
     AgentFromJSON,
     AgentToJSON,
-} from '../models/Agent';
+} from '../models/Agent.js';
 import {
     type AgentCreateRequest,
     AgentCreateRequestFromJSON,
     AgentCreateRequestToJSON,
-} from '../models/AgentCreateRequest';
+} from '../models/AgentCreateRequest.js';
 import {
     type AgentCreated,
     AgentCreatedFromJSON,
     AgentCreatedToJSON,
-} from '../models/AgentCreated';
+} from '../models/AgentCreated.js';
 import {
     type AgentRequest,
     AgentRequestFromJSON,
     AgentRequestToJSON,
-} from '../models/AgentRequest';
+} from '../models/AgentRequest.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type PaginatedAgentList,
     PaginatedAgentListFromJSON,
     PaginatedAgentListToJSON,
-} from '../models/PaginatedAgentList';
+} from '../models/PaginatedAgentList.js';
 import {
     type PatchedAgentRequest,
     PatchedAgentRequestFromJSON,
     PatchedAgentRequestToJSON,
-} from '../models/PatchedAgentRequest';
+} from '../models/PatchedAgentRequest.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface AgentsAgentsCreateRequest {
     agentCreateRequest?: AgentCreateRequest;

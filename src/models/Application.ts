@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PolicyEngineMode } from './PolicyEngineMode';
+import { mapValues } from '../runtime.js';
+import type { PolicyEngineMode } from './PolicyEngineMode.js';
 import {
     PolicyEngineModeFromJSON,
     PolicyEngineModeFromJSONTyped,
     PolicyEngineModeToJSON,
     PolicyEngineModeToJSONTyped,
-} from './PolicyEngineMode';
-import type { ThemedUrls } from './ThemedUrls';
+} from './PolicyEngineMode.js';
+import type { ThemedUrls } from './ThemedUrls.js';
 import {
     ThemedUrlsFromJSON,
     ThemedUrlsFromJSONTyped,
     ThemedUrlsToJSON,
     ThemedUrlsToJSONTyped,
-} from './ThemedUrls';
-import type { Provider } from './Provider';
+} from './ThemedUrls.js';
+import type { Provider } from './Provider.js';
 import {
     ProviderFromJSON,
     ProviderFromJSONTyped,
     ProviderToJSON,
     ProviderToJSONTyped,
-} from './Provider';
+} from './Provider.js';
 
 /**
  * Application Serializer

@@ -12,72 +12,72 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type Domain,
     DomainFromJSON,
     DomainToJSON,
-} from '../models/Domain';
+} from '../models/Domain.js';
 import {
     type DomainRequest,
     DomainRequestFromJSON,
     DomainRequestToJSON,
-} from '../models/DomainRequest';
+} from '../models/DomainRequest.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type PaginatedDomainList,
     PaginatedDomainListFromJSON,
     PaginatedDomainListToJSON,
-} from '../models/PaginatedDomainList';
+} from '../models/PaginatedDomainList.js';
 import {
     type PaginatedTenantList,
     PaginatedTenantListFromJSON,
     PaginatedTenantListToJSON,
-} from '../models/PaginatedTenantList';
+} from '../models/PaginatedTenantList.js';
 import {
     type PatchedDomainRequest,
     PatchedDomainRequestFromJSON,
     PatchedDomainRequestToJSON,
-} from '../models/PatchedDomainRequest';
+} from '../models/PatchedDomainRequest.js';
 import {
     type PatchedTenantRequest,
     PatchedTenantRequestFromJSON,
     PatchedTenantRequestToJSON,
-} from '../models/PatchedTenantRequest';
+} from '../models/PatchedTenantRequest.js';
 import {
     type Tenant,
     TenantFromJSON,
     TenantToJSON,
-} from '../models/Tenant';
+} from '../models/Tenant.js';
 import {
     type TenantAdminGroupRequestRequest,
     TenantAdminGroupRequestRequestFromJSON,
     TenantAdminGroupRequestRequestToJSON,
-} from '../models/TenantAdminGroupRequestRequest';
+} from '../models/TenantAdminGroupRequestRequest.js';
 import {
     type TenantRecoveryKeyRequestRequest,
     TenantRecoveryKeyRequestRequestFromJSON,
     TenantRecoveryKeyRequestRequestToJSON,
-} from '../models/TenantRecoveryKeyRequestRequest';
+} from '../models/TenantRecoveryKeyRequestRequest.js';
 import {
     type TenantRecoveryKeyResponse,
     TenantRecoveryKeyResponseFromJSON,
     TenantRecoveryKeyResponseToJSON,
-} from '../models/TenantRecoveryKeyResponse';
+} from '../models/TenantRecoveryKeyResponse.js';
 import {
     type TenantRequest,
     TenantRequestFromJSON,
     TenantRequestToJSON,
-} from '../models/TenantRequest';
+} from '../models/TenantRequest.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface TenantsDomainsCreateRequest {
     domainRequest: DomainRequest;

@@ -12,7 +12,7 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
+import { mapValues } from '../runtime.js';
 /**
  * Body for an agent requesting access for itself. Deliberately narrower than
  * `GrantRequestCreateSerializer`: an agent may not pick its own expiry, which is

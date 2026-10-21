@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { DeviceAccessGroup } from './DeviceAccessGroup';
+import { mapValues } from '../runtime.js';
+import type { DeviceAccessGroup } from './DeviceAccessGroup.js';
 import {
     DeviceAccessGroupFromJSON,
     DeviceAccessGroupFromJSONTyped,
     DeviceAccessGroupToJSON,
     DeviceAccessGroupToJSONTyped,
-} from './DeviceAccessGroup';
+} from './DeviceAccessGroup.js';
 
 /**
  * 

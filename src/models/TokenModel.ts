@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { User } from './User';
+import { mapValues } from '../runtime.js';
+import type { User } from './User.js';
 import {
     UserFromJSON,
     UserFromJSONTyped,
     UserToJSON,
     UserToJSONTyped,
-} from './User';
-import type { Provider } from './Provider';
+} from './User.js';
+import type { Provider } from './Provider.js';
 import {
     ProviderFromJSON,
     ProviderFromJSONTyped,
     ProviderToJSON,
     ProviderToJSONTyped,
-} from './Provider';
+} from './Provider.js';
 
 /**
  * Serializer for BaseGrantModel and RefreshToken

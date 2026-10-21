@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { EndpointAuthModeEnum } from './EndpointAuthModeEnum';
+import { mapValues } from '../runtime.js';
+import type { EndpointAuthModeEnum } from './EndpointAuthModeEnum.js';
 import {
     EndpointAuthModeEnumFromJSON,
     EndpointAuthModeEnumFromJSONTyped,
     EndpointAuthModeEnumToJSON,
     EndpointAuthModeEnumToJSONTyped,
-} from './EndpointAuthModeEnum';
-import type { ProtocolEnum } from './ProtocolEnum';
+} from './EndpointAuthModeEnum.js';
+import type { ProtocolEnum } from './ProtocolEnum.js';
 import {
     ProtocolEnumFromJSON,
     ProtocolEnumFromJSONTyped,
     ProtocolEnumToJSON,
     ProtocolEnumToJSONTyped,
-} from './ProtocolEnum';
+} from './ProtocolEnum.js';
 
 /**
  * Endpoint Serializer

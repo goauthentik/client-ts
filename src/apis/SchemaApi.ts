@@ -12,27 +12,27 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type FormatEnum,
     FormatEnumFromJSON,
     FormatEnumToJSON,
-} from '../models/FormatEnum';
+} from '../models/FormatEnum.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type LangEnum,
     LangEnumFromJSON,
     LangEnumToJSON,
-} from '../models/LangEnum';
+} from '../models/LangEnum.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface SchemaRetrieveRequest {
     format?: FormatEnum;

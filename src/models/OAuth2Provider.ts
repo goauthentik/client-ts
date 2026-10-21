@@ -12,49 +12,49 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ClientTypeEnum } from './ClientTypeEnum';
+import { mapValues } from '../runtime.js';
+import type { ClientTypeEnum } from './ClientTypeEnum.js';
 import {
     ClientTypeEnumFromJSON,
     ClientTypeEnumFromJSONTyped,
     ClientTypeEnumToJSON,
     ClientTypeEnumToJSONTyped,
-} from './ClientTypeEnum';
-import type { SubModeEnum } from './SubModeEnum';
+} from './ClientTypeEnum.js';
+import type { SubModeEnum } from './SubModeEnum.js';
 import {
     SubModeEnumFromJSON,
     SubModeEnumFromJSONTyped,
     SubModeEnumToJSON,
     SubModeEnumToJSONTyped,
-} from './SubModeEnum';
-import type { GrantTypeEnum } from './GrantTypeEnum';
+} from './SubModeEnum.js';
+import type { GrantTypeEnum } from './GrantTypeEnum.js';
 import {
     GrantTypeEnumFromJSON,
     GrantTypeEnumFromJSONTyped,
     GrantTypeEnumToJSON,
     GrantTypeEnumToJSONTyped,
-} from './GrantTypeEnum';
-import type { OAuth2ProviderLogoutMethodEnum } from './OAuth2ProviderLogoutMethodEnum';
+} from './GrantTypeEnum.js';
+import type { OAuth2ProviderLogoutMethodEnum } from './OAuth2ProviderLogoutMethodEnum.js';
 import {
     OAuth2ProviderLogoutMethodEnumFromJSON,
     OAuth2ProviderLogoutMethodEnumFromJSONTyped,
     OAuth2ProviderLogoutMethodEnumToJSON,
     OAuth2ProviderLogoutMethodEnumToJSONTyped,
-} from './OAuth2ProviderLogoutMethodEnum';
-import type { RedirectURI } from './RedirectURI';
+} from './OAuth2ProviderLogoutMethodEnum.js';
+import type { RedirectURI } from './RedirectURI.js';
 import {
     RedirectURIFromJSON,
     RedirectURIFromJSONTyped,
     RedirectURIToJSON,
     RedirectURIToJSONTyped,
-} from './RedirectURI';
-import type { IssuerModeEnum } from './IssuerModeEnum';
+} from './RedirectURI.js';
+import type { IssuerModeEnum } from './IssuerModeEnum.js';
 import {
     IssuerModeEnumFromJSON,
     IssuerModeEnumFromJSONTyped,
     IssuerModeEnumToJSON,
     IssuerModeEnumToJSONTyped,
-} from './IssuerModeEnum';
+} from './IssuerModeEnum.js';
 
 /**
  * OAuth2Provider Serializer

@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { TelegramSource } from './TelegramSource';
+} from './Pagination.js';
+import type { TelegramSource } from './TelegramSource.js';
 import {
     TelegramSourceFromJSON,
     TelegramSourceFromJSONTyped,
     TelegramSourceToJSON,
     TelegramSourceToJSONTyped,
-} from './TelegramSource';
+} from './TelegramSource.js';
 
 /**
  * 

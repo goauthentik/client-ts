@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PartialUser } from './PartialUser';
+import { mapValues } from '../runtime.js';
+import type { PartialUser } from './PartialUser.js';
 import {
     PartialUserFromJSON,
     PartialUserFromJSONTyped,
     PartialUserToJSON,
     PartialUserToJSONTyped,
-} from './PartialUser';
-import type { Source } from './Source';
+} from './PartialUser.js';
+import type { Source } from './Source.js';
 import {
     SourceFromJSON,
     SourceFromJSONTyped,
     SourceToJSON,
     SourceToJSONTyped,
-} from './Source';
+} from './Source.js';
 
 /**
  * User source connection

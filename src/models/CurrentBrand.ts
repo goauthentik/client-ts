@@ -12,35 +12,35 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { CurrentBrandFlags } from './CurrentBrandFlags';
+import { mapValues } from '../runtime.js';
+import type { CurrentBrandFlags } from './CurrentBrandFlags.js';
 import {
     CurrentBrandFlagsFromJSON,
     CurrentBrandFlagsFromJSONTyped,
     CurrentBrandFlagsToJSON,
     CurrentBrandFlagsToJSONTyped,
-} from './CurrentBrandFlags';
-import type { UiThemeEnum } from './UiThemeEnum';
+} from './CurrentBrandFlags.js';
+import type { UiThemeEnum } from './UiThemeEnum.js';
 import {
     UiThemeEnumFromJSON,
     UiThemeEnumFromJSONTyped,
     UiThemeEnumToJSON,
     UiThemeEnumToJSONTyped,
-} from './UiThemeEnum';
-import type { ThemedUrls } from './ThemedUrls';
+} from './UiThemeEnum.js';
+import type { ThemedUrls } from './ThemedUrls.js';
 import {
     ThemedUrlsFromJSON,
     ThemedUrlsFromJSONTyped,
     ThemedUrlsToJSON,
     ThemedUrlsToJSONTyped,
-} from './ThemedUrls';
-import type { FooterLink } from './FooterLink';
+} from './ThemedUrls.js';
+import type { FooterLink } from './FooterLink.js';
 import {
     FooterLinkFromJSON,
     FooterLinkFromJSONTyped,
     FooterLinkToJSON,
     FooterLinkToJSONTyped,
-} from './FooterLink';
+} from './FooterLink.js';
 
 /**
  * Partial brand information for styling

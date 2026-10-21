@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ErrorDetail } from './ErrorDetail';
+import { mapValues } from '../runtime.js';
+import type { ErrorDetail } from './ErrorDetail.js';
 import {
     ErrorDetailFromJSON,
     ErrorDetailFromJSONTyped,
     ErrorDetailToJSON,
     ErrorDetailToJSONTyped,
-} from './ErrorDetail';
-import type { LogoutURL } from './LogoutURL';
+} from './ErrorDetail.js';
+import type { LogoutURL } from './LogoutURL.js';
 import {
     LogoutURLFromJSON,
     LogoutURLFromJSONTyped,
     LogoutURLToJSON,
     LogoutURLToJSONTyped,
-} from './LogoutURL';
-import type { ContextualFlowInfo } from './ContextualFlowInfo';
+} from './LogoutURL.js';
+import type { ContextualFlowInfo } from './ContextualFlowInfo.js';
 import {
     ContextualFlowInfoFromJSON,
     ContextualFlowInfoFromJSONTyped,
     ContextualFlowInfoToJSON,
     ContextualFlowInfoToJSONTyped,
-} from './ContextualFlowInfo';
+} from './ContextualFlowInfo.js';
 
 /**
  * Challenge for iframe logout

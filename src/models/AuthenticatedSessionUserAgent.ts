@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { AuthenticatedSessionUserAgentDevice } from './AuthenticatedSessionUserAgentDevice';
+import { mapValues } from '../runtime.js';
+import type { AuthenticatedSessionUserAgentDevice } from './AuthenticatedSessionUserAgentDevice.js';
 import {
     AuthenticatedSessionUserAgentDeviceFromJSON,
     AuthenticatedSessionUserAgentDeviceFromJSONTyped,
     AuthenticatedSessionUserAgentDeviceToJSON,
     AuthenticatedSessionUserAgentDeviceToJSONTyped,
-} from './AuthenticatedSessionUserAgentDevice';
-import type { AuthenticatedSessionUserAgentUserAgent } from './AuthenticatedSessionUserAgentUserAgent';
+} from './AuthenticatedSessionUserAgentDevice.js';
+import type { AuthenticatedSessionUserAgentUserAgent } from './AuthenticatedSessionUserAgentUserAgent.js';
 import {
     AuthenticatedSessionUserAgentUserAgentFromJSON,
     AuthenticatedSessionUserAgentUserAgentFromJSONTyped,
     AuthenticatedSessionUserAgentUserAgentToJSON,
     AuthenticatedSessionUserAgentUserAgentToJSONTyped,
-} from './AuthenticatedSessionUserAgentUserAgent';
-import type { AuthenticatedSessionUserAgentOs } from './AuthenticatedSessionUserAgentOs';
+} from './AuthenticatedSessionUserAgentUserAgent.js';
+import type { AuthenticatedSessionUserAgentOs } from './AuthenticatedSessionUserAgentOs.js';
 import {
     AuthenticatedSessionUserAgentOsFromJSON,
     AuthenticatedSessionUserAgentOsFromJSONTyped,
     AuthenticatedSessionUserAgentOsToJSON,
     AuthenticatedSessionUserAgentOsToJSONTyped,
-} from './AuthenticatedSessionUserAgentOs';
+} from './AuthenticatedSessionUserAgentOs.js';
 
 /**
  * Get parsed user agent

@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PartialGroup } from './PartialGroup';
+import { mapValues } from '../runtime.js';
+import type { PartialGroup } from './PartialGroup.js';
 import {
     PartialGroupFromJSON,
     PartialGroupFromJSONTyped,
     PartialGroupToJSON,
     PartialGroupToJSONTyped,
-} from './PartialGroup';
+} from './PartialGroup.js';
 
 /**
  * MicrosoftEntraProviderGroup Serializer

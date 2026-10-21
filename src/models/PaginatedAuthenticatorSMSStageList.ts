@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { AuthenticatorSMSStage } from './AuthenticatorSMSStage';
+} from './Pagination.js';
+import type { AuthenticatorSMSStage } from './AuthenticatorSMSStage.js';
 import {
     AuthenticatorSMSStageFromJSON,
     AuthenticatorSMSStageFromJSONTyped,
     AuthenticatorSMSStageToJSON,
     AuthenticatorSMSStageToJSONTyped,
-} from './AuthenticatorSMSStage';
+} from './AuthenticatorSMSStage.js';
 
 /**
  * 

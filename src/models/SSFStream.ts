@@ -12,35 +12,35 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { SSFStreamStatusEnum } from './SSFStreamStatusEnum';
+import { mapValues } from '../runtime.js';
+import type { SSFStreamStatusEnum } from './SSFStreamStatusEnum.js';
 import {
     SSFStreamStatusEnumFromJSON,
     SSFStreamStatusEnumFromJSONTyped,
     SSFStreamStatusEnumToJSON,
     SSFStreamStatusEnumToJSONTyped,
-} from './SSFStreamStatusEnum';
-import type { DeliveryMethodEnum } from './DeliveryMethodEnum';
+} from './SSFStreamStatusEnum.js';
+import type { DeliveryMethodEnum } from './DeliveryMethodEnum.js';
 import {
     DeliveryMethodEnumFromJSON,
     DeliveryMethodEnumFromJSONTyped,
     DeliveryMethodEnumToJSON,
     DeliveryMethodEnumToJSONTyped,
-} from './DeliveryMethodEnum';
-import type { EventsRequestedEnum } from './EventsRequestedEnum';
+} from './DeliveryMethodEnum.js';
+import type { EventsRequestedEnum } from './EventsRequestedEnum.js';
 import {
     EventsRequestedEnumFromJSON,
     EventsRequestedEnumFromJSONTyped,
     EventsRequestedEnumToJSON,
     EventsRequestedEnumToJSONTyped,
-} from './EventsRequestedEnum';
-import type { SSFProvider } from './SSFProvider';
+} from './EventsRequestedEnum.js';
+import type { SSFProvider } from './SSFProvider.js';
 import {
     SSFProviderFromJSON,
     SSFProviderFromJSONTyped,
     SSFProviderToJSON,
     SSFProviderToJSONTyped,
-} from './SSFProvider';
+} from './SSFProvider.js';
 
 /**
  * SSFStream Serializer

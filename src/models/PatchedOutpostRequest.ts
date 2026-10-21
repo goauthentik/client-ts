@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { OutpostTypeEnum } from './OutpostTypeEnum';
+import { mapValues } from '../runtime.js';
+import type { OutpostTypeEnum } from './OutpostTypeEnum.js';
 import {
     OutpostTypeEnumFromJSON,
     OutpostTypeEnumFromJSONTyped,
     OutpostTypeEnumToJSON,
     OutpostTypeEnumToJSONTyped,
-} from './OutpostTypeEnum';
+} from './OutpostTypeEnum.js';
 
 /**
  * Outpost Serializer

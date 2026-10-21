@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { SeverityEnum } from './SeverityEnum';
+import { mapValues } from '../runtime.js';
+import type { SeverityEnum } from './SeverityEnum.js';
 import {
     SeverityEnumFromJSON,
     SeverityEnumFromJSONTyped,
     SeverityEnumToJSON,
     SeverityEnumToJSONTyped,
-} from './SeverityEnum';
+} from './SeverityEnum.js';
 
 /**
  * NotificationRule Serializer

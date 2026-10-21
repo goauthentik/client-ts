@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { OffboardingActionEnum } from './OffboardingActionEnum';
+import { mapValues } from '../runtime.js';
+import type { OffboardingActionEnum } from './OffboardingActionEnum.js';
 import {
     OffboardingActionEnumFromJSON,
     OffboardingActionEnumFromJSONTyped,
     OffboardingActionEnumToJSON,
     OffboardingActionEnumToJSONTyped,
-} from './OffboardingActionEnum';
+} from './OffboardingActionEnum.js';
 
 /**
  * Mixin to validate that a valid enterprise license

@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { LicenseStatusEnum } from './LicenseStatusEnum';
+import { mapValues } from '../runtime.js';
+import type { LicenseStatusEnum } from './LicenseStatusEnum.js';
 import {
     LicenseStatusEnumFromJSON,
     LicenseStatusEnumFromJSONTyped,
     LicenseStatusEnumToJSON,
     LicenseStatusEnumToJSONTyped,
-} from './LicenseStatusEnum';
-import type { Config } from './Config';
+} from './LicenseStatusEnum.js';
+import type { Config } from './Config.js';
 import {
     ConfigFromJSON,
     ConfigFromJSONTyped,
     ConfigToJSON,
     ConfigToJSONTyped,
-} from './Config';
+} from './Config.js';
 
 /**
  * Base serializer class which doesn't implement create/update methods

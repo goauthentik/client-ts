@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { UserFieldsEnum } from './UserFieldsEnum';
+import { mapValues } from '../runtime.js';
+import type { UserFieldsEnum } from './UserFieldsEnum.js';
 import {
     UserFieldsEnumFromJSON,
     UserFieldsEnumFromJSONTyped,
     UserFieldsEnumToJSON,
     UserFieldsEnumToJSONTyped,
-} from './UserFieldsEnum';
-import type { FlowSet } from './FlowSet';
+} from './UserFieldsEnum.js';
+import type { FlowSet } from './FlowSet.js';
 import {
     FlowSetFromJSON,
     FlowSetFromJSONTyped,
     FlowSetToJSON,
     FlowSetToJSONTyped,
-} from './FlowSet';
+} from './FlowSet.js';
 
 /**
  * IdentificationStage Serializer

@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { IntentEnum } from './IntentEnum';
+import { mapValues } from '../runtime.js';
+import type { IntentEnum } from './IntentEnum.js';
 import {
     IntentEnumFromJSON,
     IntentEnumFromJSONTyped,
     IntentEnumToJSON,
     IntentEnumToJSONTyped,
-} from './IntentEnum';
-import type { User } from './User';
+} from './IntentEnum.js';
+import type { User } from './User.js';
 import {
     UserFromJSON,
     UserFromJSONTyped,
     UserToJSON,
     UserToJSONTyped,
-} from './User';
+} from './User.js';
 
 /**
  * Token Serializer

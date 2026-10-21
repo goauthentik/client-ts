@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { UserSelf } from './UserSelf';
+import { mapValues } from '../runtime.js';
+import type { UserSelf } from './UserSelf.js';
 import {
     UserSelfFromJSON,
     UserSelfFromJSONTyped,
     UserSelfToJSON,
     UserSelfToJSONTyped,
-} from './UserSelf';
+} from './UserSelf.js';
 
 /**
  * Response for the /user/me endpoint, returns the currently active user (as `user` property)

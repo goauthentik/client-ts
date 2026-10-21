@@ -12,57 +12,57 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type CertificateData,
     CertificateDataFromJSON,
     CertificateDataToJSON,
-} from '../models/CertificateData';
+} from '../models/CertificateData.js';
 import {
     type CertificateGenerationRequest,
     CertificateGenerationRequestFromJSON,
     CertificateGenerationRequestToJSON,
-} from '../models/CertificateGenerationRequest';
+} from '../models/CertificateGenerationRequest.js';
 import {
     type CertificateKeyPair,
     CertificateKeyPairFromJSON,
     CertificateKeyPairToJSON,
-} from '../models/CertificateKeyPair';
+} from '../models/CertificateKeyPair.js';
 import {
     type CertificateKeyPairRequest,
     CertificateKeyPairRequestFromJSON,
     CertificateKeyPairRequestToJSON,
-} from '../models/CertificateKeyPairRequest';
+} from '../models/CertificateKeyPairRequest.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type KeyTypeEnum,
     KeyTypeEnumFromJSON,
     KeyTypeEnumToJSON,
-} from '../models/KeyTypeEnum';
+} from '../models/KeyTypeEnum.js';
 import {
     type PaginatedCertificateKeyPairList,
     PaginatedCertificateKeyPairListFromJSON,
     PaginatedCertificateKeyPairListToJSON,
-} from '../models/PaginatedCertificateKeyPairList';
+} from '../models/PaginatedCertificateKeyPairList.js';
 import {
     type PatchedCertificateKeyPairRequest,
     PatchedCertificateKeyPairRequestFromJSON,
     PatchedCertificateKeyPairRequestToJSON,
-} from '../models/PatchedCertificateKeyPairRequest';
+} from '../models/PatchedCertificateKeyPairRequest.js';
 import {
     type UsedBy,
     UsedByFromJSON,
     UsedByToJSON,
-} from '../models/UsedBy';
+} from '../models/UsedBy.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface CryptoCertificatekeypairsCreateRequest {
     certificateKeyPairRequest: CertificateKeyPairRequest;

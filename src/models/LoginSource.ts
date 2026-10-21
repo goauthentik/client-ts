@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { LoginChallengeTypes } from './LoginChallengeTypes';
+import { mapValues } from '../runtime.js';
+import type { LoginChallengeTypes } from './LoginChallengeTypes.js';
 import {
     LoginChallengeTypesFromJSON,
     LoginChallengeTypesFromJSONTyped,
     LoginChallengeTypesToJSON,
     LoginChallengeTypesToJSONTyped,
-} from './LoginChallengeTypes';
+} from './LoginChallengeTypes.js';
 
 /**
  * Serializer for Login buttons of sources

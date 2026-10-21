@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PolicyEngineMode } from './PolicyEngineMode';
+import { mapValues } from '../runtime.js';
+import type { PolicyEngineMode } from './PolicyEngineMode.js';
 import {
     PolicyEngineModeFromJSON,
     PolicyEngineModeFromJSONTyped,
     PolicyEngineModeToJSON,
     PolicyEngineModeToJSONTyped,
-} from './PolicyEngineMode';
-import type { RelatedTarget } from './RelatedTarget';
+} from './PolicyEngineMode.js';
+import type { RelatedTarget } from './RelatedTarget.js';
 import {
     RelatedTargetFromJSON,
     RelatedTargetFromJSONTyped,
     RelatedTargetToJSON,
     RelatedTargetToJSONTyped,
-} from './RelatedTarget';
-import type { RequestRule } from './RequestRule';
+} from './RelatedTarget.js';
+import type { RequestRule } from './RequestRule.js';
 import {
     RequestRuleFromJSON,
     RequestRuleFromJSONTyped,
     RequestRuleToJSON,
     RequestRuleToJSONTyped,
-} from './RequestRule';
+} from './RequestRule.js';
 
 /**
  * Mixin to validate that a valid enterprise license

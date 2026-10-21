@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { EventMatcherPolicy } from './EventMatcherPolicy';
+} from './Pagination.js';
+import type { EventMatcherPolicy } from './EventMatcherPolicy.js';
 import {
     EventMatcherPolicyFromJSON,
     EventMatcherPolicyFromJSONTyped,
     EventMatcherPolicyToJSON,
     EventMatcherPolicyToJSONTyped,
-} from './EventMatcherPolicy';
+} from './EventMatcherPolicy.js';
 
 /**
  * 

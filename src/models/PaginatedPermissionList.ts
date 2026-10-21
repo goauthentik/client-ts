@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { Permission } from './Permission';
+} from './Pagination.js';
+import type { Permission } from './Permission.js';
 import {
     PermissionFromJSON,
     PermissionFromJSONTyped,
     PermissionToJSON,
     PermissionToJSONTyped,
-} from './Permission';
+} from './Permission.js';
 
 /**
  * 

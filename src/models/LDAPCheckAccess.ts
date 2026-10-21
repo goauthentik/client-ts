@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PolicyTestResult } from './PolicyTestResult';
+import { mapValues } from '../runtime.js';
+import type { PolicyTestResult } from './PolicyTestResult.js';
 import {
     PolicyTestResultFromJSON,
     PolicyTestResultFromJSONTyped,
     PolicyTestResultToJSON,
     PolicyTestResultToJSONTyped,
-} from './PolicyTestResult';
+} from './PolicyTestResult.js';
 
 /**
  * Base serializer class which doesn't implement create/update methods

@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { UserTypeEnum } from './UserTypeEnum';
+import { mapValues } from '../runtime.js';
+import type { UserTypeEnum } from './UserTypeEnum.js';
 import {
     UserTypeEnumFromJSON,
     UserTypeEnumFromJSONTyped,
     UserTypeEnumToJSON,
     UserTypeEnumToJSONTyped,
-} from './UserTypeEnum';
+} from './UserTypeEnum.js';
 
 /**
  * User Serializer

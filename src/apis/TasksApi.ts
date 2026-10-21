@@ -12,67 +12,67 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type GlobalTaskStatus,
     GlobalTaskStatusFromJSON,
     GlobalTaskStatusToJSON,
-} from '../models/GlobalTaskStatus';
+} from '../models/GlobalTaskStatus.js';
 import {
     type PaginatedScheduleList,
     PaginatedScheduleListFromJSON,
     PaginatedScheduleListToJSON,
-} from '../models/PaginatedScheduleList';
+} from '../models/PaginatedScheduleList.js';
 import {
     type PaginatedTaskList,
     PaginatedTaskListFromJSON,
     PaginatedTaskListToJSON,
-} from '../models/PaginatedTaskList';
+} from '../models/PaginatedTaskList.js';
 import {
     type PatchedScheduleRequest,
     PatchedScheduleRequestFromJSON,
     PatchedScheduleRequestToJSON,
-} from '../models/PatchedScheduleRequest';
+} from '../models/PatchedScheduleRequest.js';
 import {
     type Schedule,
     ScheduleFromJSON,
     ScheduleToJSON,
-} from '../models/Schedule';
+} from '../models/Schedule.js';
 import {
     type ScheduleRequest,
     ScheduleRequestFromJSON,
     ScheduleRequestToJSON,
-} from '../models/ScheduleRequest';
+} from '../models/ScheduleRequest.js';
 import {
     type Task,
     TaskFromJSON,
     TaskToJSON,
-} from '../models/Task';
+} from '../models/Task.js';
 import {
     type TaskAggregatedStatusEnum,
     TaskAggregatedStatusEnumFromJSON,
     TaskAggregatedStatusEnumToJSON,
-} from '../models/TaskAggregatedStatusEnum';
+} from '../models/TaskAggregatedStatusEnum.js';
 import {
     type TaskStatusEnum,
     TaskStatusEnumFromJSON,
     TaskStatusEnumToJSON,
-} from '../models/TaskStatusEnum';
+} from '../models/TaskStatusEnum.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 import {
     type Worker,
     WorkerFromJSON,
     WorkerToJSON,
-} from '../models/Worker';
+} from '../models/Worker.js';
 
 export interface TasksSchedulesListRequest {
     actorName?: string;

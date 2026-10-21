@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { UserFieldsEnum } from './UserFieldsEnum';
+import { mapValues } from '../runtime.js';
+import type { UserFieldsEnum } from './UserFieldsEnum.js';
 import {
     UserFieldsEnumFromJSON,
     UserFieldsEnumFromJSONTyped,
     UserFieldsEnumToJSON,
     UserFieldsEnumToJSONTyped,
-} from './UserFieldsEnum';
+} from './UserFieldsEnum.js';
 
 /**
  * IdentificationStage Serializer

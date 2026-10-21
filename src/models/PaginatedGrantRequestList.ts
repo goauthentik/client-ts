@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { GrantRequest } from './GrantRequest';
+} from './Pagination.js';
+import type { GrantRequest } from './GrantRequest.js';
 import {
     GrantRequestFromJSON,
     GrantRequestFromJSONTyped,
     GrantRequestToJSON,
     GrantRequestToJSONTyped,
-} from './GrantRequest';
+} from './GrantRequest.js';
 
 /**
  * 

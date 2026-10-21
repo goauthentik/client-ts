@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { LifecycleIteration } from './LifecycleIteration';
+} from './Pagination.js';
+import type { LifecycleIteration } from './LifecycleIteration.js';
 import {
     LifecycleIterationFromJSON,
     LifecycleIterationFromJSONTyped,
     LifecycleIterationToJSON,
     LifecycleIterationToJSONTyped,
-} from './LifecycleIteration';
+} from './LifecycleIteration.js';
 
 /**
  * 

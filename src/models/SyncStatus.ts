@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { TaskAggregatedStatusEnum } from './TaskAggregatedStatusEnum';
+import { mapValues } from '../runtime.js';
+import type { TaskAggregatedStatusEnum } from './TaskAggregatedStatusEnum.js';
 import {
     TaskAggregatedStatusEnumFromJSON,
     TaskAggregatedStatusEnumFromJSONTyped,
     TaskAggregatedStatusEnumToJSON,
     TaskAggregatedStatusEnumToJSONTyped,
-} from './TaskAggregatedStatusEnum';
+} from './TaskAggregatedStatusEnum.js';
 
 /**
  * Provider/source sync status

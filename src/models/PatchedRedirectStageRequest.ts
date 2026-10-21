@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { RedirectStageModeEnum } from './RedirectStageModeEnum';
+import { mapValues } from '../runtime.js';
+import type { RedirectStageModeEnum } from './RedirectStageModeEnum.js';
 import {
     RedirectStageModeEnumFromJSON,
     RedirectStageModeEnumFromJSONTyped,
     RedirectStageModeEnumToJSON,
     RedirectStageModeEnumToJSONTyped,
-} from './RedirectStageModeEnum';
+} from './RedirectStageModeEnum.js';
 
 /**
  * RedirectStage Serializer

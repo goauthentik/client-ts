@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ModelEnum } from './ModelEnum';
+import { mapValues } from '../runtime.js';
+import type { ModelEnum } from './ModelEnum.js';
 import {
     ModelEnumFromJSON,
     ModelEnumFromJSONTyped,
     ModelEnumToJSON,
     ModelEnumToJSONTyped,
-} from './ModelEnum';
-import type { AppEnum } from './AppEnum';
+} from './ModelEnum.js';
+import type { AppEnum } from './AppEnum.js';
 import {
     AppEnumFromJSON,
     AppEnumFromJSONTyped,
     AppEnumToJSON,
     AppEnumToJSONTyped,
-} from './AppEnum';
-import type { EventActions } from './EventActions';
+} from './AppEnum.js';
+import type { EventActions } from './EventActions.js';
 import {
     EventActionsFromJSON,
     EventActionsFromJSONTyped,
     EventActionsToJSON,
     EventActionsToJSONTyped,
-} from './EventActions';
+} from './EventActions.js';
 
 /**
  * Event Matcher Policy Serializer

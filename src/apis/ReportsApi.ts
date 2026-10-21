@@ -12,27 +12,27 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type DataExport,
     DataExportFromJSON,
     DataExportToJSON,
-} from '../models/DataExport';
+} from '../models/DataExport.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type PaginatedDataExportList,
     PaginatedDataExportListFromJSON,
     PaginatedDataExportListToJSON,
-} from '../models/PaginatedDataExportList';
+} from '../models/PaginatedDataExportList.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface ReportsExportsDestroyRequest {
     id: string;

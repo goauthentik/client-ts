@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { SCIMProviderUser } from './SCIMProviderUser';
+import { mapValues } from '../runtime.js';
+import type { SCIMProviderUser } from './SCIMProviderUser.js';
 import {
     SCIMProviderUserFromJSON,
     SCIMProviderUserFromJSONTyped,
     SCIMProviderUserToJSON,
     SCIMProviderUserToJSONTyped,
-} from './SCIMProviderUser';
-import type { Pagination } from './Pagination';
+} from './SCIMProviderUser.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

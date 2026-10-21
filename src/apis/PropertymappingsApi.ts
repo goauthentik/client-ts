@@ -12,347 +12,347 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type GoogleWorkspaceProviderMapping,
     GoogleWorkspaceProviderMappingFromJSON,
     GoogleWorkspaceProviderMappingToJSON,
-} from '../models/GoogleWorkspaceProviderMapping';
+} from '../models/GoogleWorkspaceProviderMapping.js';
 import {
     type GoogleWorkspaceProviderMappingRequest,
     GoogleWorkspaceProviderMappingRequestFromJSON,
     GoogleWorkspaceProviderMappingRequestToJSON,
-} from '../models/GoogleWorkspaceProviderMappingRequest';
+} from '../models/GoogleWorkspaceProviderMappingRequest.js';
 import {
     type KerberosSourcePropertyMapping,
     KerberosSourcePropertyMappingFromJSON,
     KerberosSourcePropertyMappingToJSON,
-} from '../models/KerberosSourcePropertyMapping';
+} from '../models/KerberosSourcePropertyMapping.js';
 import {
     type KerberosSourcePropertyMappingRequest,
     KerberosSourcePropertyMappingRequestFromJSON,
     KerberosSourcePropertyMappingRequestToJSON,
-} from '../models/KerberosSourcePropertyMappingRequest';
+} from '../models/KerberosSourcePropertyMappingRequest.js';
 import {
     type LDAPSourcePropertyMapping,
     LDAPSourcePropertyMappingFromJSON,
     LDAPSourcePropertyMappingToJSON,
-} from '../models/LDAPSourcePropertyMapping';
+} from '../models/LDAPSourcePropertyMapping.js';
 import {
     type LDAPSourcePropertyMappingRequest,
     LDAPSourcePropertyMappingRequestFromJSON,
     LDAPSourcePropertyMappingRequestToJSON,
-} from '../models/LDAPSourcePropertyMappingRequest';
+} from '../models/LDAPSourcePropertyMappingRequest.js';
 import {
     type MicrosoftEntraProviderMapping,
     MicrosoftEntraProviderMappingFromJSON,
     MicrosoftEntraProviderMappingToJSON,
-} from '../models/MicrosoftEntraProviderMapping';
+} from '../models/MicrosoftEntraProviderMapping.js';
 import {
     type MicrosoftEntraProviderMappingRequest,
     MicrosoftEntraProviderMappingRequestFromJSON,
     MicrosoftEntraProviderMappingRequestToJSON,
-} from '../models/MicrosoftEntraProviderMappingRequest';
+} from '../models/MicrosoftEntraProviderMappingRequest.js';
 import {
     type NotificationWebhookMapping,
     NotificationWebhookMappingFromJSON,
     NotificationWebhookMappingToJSON,
-} from '../models/NotificationWebhookMapping';
+} from '../models/NotificationWebhookMapping.js';
 import {
     type NotificationWebhookMappingRequest,
     NotificationWebhookMappingRequestFromJSON,
     NotificationWebhookMappingRequestToJSON,
-} from '../models/NotificationWebhookMappingRequest';
+} from '../models/NotificationWebhookMappingRequest.js';
 import {
     type OAuthSourcePropertyMapping,
     OAuthSourcePropertyMappingFromJSON,
     OAuthSourcePropertyMappingToJSON,
-} from '../models/OAuthSourcePropertyMapping';
+} from '../models/OAuthSourcePropertyMapping.js';
 import {
     type OAuthSourcePropertyMappingRequest,
     OAuthSourcePropertyMappingRequestFromJSON,
     OAuthSourcePropertyMappingRequestToJSON,
-} from '../models/OAuthSourcePropertyMappingRequest';
+} from '../models/OAuthSourcePropertyMappingRequest.js';
 import {
     type PaginatedGoogleWorkspaceProviderMappingList,
     PaginatedGoogleWorkspaceProviderMappingListFromJSON,
     PaginatedGoogleWorkspaceProviderMappingListToJSON,
-} from '../models/PaginatedGoogleWorkspaceProviderMappingList';
+} from '../models/PaginatedGoogleWorkspaceProviderMappingList.js';
 import {
     type PaginatedKerberosSourcePropertyMappingList,
     PaginatedKerberosSourcePropertyMappingListFromJSON,
     PaginatedKerberosSourcePropertyMappingListToJSON,
-} from '../models/PaginatedKerberosSourcePropertyMappingList';
+} from '../models/PaginatedKerberosSourcePropertyMappingList.js';
 import {
     type PaginatedLDAPSourcePropertyMappingList,
     PaginatedLDAPSourcePropertyMappingListFromJSON,
     PaginatedLDAPSourcePropertyMappingListToJSON,
-} from '../models/PaginatedLDAPSourcePropertyMappingList';
+} from '../models/PaginatedLDAPSourcePropertyMappingList.js';
 import {
     type PaginatedMicrosoftEntraProviderMappingList,
     PaginatedMicrosoftEntraProviderMappingListFromJSON,
     PaginatedMicrosoftEntraProviderMappingListToJSON,
-} from '../models/PaginatedMicrosoftEntraProviderMappingList';
+} from '../models/PaginatedMicrosoftEntraProviderMappingList.js';
 import {
     type PaginatedNotificationWebhookMappingList,
     PaginatedNotificationWebhookMappingListFromJSON,
     PaginatedNotificationWebhookMappingListToJSON,
-} from '../models/PaginatedNotificationWebhookMappingList';
+} from '../models/PaginatedNotificationWebhookMappingList.js';
 import {
     type PaginatedOAuthSourcePropertyMappingList,
     PaginatedOAuthSourcePropertyMappingListFromJSON,
     PaginatedOAuthSourcePropertyMappingListToJSON,
-} from '../models/PaginatedOAuthSourcePropertyMappingList';
+} from '../models/PaginatedOAuthSourcePropertyMappingList.js';
 import {
     type PaginatedPlexSourcePropertyMappingList,
     PaginatedPlexSourcePropertyMappingListFromJSON,
     PaginatedPlexSourcePropertyMappingListToJSON,
-} from '../models/PaginatedPlexSourcePropertyMappingList';
+} from '../models/PaginatedPlexSourcePropertyMappingList.js';
 import {
     type PaginatedPropertyMappingList,
     PaginatedPropertyMappingListFromJSON,
     PaginatedPropertyMappingListToJSON,
-} from '../models/PaginatedPropertyMappingList';
+} from '../models/PaginatedPropertyMappingList.js';
 import {
     type PaginatedRACPropertyMappingList,
     PaginatedRACPropertyMappingListFromJSON,
     PaginatedRACPropertyMappingListToJSON,
-} from '../models/PaginatedRACPropertyMappingList';
+} from '../models/PaginatedRACPropertyMappingList.js';
 import {
     type PaginatedRadiusProviderPropertyMappingList,
     PaginatedRadiusProviderPropertyMappingListFromJSON,
     PaginatedRadiusProviderPropertyMappingListToJSON,
-} from '../models/PaginatedRadiusProviderPropertyMappingList';
+} from '../models/PaginatedRadiusProviderPropertyMappingList.js';
 import {
     type PaginatedSAMLPropertyMappingList,
     PaginatedSAMLPropertyMappingListFromJSON,
     PaginatedSAMLPropertyMappingListToJSON,
-} from '../models/PaginatedSAMLPropertyMappingList';
+} from '../models/PaginatedSAMLPropertyMappingList.js';
 import {
     type PaginatedSAMLSourcePropertyMappingList,
     PaginatedSAMLSourcePropertyMappingListFromJSON,
     PaginatedSAMLSourcePropertyMappingListToJSON,
-} from '../models/PaginatedSAMLSourcePropertyMappingList';
+} from '../models/PaginatedSAMLSourcePropertyMappingList.js';
 import {
     type PaginatedSCIMMappingList,
     PaginatedSCIMMappingListFromJSON,
     PaginatedSCIMMappingListToJSON,
-} from '../models/PaginatedSCIMMappingList';
+} from '../models/PaginatedSCIMMappingList.js';
 import {
     type PaginatedSCIMSourcePropertyMappingList,
     PaginatedSCIMSourcePropertyMappingListFromJSON,
     PaginatedSCIMSourcePropertyMappingListToJSON,
-} from '../models/PaginatedSCIMSourcePropertyMappingList';
+} from '../models/PaginatedSCIMSourcePropertyMappingList.js';
 import {
     type PaginatedScopeMappingList,
     PaginatedScopeMappingListFromJSON,
     PaginatedScopeMappingListToJSON,
-} from '../models/PaginatedScopeMappingList';
+} from '../models/PaginatedScopeMappingList.js';
 import {
     type PaginatedTelegramSourcePropertyMappingList,
     PaginatedTelegramSourcePropertyMappingListFromJSON,
     PaginatedTelegramSourcePropertyMappingListToJSON,
-} from '../models/PaginatedTelegramSourcePropertyMappingList';
+} from '../models/PaginatedTelegramSourcePropertyMappingList.js';
 import {
     type PatchedGoogleWorkspaceProviderMappingRequest,
     PatchedGoogleWorkspaceProviderMappingRequestFromJSON,
     PatchedGoogleWorkspaceProviderMappingRequestToJSON,
-} from '../models/PatchedGoogleWorkspaceProviderMappingRequest';
+} from '../models/PatchedGoogleWorkspaceProviderMappingRequest.js';
 import {
     type PatchedKerberosSourcePropertyMappingRequest,
     PatchedKerberosSourcePropertyMappingRequestFromJSON,
     PatchedKerberosSourcePropertyMappingRequestToJSON,
-} from '../models/PatchedKerberosSourcePropertyMappingRequest';
+} from '../models/PatchedKerberosSourcePropertyMappingRequest.js';
 import {
     type PatchedLDAPSourcePropertyMappingRequest,
     PatchedLDAPSourcePropertyMappingRequestFromJSON,
     PatchedLDAPSourcePropertyMappingRequestToJSON,
-} from '../models/PatchedLDAPSourcePropertyMappingRequest';
+} from '../models/PatchedLDAPSourcePropertyMappingRequest.js';
 import {
     type PatchedMicrosoftEntraProviderMappingRequest,
     PatchedMicrosoftEntraProviderMappingRequestFromJSON,
     PatchedMicrosoftEntraProviderMappingRequestToJSON,
-} from '../models/PatchedMicrosoftEntraProviderMappingRequest';
+} from '../models/PatchedMicrosoftEntraProviderMappingRequest.js';
 import {
     type PatchedNotificationWebhookMappingRequest,
     PatchedNotificationWebhookMappingRequestFromJSON,
     PatchedNotificationWebhookMappingRequestToJSON,
-} from '../models/PatchedNotificationWebhookMappingRequest';
+} from '../models/PatchedNotificationWebhookMappingRequest.js';
 import {
     type PatchedOAuthSourcePropertyMappingRequest,
     PatchedOAuthSourcePropertyMappingRequestFromJSON,
     PatchedOAuthSourcePropertyMappingRequestToJSON,
-} from '../models/PatchedOAuthSourcePropertyMappingRequest';
+} from '../models/PatchedOAuthSourcePropertyMappingRequest.js';
 import {
     type PatchedPlexSourcePropertyMappingRequest,
     PatchedPlexSourcePropertyMappingRequestFromJSON,
     PatchedPlexSourcePropertyMappingRequestToJSON,
-} from '../models/PatchedPlexSourcePropertyMappingRequest';
+} from '../models/PatchedPlexSourcePropertyMappingRequest.js';
 import {
     type PatchedRACPropertyMappingRequest,
     PatchedRACPropertyMappingRequestFromJSON,
     PatchedRACPropertyMappingRequestToJSON,
-} from '../models/PatchedRACPropertyMappingRequest';
+} from '../models/PatchedRACPropertyMappingRequest.js';
 import {
     type PatchedRadiusProviderPropertyMappingRequest,
     PatchedRadiusProviderPropertyMappingRequestFromJSON,
     PatchedRadiusProviderPropertyMappingRequestToJSON,
-} from '../models/PatchedRadiusProviderPropertyMappingRequest';
+} from '../models/PatchedRadiusProviderPropertyMappingRequest.js';
 import {
     type PatchedSAMLPropertyMappingRequest,
     PatchedSAMLPropertyMappingRequestFromJSON,
     PatchedSAMLPropertyMappingRequestToJSON,
-} from '../models/PatchedSAMLPropertyMappingRequest';
+} from '../models/PatchedSAMLPropertyMappingRequest.js';
 import {
     type PatchedSAMLSourcePropertyMappingRequest,
     PatchedSAMLSourcePropertyMappingRequestFromJSON,
     PatchedSAMLSourcePropertyMappingRequestToJSON,
-} from '../models/PatchedSAMLSourcePropertyMappingRequest';
+} from '../models/PatchedSAMLSourcePropertyMappingRequest.js';
 import {
     type PatchedSCIMMappingRequest,
     PatchedSCIMMappingRequestFromJSON,
     PatchedSCIMMappingRequestToJSON,
-} from '../models/PatchedSCIMMappingRequest';
+} from '../models/PatchedSCIMMappingRequest.js';
 import {
     type PatchedSCIMSourcePropertyMappingRequest,
     PatchedSCIMSourcePropertyMappingRequestFromJSON,
     PatchedSCIMSourcePropertyMappingRequestToJSON,
-} from '../models/PatchedSCIMSourcePropertyMappingRequest';
+} from '../models/PatchedSCIMSourcePropertyMappingRequest.js';
 import {
     type PatchedScopeMappingRequest,
     PatchedScopeMappingRequestFromJSON,
     PatchedScopeMappingRequestToJSON,
-} from '../models/PatchedScopeMappingRequest';
+} from '../models/PatchedScopeMappingRequest.js';
 import {
     type PatchedTelegramSourcePropertyMappingRequest,
     PatchedTelegramSourcePropertyMappingRequestFromJSON,
     PatchedTelegramSourcePropertyMappingRequestToJSON,
-} from '../models/PatchedTelegramSourcePropertyMappingRequest';
+} from '../models/PatchedTelegramSourcePropertyMappingRequest.js';
 import {
     type PlexSourcePropertyMapping,
     PlexSourcePropertyMappingFromJSON,
     PlexSourcePropertyMappingToJSON,
-} from '../models/PlexSourcePropertyMapping';
+} from '../models/PlexSourcePropertyMapping.js';
 import {
     type PlexSourcePropertyMappingRequest,
     PlexSourcePropertyMappingRequestFromJSON,
     PlexSourcePropertyMappingRequestToJSON,
-} from '../models/PlexSourcePropertyMappingRequest';
+} from '../models/PlexSourcePropertyMappingRequest.js';
 import {
     type PropertyMapping,
     PropertyMappingFromJSON,
     PropertyMappingToJSON,
-} from '../models/PropertyMapping';
+} from '../models/PropertyMapping.js';
 import {
     type PropertyMappingTestRequest,
     PropertyMappingTestRequestFromJSON,
     PropertyMappingTestRequestToJSON,
-} from '../models/PropertyMappingTestRequest';
+} from '../models/PropertyMappingTestRequest.js';
 import {
     type PropertyMappingTestResult,
     PropertyMappingTestResultFromJSON,
     PropertyMappingTestResultToJSON,
-} from '../models/PropertyMappingTestResult';
+} from '../models/PropertyMappingTestResult.js';
 import {
     type RACPropertyMapping,
     RACPropertyMappingFromJSON,
     RACPropertyMappingToJSON,
-} from '../models/RACPropertyMapping';
+} from '../models/RACPropertyMapping.js';
 import {
     type RACPropertyMappingRequest,
     RACPropertyMappingRequestFromJSON,
     RACPropertyMappingRequestToJSON,
-} from '../models/RACPropertyMappingRequest';
+} from '../models/RACPropertyMappingRequest.js';
 import {
     type RadiusProviderPropertyMapping,
     RadiusProviderPropertyMappingFromJSON,
     RadiusProviderPropertyMappingToJSON,
-} from '../models/RadiusProviderPropertyMapping';
+} from '../models/RadiusProviderPropertyMapping.js';
 import {
     type RadiusProviderPropertyMappingRequest,
     RadiusProviderPropertyMappingRequestFromJSON,
     RadiusProviderPropertyMappingRequestToJSON,
-} from '../models/RadiusProviderPropertyMappingRequest';
+} from '../models/RadiusProviderPropertyMappingRequest.js';
 import {
     type SAMLPropertyMapping,
     SAMLPropertyMappingFromJSON,
     SAMLPropertyMappingToJSON,
-} from '../models/SAMLPropertyMapping';
+} from '../models/SAMLPropertyMapping.js';
 import {
     type SAMLPropertyMappingRequest,
     SAMLPropertyMappingRequestFromJSON,
     SAMLPropertyMappingRequestToJSON,
-} from '../models/SAMLPropertyMappingRequest';
+} from '../models/SAMLPropertyMappingRequest.js';
 import {
     type SAMLSourcePropertyMapping,
     SAMLSourcePropertyMappingFromJSON,
     SAMLSourcePropertyMappingToJSON,
-} from '../models/SAMLSourcePropertyMapping';
+} from '../models/SAMLSourcePropertyMapping.js';
 import {
     type SAMLSourcePropertyMappingRequest,
     SAMLSourcePropertyMappingRequestFromJSON,
     SAMLSourcePropertyMappingRequestToJSON,
-} from '../models/SAMLSourcePropertyMappingRequest';
+} from '../models/SAMLSourcePropertyMappingRequest.js';
 import {
     type SCIMMapping,
     SCIMMappingFromJSON,
     SCIMMappingToJSON,
-} from '../models/SCIMMapping';
+} from '../models/SCIMMapping.js';
 import {
     type SCIMMappingRequest,
     SCIMMappingRequestFromJSON,
     SCIMMappingRequestToJSON,
-} from '../models/SCIMMappingRequest';
+} from '../models/SCIMMappingRequest.js';
 import {
     type SCIMSourcePropertyMapping,
     SCIMSourcePropertyMappingFromJSON,
     SCIMSourcePropertyMappingToJSON,
-} from '../models/SCIMSourcePropertyMapping';
+} from '../models/SCIMSourcePropertyMapping.js';
 import {
     type SCIMSourcePropertyMappingRequest,
     SCIMSourcePropertyMappingRequestFromJSON,
     SCIMSourcePropertyMappingRequestToJSON,
-} from '../models/SCIMSourcePropertyMappingRequest';
+} from '../models/SCIMSourcePropertyMappingRequest.js';
 import {
     type ScopeMapping,
     ScopeMappingFromJSON,
     ScopeMappingToJSON,
-} from '../models/ScopeMapping';
+} from '../models/ScopeMapping.js';
 import {
     type ScopeMappingRequest,
     ScopeMappingRequestFromJSON,
     ScopeMappingRequestToJSON,
-} from '../models/ScopeMappingRequest';
+} from '../models/ScopeMappingRequest.js';
 import {
     type TelegramSourcePropertyMapping,
     TelegramSourcePropertyMappingFromJSON,
     TelegramSourcePropertyMappingToJSON,
-} from '../models/TelegramSourcePropertyMapping';
+} from '../models/TelegramSourcePropertyMapping.js';
 import {
     type TelegramSourcePropertyMappingRequest,
     TelegramSourcePropertyMappingRequestFromJSON,
     TelegramSourcePropertyMappingRequestToJSON,
-} from '../models/TelegramSourcePropertyMappingRequest';
+} from '../models/TelegramSourcePropertyMappingRequest.js';
 import {
     type TypeCreate,
     TypeCreateFromJSON,
     TypeCreateToJSON,
-} from '../models/TypeCreate';
+} from '../models/TypeCreate.js';
 import {
     type UsedBy,
     UsedByFromJSON,
     UsedByToJSON,
-} from '../models/UsedBy';
+} from '../models/UsedBy.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface PropertymappingsAllDestroyRequest {
     pmUuid: string;

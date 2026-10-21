@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { DeviceAccessGroup } from './DeviceAccessGroup';
+import { mapValues } from '../runtime.js';
+import type { DeviceAccessGroup } from './DeviceAccessGroup.js';
 import {
     DeviceAccessGroupFromJSON,
     DeviceAccessGroupFromJSONTyped,
     DeviceAccessGroupToJSON,
     DeviceAccessGroupToJSONTyped,
-} from './DeviceAccessGroup';
-import type { DeviceFactSnapshot } from './DeviceFactSnapshot';
+} from './DeviceAccessGroup.js';
+import type { DeviceFactSnapshot } from './DeviceFactSnapshot.js';
 import {
     DeviceFactSnapshotFromJSON,
     DeviceFactSnapshotFromJSONTyped,
     DeviceFactSnapshotToJSON,
     DeviceFactSnapshotToJSONTyped,
-} from './DeviceFactSnapshot';
+} from './DeviceFactSnapshot.js';
 
 /**
  * 

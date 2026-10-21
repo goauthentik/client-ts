@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { Application } from './Application';
+} from './Pagination.js';
+import type { Application } from './Application.js';
 import {
     ApplicationFromJSON,
     ApplicationFromJSONTyped,
     ApplicationToJSON,
     ApplicationToJSONTyped,
-} from './Application';
+} from './Application.js';
 
 /**
  * 

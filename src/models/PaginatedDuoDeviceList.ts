@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { DuoDevice } from './DuoDevice';
+} from './Pagination.js';
+import type { DuoDevice } from './DuoDevice.js';
 import {
     DuoDeviceFromJSON,
     DuoDeviceFromJSONTyped,
     DuoDeviceToJSON,
     DuoDeviceToJSONTyped,
-} from './DuoDevice';
+} from './DuoDevice.js';
 
 /**
  * 

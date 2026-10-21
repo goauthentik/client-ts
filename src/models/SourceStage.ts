@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { FlowSet } from './FlowSet';
+import { mapValues } from '../runtime.js';
+import type { FlowSet } from './FlowSet.js';
 import {
     FlowSetFromJSON,
     FlowSetFromJSONTyped,
     FlowSetToJSON,
     FlowSetToJSONTyped,
-} from './FlowSet';
-import type { ResumeOnMatchFailuresEnum } from './ResumeOnMatchFailuresEnum';
+} from './FlowSet.js';
+import type { ResumeOnMatchFailuresEnum } from './ResumeOnMatchFailuresEnum.js';
 import {
     ResumeOnMatchFailuresEnumFromJSON,
     ResumeOnMatchFailuresEnumFromJSONTyped,
     ResumeOnMatchFailuresEnumToJSON,
     ResumeOnMatchFailuresEnumToJSONTyped,
-} from './ResumeOnMatchFailuresEnum';
+} from './ResumeOnMatchFailuresEnum.js';
 
 /**
  * SourceStage Serializer

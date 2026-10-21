@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { FlowSet } from './FlowSet';
+import { mapValues } from '../runtime.js';
+import type { FlowSet } from './FlowSet.js';
 import {
     FlowSetFromJSON,
     FlowSetFromJSONTyped,
     FlowSetToJSON,
     FlowSetToJSONTyped,
-} from './FlowSet';
-import type { ProviderEnum } from './ProviderEnum';
+} from './FlowSet.js';
+import type { ProviderEnum } from './ProviderEnum.js';
 import {
     ProviderEnumFromJSON,
     ProviderEnumFromJSONTyped,
     ProviderEnumToJSON,
     ProviderEnumToJSONTyped,
-} from './ProviderEnum';
-import type { AuthTypeEnum } from './AuthTypeEnum';
+} from './ProviderEnum.js';
+import type { AuthTypeEnum } from './AuthTypeEnum.js';
 import {
     AuthTypeEnumFromJSON,
     AuthTypeEnumFromJSONTyped,
     AuthTypeEnumToJSON,
     AuthTypeEnumToJSONTyped,
-} from './AuthTypeEnum';
+} from './AuthTypeEnum.js';
 
 /**
  * AuthenticatorSMSStage Serializer

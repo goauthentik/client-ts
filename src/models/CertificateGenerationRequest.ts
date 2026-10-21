@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { AlgEnum } from './AlgEnum';
+import { mapValues } from '../runtime.js';
+import type { AlgEnum } from './AlgEnum.js';
 import {
     AlgEnumFromJSON,
     AlgEnumFromJSONTyped,
     AlgEnumToJSON,
     AlgEnumToJSONTyped,
-} from './AlgEnum';
+} from './AlgEnum.js';
 
 /**
  * Certificate generation parameters

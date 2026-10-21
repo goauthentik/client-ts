@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { LogEvent } from './LogEvent';
+import { mapValues } from '../runtime.js';
+import type { LogEvent } from './LogEvent.js';
 import {
     LogEventFromJSON,
     LogEventFromJSONTyped,
     LogEventToJSON,
     LogEventToJSONTyped,
-} from './LogEvent';
+} from './LogEvent.js';
 
 /**
  * Result of a single object sync

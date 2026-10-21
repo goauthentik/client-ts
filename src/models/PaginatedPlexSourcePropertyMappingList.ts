@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { PlexSourcePropertyMapping } from './PlexSourcePropertyMapping';
+} from './Pagination.js';
+import type { PlexSourcePropertyMapping } from './PlexSourcePropertyMapping.js';
 import {
     PlexSourcePropertyMappingFromJSON,
     PlexSourcePropertyMappingFromJSONTyped,
     PlexSourcePropertyMappingToJSON,
     PlexSourcePropertyMappingToJSONTyped,
-} from './PlexSourcePropertyMapping';
+} from './PlexSourcePropertyMapping.js';
 
 /**
  * 

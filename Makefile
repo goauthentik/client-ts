@@ -17,4 +17,4 @@ endif
 		--additional-properties=licenseName=MIT \
 		--git-user-id goauthentik \
 		--git-repo-id client-ts
-	npm i
+	pnpm install --no-frozen-lockfile

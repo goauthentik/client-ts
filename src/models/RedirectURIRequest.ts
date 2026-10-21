@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { MatchingModeEnum } from './MatchingModeEnum';
+import { mapValues } from '../runtime.js';
+import type { MatchingModeEnum } from './MatchingModeEnum.js';
 import {
     MatchingModeEnumFromJSON,
     MatchingModeEnumFromJSONTyped,
     MatchingModeEnumToJSON,
     MatchingModeEnumToJSONTyped,
-} from './MatchingModeEnum';
-import type { RedirectURITypeEnum } from './RedirectURITypeEnum';
+} from './MatchingModeEnum.js';
+import type { RedirectURITypeEnum } from './RedirectURITypeEnum.js';
 import {
     RedirectURITypeEnumFromJSON,
     RedirectURITypeEnumFromJSONTyped,
     RedirectURITypeEnumToJSON,
     RedirectURITypeEnumToJSONTyped,
-} from './RedirectURITypeEnum';
+} from './RedirectURITypeEnum.js';
 
 /**
  * A single allowed redirect URI entry

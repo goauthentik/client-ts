@@ -12,35 +12,35 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { StageModeEnum } from './StageModeEnum';
+import { mapValues } from '../runtime.js';
+import type { StageModeEnum } from './StageModeEnum.js';
 import {
     StageModeEnumFromJSON,
     StageModeEnumFromJSONTyped,
     StageModeEnumToJSON,
     StageModeEnumToJSONTyped,
-} from './StageModeEnum';
-import type { CertAttributeEnum } from './CertAttributeEnum';
+} from './StageModeEnum.js';
+import type { CertAttributeEnum } from './CertAttributeEnum.js';
 import {
     CertAttributeEnumFromJSON,
     CertAttributeEnumFromJSONTyped,
     CertAttributeEnumToJSON,
     CertAttributeEnumToJSONTyped,
-} from './CertAttributeEnum';
-import type { FlowSet } from './FlowSet';
+} from './CertAttributeEnum.js';
+import type { FlowSet } from './FlowSet.js';
 import {
     FlowSetFromJSON,
     FlowSetFromJSONTyped,
     FlowSetToJSON,
     FlowSetToJSONTyped,
-} from './FlowSet';
-import type { UserAttributeEnum } from './UserAttributeEnum';
+} from './FlowSet.js';
+import type { UserAttributeEnum } from './UserAttributeEnum.js';
 import {
     UserAttributeEnumFromJSON,
     UserAttributeEnumFromJSONTyped,
     UserAttributeEnumToJSON,
     UserAttributeEnumToJSONTyped,
-} from './UserAttributeEnum';
+} from './UserAttributeEnum.js';
 
 /**
  * MutualTLSStage Serializer

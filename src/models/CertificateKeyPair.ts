@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { CertificateKeyPairKeyTypeEnum } from './CertificateKeyPairKeyTypeEnum';
+import { mapValues } from '../runtime.js';
+import type { CertificateKeyPairKeyTypeEnum } from './CertificateKeyPairKeyTypeEnum.js';
 import {
     CertificateKeyPairKeyTypeEnumFromJSON,
     CertificateKeyPairKeyTypeEnumFromJSONTyped,
     CertificateKeyPairKeyTypeEnumToJSON,
     CertificateKeyPairKeyTypeEnumToJSONTyped,
-} from './CertificateKeyPairKeyTypeEnum';
+} from './CertificateKeyPairKeyTypeEnum.js';
 
 /**
  * CertificateKeyPair Serializer

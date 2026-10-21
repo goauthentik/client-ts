@@ -12,63 +12,63 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { DiskRequest } from './DiskRequest';
+import { mapValues } from '../runtime.js';
+import type { DiskRequest } from './DiskRequest.js';
 import {
     DiskRequestFromJSON,
     DiskRequestFromJSONTyped,
     DiskRequestToJSON,
     DiskRequestToJSONTyped,
-} from './DiskRequest';
-import type { HardwareRequest } from './HardwareRequest';
+} from './DiskRequest.js';
+import type { HardwareRequest } from './HardwareRequest.js';
 import {
     HardwareRequestFromJSON,
     HardwareRequestFromJSONTyped,
     HardwareRequestToJSON,
     HardwareRequestToJSONTyped,
-} from './HardwareRequest';
-import type { OperatingSystemRequest } from './OperatingSystemRequest';
+} from './HardwareRequest.js';
+import type { OperatingSystemRequest } from './OperatingSystemRequest.js';
 import {
     OperatingSystemRequestFromJSON,
     OperatingSystemRequestFromJSONTyped,
     OperatingSystemRequestToJSON,
     OperatingSystemRequestToJSONTyped,
-} from './OperatingSystemRequest';
-import type { SoftwareRequest } from './SoftwareRequest';
+} from './OperatingSystemRequest.js';
+import type { SoftwareRequest } from './SoftwareRequest.js';
 import {
     SoftwareRequestFromJSON,
     SoftwareRequestFromJSONTyped,
     SoftwareRequestToJSON,
     SoftwareRequestToJSONTyped,
-} from './SoftwareRequest';
-import type { ProcessRequest } from './ProcessRequest';
+} from './SoftwareRequest.js';
+import type { ProcessRequest } from './ProcessRequest.js';
 import {
     ProcessRequestFromJSON,
     ProcessRequestFromJSONTyped,
     ProcessRequestToJSON,
     ProcessRequestToJSONTyped,
-} from './ProcessRequest';
-import type { NetworkRequest } from './NetworkRequest';
+} from './ProcessRequest.js';
+import type { NetworkRequest } from './NetworkRequest.js';
 import {
     NetworkRequestFromJSON,
     NetworkRequestFromJSONTyped,
     NetworkRequestToJSON,
     NetworkRequestToJSONTyped,
-} from './NetworkRequest';
-import type { DeviceGroupRequest } from './DeviceGroupRequest';
+} from './NetworkRequest.js';
+import type { DeviceGroupRequest } from './DeviceGroupRequest.js';
 import {
     DeviceGroupRequestFromJSON,
     DeviceGroupRequestFromJSONTyped,
     DeviceGroupRequestToJSON,
     DeviceGroupRequestToJSONTyped,
-} from './DeviceGroupRequest';
-import type { DeviceUserRequest } from './DeviceUserRequest';
+} from './DeviceGroupRequest.js';
+import type { DeviceUserRequest } from './DeviceUserRequest.js';
 import {
     DeviceUserRequestFromJSON,
     DeviceUserRequestFromJSONTyped,
     DeviceUserRequestToJSON,
     DeviceUserRequestToJSONTyped,
-} from './DeviceUserRequest';
+} from './DeviceUserRequest.js';
 
 /**
  * 

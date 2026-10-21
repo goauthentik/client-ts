@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { TokenModel } from './TokenModel';
+} from './Pagination.js';
+import type { TokenModel } from './TokenModel.js';
 import {
     TokenModelFromJSON,
     TokenModelFromJSONTyped,
     TokenModelToJSON,
     TokenModelToJSONTyped,
-} from './TokenModel';
+} from './TokenModel.js';
 
 /**
  * 

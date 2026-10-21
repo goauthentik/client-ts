@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { LDAPSourcePropertyMapping } from './LDAPSourcePropertyMapping';
+} from './Pagination.js';
+import type { LDAPSourcePropertyMapping } from './LDAPSourcePropertyMapping.js';
 import {
     LDAPSourcePropertyMappingFromJSON,
     LDAPSourcePropertyMappingFromJSONTyped,
     LDAPSourcePropertyMappingToJSON,
     LDAPSourcePropertyMappingToJSONTyped,
-} from './LDAPSourcePropertyMapping';
+} from './LDAPSourcePropertyMapping.js';
 
 /**
  * 

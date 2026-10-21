@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { GoogleWorkspaceProvider } from './GoogleWorkspaceProvider';
+} from './Pagination.js';
+import type { GoogleWorkspaceProvider } from './GoogleWorkspaceProvider.js';
 import {
     GoogleWorkspaceProviderFromJSON,
     GoogleWorkspaceProviderFromJSONTyped,
     GoogleWorkspaceProviderToJSON,
     GoogleWorkspaceProviderToJSONTyped,
-} from './GoogleWorkspaceProvider';
+} from './GoogleWorkspaceProvider.js';
 
 /**
  * 

@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ConsentModeEnum } from './ConsentModeEnum';
+import { mapValues } from '../runtime.js';
+import type { ConsentModeEnum } from './ConsentModeEnum.js';
 import {
     ConsentModeEnumFromJSON,
     ConsentModeEnumFromJSONTyped,
     ConsentModeEnumToJSON,
     ConsentModeEnumToJSONTyped,
-} from './ConsentModeEnum';
-import type { FlowSet } from './FlowSet';
+} from './ConsentModeEnum.js';
+import type { FlowSet } from './FlowSet.js';
 import {
     FlowSetFromJSON,
     FlowSetFromJSONTyped,
     FlowSetToJSON,
     FlowSetToJSONTyped,
-} from './FlowSet';
+} from './FlowSet.js';
 
 /**
  * ConsentStage Serializer

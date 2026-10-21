@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ModelEnum } from './ModelEnum';
+import { mapValues } from '../runtime.js';
+import type { ModelEnum } from './ModelEnum.js';
 import {
     ModelEnumFromJSON,
     ModelEnumFromJSONTyped,
     ModelEnumToJSON,
     ModelEnumToJSONTyped,
-} from './ModelEnum';
+} from './ModelEnum.js';
 
 /**
  * Request to assign a new permission

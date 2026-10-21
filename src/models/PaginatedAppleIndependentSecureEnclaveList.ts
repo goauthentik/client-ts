@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Pagination } from './Pagination';
+import { mapValues } from '../runtime.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
-import type { AppleIndependentSecureEnclave } from './AppleIndependentSecureEnclave';
+} from './Pagination.js';
+import type { AppleIndependentSecureEnclave } from './AppleIndependentSecureEnclave.js';
 import {
     AppleIndependentSecureEnclaveFromJSON,
     AppleIndependentSecureEnclaveFromJSONTyped,
     AppleIndependentSecureEnclaveToJSON,
     AppleIndependentSecureEnclaveToJSONTyped,
-} from './AppleIndependentSecureEnclave';
+} from './AppleIndependentSecureEnclave.js';
 
 /**
  * 

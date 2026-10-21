@@ -12,307 +12,307 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type Application,
     ApplicationFromJSON,
     ApplicationToJSON,
-} from '../models/Application';
+} from '../models/Application.js';
 import {
     type ApplicationEntitlement,
     ApplicationEntitlementFromJSON,
     ApplicationEntitlementToJSON,
-} from '../models/ApplicationEntitlement';
+} from '../models/ApplicationEntitlement.js';
 import {
     type ApplicationEntitlementRequest,
     ApplicationEntitlementRequestFromJSON,
     ApplicationEntitlementRequestToJSON,
-} from '../models/ApplicationEntitlementRequest';
+} from '../models/ApplicationEntitlementRequest.js';
 import {
     type ApplicationRequest,
     ApplicationRequestFromJSON,
     ApplicationRequestToJSON,
-} from '../models/ApplicationRequest';
+} from '../models/ApplicationRequest.js';
 import {
     type AuthenticatedSession,
     AuthenticatedSessionFromJSON,
     AuthenticatedSessionToJSON,
-} from '../models/AuthenticatedSession';
+} from '../models/AuthenticatedSession.js';
 import {
     type Brand,
     BrandFromJSON,
     BrandToJSON,
-} from '../models/Brand';
+} from '../models/Brand.js';
 import {
     type BrandRequest,
     BrandRequestFromJSON,
     BrandRequestToJSON,
-} from '../models/BrandRequest';
+} from '../models/BrandRequest.js';
 import {
     type BulkDeleteSessionResponse,
     BulkDeleteSessionResponseFromJSON,
     BulkDeleteSessionResponseToJSON,
-} from '../models/BulkDeleteSessionResponse';
+} from '../models/BulkDeleteSessionResponse.js';
 import {
     type CurrentBrand,
     CurrentBrandFromJSON,
     CurrentBrandToJSON,
-} from '../models/CurrentBrand';
+} from '../models/CurrentBrand.js';
 import {
     type DataExport,
     DataExportFromJSON,
     DataExportToJSON,
-} from '../models/DataExport';
+} from '../models/DataExport.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type Group,
     GroupFromJSON,
     GroupToJSON,
-} from '../models/Group';
+} from '../models/Group.js';
 import {
     type GroupRequest,
     GroupRequestFromJSON,
     GroupRequestToJSON,
-} from '../models/GroupRequest';
+} from '../models/GroupRequest.js';
 import {
     type ImpersonationRequest,
     ImpersonationRequestFromJSON,
     ImpersonationRequestToJSON,
-} from '../models/ImpersonationRequest';
+} from '../models/ImpersonationRequest.js';
 import {
     type IntentEnum,
     IntentEnumFromJSON,
     IntentEnumToJSON,
-} from '../models/IntentEnum';
+} from '../models/IntentEnum.js';
 import {
     type Link,
     LinkFromJSON,
     LinkToJSON,
-} from '../models/Link';
+} from '../models/Link.js';
 import {
     type ObjectAttribute,
     ObjectAttributeFromJSON,
     ObjectAttributeToJSON,
-} from '../models/ObjectAttribute';
+} from '../models/ObjectAttribute.js';
 import {
     type ObjectAttributeRequest,
     ObjectAttributeRequestFromJSON,
     ObjectAttributeRequestToJSON,
-} from '../models/ObjectAttributeRequest';
+} from '../models/ObjectAttributeRequest.js';
 import {
     type PaginatedApplicationEntitlementList,
     PaginatedApplicationEntitlementListFromJSON,
     PaginatedApplicationEntitlementListToJSON,
-} from '../models/PaginatedApplicationEntitlementList';
+} from '../models/PaginatedApplicationEntitlementList.js';
 import {
     type PaginatedApplicationList,
     PaginatedApplicationListFromJSON,
     PaginatedApplicationListToJSON,
-} from '../models/PaginatedApplicationList';
+} from '../models/PaginatedApplicationList.js';
 import {
     type PaginatedAuthenticatedSessionList,
     PaginatedAuthenticatedSessionListFromJSON,
     PaginatedAuthenticatedSessionListToJSON,
-} from '../models/PaginatedAuthenticatedSessionList';
+} from '../models/PaginatedAuthenticatedSessionList.js';
 import {
     type PaginatedBrandList,
     PaginatedBrandListFromJSON,
     PaginatedBrandListToJSON,
-} from '../models/PaginatedBrandList';
+} from '../models/PaginatedBrandList.js';
 import {
     type PaginatedGroupList,
     PaginatedGroupListFromJSON,
     PaginatedGroupListToJSON,
-} from '../models/PaginatedGroupList';
+} from '../models/PaginatedGroupList.js';
 import {
     type PaginatedObjectAttributeList,
     PaginatedObjectAttributeListFromJSON,
     PaginatedObjectAttributeListToJSON,
-} from '../models/PaginatedObjectAttributeList';
+} from '../models/PaginatedObjectAttributeList.js';
 import {
     type PaginatedRequestableTargetList,
     PaginatedRequestableTargetListFromJSON,
     PaginatedRequestableTargetListToJSON,
-} from '../models/PaginatedRequestableTargetList';
+} from '../models/PaginatedRequestableTargetList.js';
 import {
     type PaginatedTokenList,
     PaginatedTokenListFromJSON,
     PaginatedTokenListToJSON,
-} from '../models/PaginatedTokenList';
+} from '../models/PaginatedTokenList.js';
 import {
     type PaginatedUserConsentList,
     PaginatedUserConsentListFromJSON,
     PaginatedUserConsentListToJSON,
-} from '../models/PaginatedUserConsentList';
+} from '../models/PaginatedUserConsentList.js';
 import {
     type PaginatedUserList,
     PaginatedUserListFromJSON,
     PaginatedUserListToJSON,
-} from '../models/PaginatedUserList';
+} from '../models/PaginatedUserList.js';
 import {
     type PatchedApplicationEntitlementRequest,
     PatchedApplicationEntitlementRequestFromJSON,
     PatchedApplicationEntitlementRequestToJSON,
-} from '../models/PatchedApplicationEntitlementRequest';
+} from '../models/PatchedApplicationEntitlementRequest.js';
 import {
     type PatchedApplicationRequest,
     PatchedApplicationRequestFromJSON,
     PatchedApplicationRequestToJSON,
-} from '../models/PatchedApplicationRequest';
+} from '../models/PatchedApplicationRequest.js';
 import {
     type PatchedBrandRequest,
     PatchedBrandRequestFromJSON,
     PatchedBrandRequestToJSON,
-} from '../models/PatchedBrandRequest';
+} from '../models/PatchedBrandRequest.js';
 import {
     type PatchedGroupRequest,
     PatchedGroupRequestFromJSON,
     PatchedGroupRequestToJSON,
-} from '../models/PatchedGroupRequest';
+} from '../models/PatchedGroupRequest.js';
 import {
     type PatchedObjectAttributeRequest,
     PatchedObjectAttributeRequestFromJSON,
     PatchedObjectAttributeRequestToJSON,
-} from '../models/PatchedObjectAttributeRequest';
+} from '../models/PatchedObjectAttributeRequest.js';
 import {
     type PatchedTokenRequest,
     PatchedTokenRequestFromJSON,
     PatchedTokenRequestToJSON,
-} from '../models/PatchedTokenRequest';
+} from '../models/PatchedTokenRequest.js';
 import {
     type PatchedUserRequest,
     PatchedUserRequestFromJSON,
     PatchedUserRequestToJSON,
-} from '../models/PatchedUserRequest';
+} from '../models/PatchedUserRequest.js';
 import {
     type PolicyTestResult,
     PolicyTestResultFromJSON,
     PolicyTestResultToJSON,
-} from '../models/PolicyTestResult';
+} from '../models/PolicyTestResult.js';
 import {
     type SessionUser,
     SessionUserFromJSON,
     SessionUserToJSON,
-} from '../models/SessionUser';
+} from '../models/SessionUser.js';
 import {
     type Token,
     TokenFromJSON,
     TokenToJSON,
-} from '../models/Token';
+} from '../models/Token.js';
 import {
     type TokenRequest,
     TokenRequestFromJSON,
     TokenRequestToJSON,
-} from '../models/TokenRequest';
+} from '../models/TokenRequest.js';
 import {
     type TokenSetKeyRequest,
     TokenSetKeyRequestFromJSON,
     TokenSetKeyRequestToJSON,
-} from '../models/TokenSetKeyRequest';
+} from '../models/TokenSetKeyRequest.js';
 import {
     type TokenView,
     TokenViewFromJSON,
     TokenViewToJSON,
-} from '../models/TokenView';
+} from '../models/TokenView.js';
 import {
     type TransactionApplicationRequest,
     TransactionApplicationRequestFromJSON,
     TransactionApplicationRequestToJSON,
-} from '../models/TransactionApplicationRequest';
+} from '../models/TransactionApplicationRequest.js';
 import {
     type TransactionApplicationResponse,
     TransactionApplicationResponseFromJSON,
     TransactionApplicationResponseToJSON,
-} from '../models/TransactionApplicationResponse';
+} from '../models/TransactionApplicationResponse.js';
 import {
     type UsedBy,
     UsedByFromJSON,
     UsedByToJSON,
-} from '../models/UsedBy';
+} from '../models/UsedBy.js';
 import {
     type User,
     UserFromJSON,
     UserToJSON,
-} from '../models/User';
+} from '../models/User.js';
 import {
     type UserAccountLockdownRequest,
     UserAccountLockdownRequestFromJSON,
     UserAccountLockdownRequestToJSON,
-} from '../models/UserAccountLockdownRequest';
+} from '../models/UserAccountLockdownRequest.js';
 import {
     type UserAccountRequest,
     UserAccountRequestFromJSON,
     UserAccountRequestToJSON,
-} from '../models/UserAccountRequest';
+} from '../models/UserAccountRequest.js';
 import {
     type UserConsent,
     UserConsentFromJSON,
     UserConsentToJSON,
-} from '../models/UserConsent';
+} from '../models/UserConsent.js';
 import {
     type UserPasswordHashSetRequest,
     UserPasswordHashSetRequestFromJSON,
     UserPasswordHashSetRequestToJSON,
-} from '../models/UserPasswordHashSetRequest';
+} from '../models/UserPasswordHashSetRequest.js';
 import {
     type UserPasswordSetRequest,
     UserPasswordSetRequestFromJSON,
     UserPasswordSetRequestToJSON,
-} from '../models/UserPasswordSetRequest';
+} from '../models/UserPasswordSetRequest.js';
 import {
     type UserPath,
     UserPathFromJSON,
     UserPathToJSON,
-} from '../models/UserPath';
+} from '../models/UserPath.js';
 import {
     type UserRecoveryEmailRequest,
     UserRecoveryEmailRequestFromJSON,
     UserRecoveryEmailRequestToJSON,
-} from '../models/UserRecoveryEmailRequest';
+} from '../models/UserRecoveryEmailRequest.js';
 import {
     type UserRecoveryLinkRequest,
     UserRecoveryLinkRequestFromJSON,
     UserRecoveryLinkRequestToJSON,
-} from '../models/UserRecoveryLinkRequest';
+} from '../models/UserRecoveryLinkRequest.js';
 import {
     type UserRequest,
     UserRequestFromJSON,
     UserRequestToJSON,
-} from '../models/UserRequest';
+} from '../models/UserRequest.js';
 import {
     type UserServiceAccountRequest,
     UserServiceAccountRequestFromJSON,
     UserServiceAccountRequestToJSON,
-} from '../models/UserServiceAccountRequest';
+} from '../models/UserServiceAccountRequest.js';
 import {
     type UserServiceAccountResponse,
     UserServiceAccountResponseFromJSON,
     UserServiceAccountResponseToJSON,
-} from '../models/UserServiceAccountResponse';
+} from '../models/UserServiceAccountResponse.js';
 import {
     type UserSwitchRequest,
     UserSwitchRequestFromJSON,
     UserSwitchRequestToJSON,
-} from '../models/UserSwitchRequest';
+} from '../models/UserSwitchRequest.js';
 import {
     type UserSwitchResponse,
     UserSwitchResponseFromJSON,
     UserSwitchResponseToJSON,
-} from '../models/UserSwitchResponse';
+} from '../models/UserSwitchResponse.js';
 import {
     type UserTypeEnum,
     UserTypeEnumFromJSON,
     UserTypeEnumToJSON,
-} from '../models/UserTypeEnum';
+} from '../models/UserTypeEnum.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface CoreApplicationEntitlementsCreateRequest {
     applicationEntitlementRequest: ApplicationEntitlementRequest;

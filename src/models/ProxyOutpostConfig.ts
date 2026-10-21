@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { OpenIDConnectConfiguration } from './OpenIDConnectConfiguration';
+import { mapValues } from '../runtime.js';
+import type { OpenIDConnectConfiguration } from './OpenIDConnectConfiguration.js';
 import {
     OpenIDConnectConfigurationFromJSON,
     OpenIDConnectConfigurationFromJSONTyped,
     OpenIDConnectConfigurationToJSON,
     OpenIDConnectConfigurationToJSONTyped,
-} from './OpenIDConnectConfiguration';
-import type { ProxyMode } from './ProxyMode';
+} from './OpenIDConnectConfiguration.js';
+import type { ProxyMode } from './ProxyMode.js';
 import {
     ProxyModeFromJSON,
     ProxyModeFromJSONTyped,
     ProxyModeToJSON,
     ProxyModeToJSONTyped,
-} from './ProxyMode';
+} from './ProxyMode.js';
 
 /**
  * Proxy provider serializer for outposts

@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { LDAPAPIAccessMode } from './LDAPAPIAccessMode';
+import { mapValues } from '../runtime.js';
+import type { LDAPAPIAccessMode } from './LDAPAPIAccessMode.js';
 import {
     LDAPAPIAccessModeFromJSON,
     LDAPAPIAccessModeFromJSONTyped,
     LDAPAPIAccessModeToJSON,
     LDAPAPIAccessModeToJSONTyped,
-} from './LDAPAPIAccessMode';
+} from './LDAPAPIAccessMode.js';
 
 /**
  * LDAPProvider Serializer

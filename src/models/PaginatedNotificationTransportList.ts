@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { NotificationTransport } from './NotificationTransport';
+import { mapValues } from '../runtime.js';
+import type { NotificationTransport } from './NotificationTransport.js';
 import {
     NotificationTransportFromJSON,
     NotificationTransportFromJSONTyped,
     NotificationTransportToJSON,
     NotificationTransportToJSONTyped,
-} from './NotificationTransport';
-import type { Pagination } from './Pagination';
+} from './NotificationTransport.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

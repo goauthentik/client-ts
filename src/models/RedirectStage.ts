@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { FlowSet } from './FlowSet';
+import { mapValues } from '../runtime.js';
+import type { FlowSet } from './FlowSet.js';
 import {
     FlowSetFromJSON,
     FlowSetFromJSONTyped,
     FlowSetToJSON,
     FlowSetToJSONTyped,
-} from './FlowSet';
-import type { RedirectStageModeEnum } from './RedirectStageModeEnum';
+} from './FlowSet.js';
+import type { RedirectStageModeEnum } from './RedirectStageModeEnum.js';
 import {
     RedirectStageModeEnumFromJSON,
     RedirectStageModeEnumFromJSONTyped,
     RedirectStageModeEnumToJSON,
     RedirectStageModeEnumToJSONTyped,
-} from './RedirectStageModeEnum';
+} from './RedirectStageModeEnum.js';
 
 /**
  * RedirectStage Serializer

@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { SystemInfoRuntime } from './SystemInfoRuntime';
+import { mapValues } from '../runtime.js';
+import type { SystemInfoRuntime } from './SystemInfoRuntime.js';
 import {
     SystemInfoRuntimeFromJSON,
     SystemInfoRuntimeFromJSONTyped,
     SystemInfoRuntimeToJSON,
     SystemInfoRuntimeToJSONTyped,
-} from './SystemInfoRuntime';
+} from './SystemInfoRuntime.js';
 
 /**
  * Get system information.

@@ -12,87 +12,87 @@
  * Do not edit the class manually.
  */
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.js';
 import {
     type GenericError,
     GenericErrorFromJSON,
     GenericErrorToJSON,
-} from '../models/GenericError';
+} from '../models/GenericError.js';
 import {
     type LifecycleIteration,
     LifecycleIterationFromJSON,
     LifecycleIterationToJSON,
-} from '../models/LifecycleIteration';
+} from '../models/LifecycleIteration.js';
 import {
     type LifecycleIterationRequest,
     LifecycleIterationRequestFromJSON,
     LifecycleIterationRequestToJSON,
-} from '../models/LifecycleIterationRequest';
+} from '../models/LifecycleIterationRequest.js';
 import {
     type LifecycleRule,
     LifecycleRuleFromJSON,
     LifecycleRuleToJSON,
-} from '../models/LifecycleRule';
+} from '../models/LifecycleRule.js';
 import {
     type LifecycleRuleRequest,
     LifecycleRuleRequestFromJSON,
     LifecycleRuleRequestToJSON,
-} from '../models/LifecycleRuleRequest';
+} from '../models/LifecycleRuleRequest.js';
 import {
     type OffboardingActionEnum,
     OffboardingActionEnumFromJSON,
     OffboardingActionEnumToJSON,
-} from '../models/OffboardingActionEnum';
+} from '../models/OffboardingActionEnum.js';
 import {
     type OffboardingStatusEnum,
     OffboardingStatusEnumFromJSON,
     OffboardingStatusEnumToJSON,
-} from '../models/OffboardingStatusEnum';
+} from '../models/OffboardingStatusEnum.js';
 import {
     type PaginatedLifecycleIterationList,
     PaginatedLifecycleIterationListFromJSON,
     PaginatedLifecycleIterationListToJSON,
-} from '../models/PaginatedLifecycleIterationList';
+} from '../models/PaginatedLifecycleIterationList.js';
 import {
     type PaginatedLifecycleRuleList,
     PaginatedLifecycleRuleListFromJSON,
     PaginatedLifecycleRuleListToJSON,
-} from '../models/PaginatedLifecycleRuleList';
+} from '../models/PaginatedLifecycleRuleList.js';
 import {
     type PaginatedUserOffboardingList,
     PaginatedUserOffboardingListFromJSON,
     PaginatedUserOffboardingListToJSON,
-} from '../models/PaginatedUserOffboardingList';
+} from '../models/PaginatedUserOffboardingList.js';
 import {
     type PatchedLifecycleRuleRequest,
     PatchedLifecycleRuleRequestFromJSON,
     PatchedLifecycleRuleRequestToJSON,
-} from '../models/PatchedLifecycleRuleRequest';
+} from '../models/PatchedLifecycleRuleRequest.js';
 import {
     type Review,
     ReviewFromJSON,
     ReviewToJSON,
-} from '../models/Review';
+} from '../models/Review.js';
 import {
     type ReviewRequest,
     ReviewRequestFromJSON,
     ReviewRequestToJSON,
-} from '../models/ReviewRequest';
+} from '../models/ReviewRequest.js';
 import {
     type UserOffboarding,
     UserOffboardingFromJSON,
     UserOffboardingToJSON,
-} from '../models/UserOffboarding';
+} from '../models/UserOffboarding.js';
 import {
     type UserOffboardingRequest,
     UserOffboardingRequestFromJSON,
     UserOffboardingRequestToJSON,
-} from '../models/UserOffboardingRequest';
+} from '../models/UserOffboardingRequest.js';
 import {
     type ValidationError,
     ValidationErrorFromJSON,
     ValidationErrorToJSON,
-} from '../models/ValidationError';
+} from '../models/ValidationError.js';
 
 export interface LifecycleIterationsCreateRequest {
     lifecycleIterationRequest: LifecycleIterationRequest;

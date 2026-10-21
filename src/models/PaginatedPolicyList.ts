@@ -12,21 +12,21 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { Policy } from './Policy';
+import { mapValues } from '../runtime.js';
+import type { Policy } from './Policy.js';
 import {
     PolicyFromJSON,
     PolicyFromJSONTyped,
     PolicyToJSON,
     PolicyToJSONTyped,
-} from './Policy';
-import type { Pagination } from './Pagination';
+} from './Policy.js';
+import type { Pagination } from './Pagination.js';
 import {
     PaginationFromJSON,
     PaginationFromJSONTyped,
     PaginationToJSON,
     PaginationToJSONTyped,
-} from './Pagination';
+} from './Pagination.js';
 
 /**
  * 

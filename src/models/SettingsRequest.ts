@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { PatchedSettingsRequestFlags } from './PatchedSettingsRequestFlags';
+import { mapValues } from '../runtime.js';
+import type { PatchedSettingsRequestFlags } from './PatchedSettingsRequestFlags.js';
 import {
     PatchedSettingsRequestFlagsFromJSON,
     PatchedSettingsRequestFlagsFromJSONTyped,
     PatchedSettingsRequestFlagsToJSON,
     PatchedSettingsRequestFlagsToJSONTyped,
-} from './PatchedSettingsRequestFlags';
+} from './PatchedSettingsRequestFlags.js';
 
 /**
  * Settings Serializer

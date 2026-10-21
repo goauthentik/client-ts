@@ -12,28 +12,28 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { UserSelfGroups } from './UserSelfGroups';
+import { mapValues } from '../runtime.js';
+import type { UserSelfGroups } from './UserSelfGroups.js';
 import {
     UserSelfGroupsFromJSON,
     UserSelfGroupsFromJSONTyped,
     UserSelfGroupsToJSON,
     UserSelfGroupsToJSONTyped,
-} from './UserSelfGroups';
-import type { UserTypeEnum } from './UserTypeEnum';
+} from './UserSelfGroups.js';
+import type { UserTypeEnum } from './UserTypeEnum.js';
 import {
     UserTypeEnumFromJSON,
     UserTypeEnumFromJSONTyped,
     UserTypeEnumToJSON,
     UserTypeEnumToJSONTyped,
-} from './UserTypeEnum';
-import type { UserSelfRoles } from './UserSelfRoles';
+} from './UserTypeEnum.js';
+import type { UserSelfRoles } from './UserSelfRoles.js';
 import {
     UserSelfRolesFromJSON,
     UserSelfRolesFromJSONTyped,
     UserSelfRolesToJSON,
     UserSelfRolesToJSONTyped,
-} from './UserSelfRoles';
+} from './UserSelfRoles.js';
 
 /**
  * User Serializer for information a user can retrieve about themselves

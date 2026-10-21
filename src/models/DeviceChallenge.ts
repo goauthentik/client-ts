@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { DeviceClassesEnum } from './DeviceClassesEnum';
+import { mapValues } from '../runtime.js';
+import type { DeviceClassesEnum } from './DeviceClassesEnum.js';
 import {
     DeviceClassesEnumFromJSON,
     DeviceClassesEnumFromJSONTyped,
     DeviceClassesEnumToJSON,
     DeviceClassesEnumToJSONTyped,
-} from './DeviceClassesEnum';
+} from './DeviceClassesEnum.js';
 
 /**
  * Single device challenge

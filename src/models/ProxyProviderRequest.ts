@@ -12,14 +12,14 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
-import type { ProxyMode } from './ProxyMode';
+import { mapValues } from '../runtime.js';
+import type { ProxyMode } from './ProxyMode.js';
 import {
     ProxyModeFromJSON,
     ProxyModeFromJSONTyped,
     ProxyModeToJSON,
     ProxyModeToJSONTyped,
-} from './ProxyMode';
+} from './ProxyMode.js';
 
 /**
  * ProxyProvider Serializer
