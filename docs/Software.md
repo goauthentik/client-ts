@@ -1,0 +1,40 @@
+
+# Software
+
+
+## Properties
+
+Name | Type
+------------ | -------------
+`name` | string
+`version` | string
+`source` | string
+`path` | string
+
+## Example
+
+```typescript
+import type { Software } from '@goauthentik/api'
+
+// TODO: Update the object below with actual values
+const example = {
+  "name": null,
+  "version": null,
+  "source": null,
+  "path": null,
+} satisfies Software
+
+console.log(example)
+
+// Convert the instance to a JSON string
+const exampleJSON: string = JSON.stringify(example)
+console.log(exampleJSON)
+
+// Parse the JSON string back to an object
+const exampleParsed = JSON.parse(exampleJSON) as Software
+console.log(exampleParsed)
+```
+
+[[Back to top]](#) [[Back to API list]](../README.md#api-endpoints) [[Back to Model list]](../README.md#models) [[Back to README]](../README.md)
+
+

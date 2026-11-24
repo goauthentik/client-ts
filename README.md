@@ -1,14 +1,38 @@
-<p align="center">
-    <img src="https://goauthentik.io/img/icon_top_brand_colour.svg" height="150" alt="authentik logo">
-</p>
+## @goauthentik/api
 
----
+This package provides a generated API Client for [authentik](https://goauthentik.io?utm_source=npm-api-package).
 
-[![](https://img.shields.io/discord/809154715984199690?label=Discord&style=for-the-badge)](https://discord.gg/jg33eMhnj6)
-![Latest version](https://img.shields.io/github/v/tag/goauthentik/authentik?style=for-the-badge)
+### Building
 
-# authentik Typescript API Client
+See https://docs.goauthentik.io/docs/developer-docs/api/making-schema-changes#building-the-web-client
 
-This repo contains a generated API client to talk with authentik's API from Typescript.
+### Consuming
 
-Checkout a specific tag corresponding to the authentik version you want to use this API client with to see both the code and documentation.
+```
+npm install @goauthentik/api --save
+```
+
+Create a configuration:
+
+```typescript
+import { Configuration } from "@goauthentik/api";
+
+export const DEFAULT_CONFIG = new Configuration({
+    // Configure where the API is located
+    // Can be a full host, ensure CORS is configured
+    basePath: "",
+    // Required for POST/PUT/DELETE requests
+    // getCookie function must return the cookie's contents
+    headers: {
+        "X-authentik-CSRF": getCookie("authentik_csrf"),
+    },
+});
+```
+
+Then use the API:
+
+```typescript
+import { CoreApi } from "@goauthentik/api";
+
+const user = await new CoreApi(DEFAULT_CONFIG).coreUsersMeRetrieve();
+```

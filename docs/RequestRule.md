@@ -1,0 +1,53 @@
+
+# RequestRule
+
+Mixin to validate that a valid enterprise license exists before allowing to save the object
+
+## Properties
+
+Name | Type
+------------ | -------------
+`uuid` | string
+`pbmUuid` | string
+`policyEngineMode` | [PolicyEngineMode](PolicyEngineMode.md)
+`name` | string
+`targets` | Array&lt;string&gt;
+`notificationTransports` | Array&lt;string&gt;
+`notificationMode` | [NotificationModeEnum](NotificationModeEnum.md)
+`minReviewers` | number
+`minReviewersIsPerGroup` | boolean
+`requestFlow` | string
+
+## Example
+
+```typescript
+import type { RequestRule } from '@goauthentik/api'
+
+// TODO: Update the object below with actual values
+const example = {
+  "uuid": null,
+  "pbmUuid": null,
+  "policyEngineMode": null,
+  "name": null,
+  "targets": null,
+  "notificationTransports": null,
+  "notificationMode": null,
+  "minReviewers": null,
+  "minReviewersIsPerGroup": null,
+  "requestFlow": null,
+} satisfies RequestRule
+
+console.log(example)
+
+// Convert the instance to a JSON string
+const exampleJSON: string = JSON.stringify(example)
+console.log(exampleJSON)
+
+// Parse the JSON string back to an object
+const exampleParsed = JSON.parse(exampleJSON) as RequestRule
+console.log(exampleParsed)
+```
+
+[[Back to top]](#) [[Back to API list]](../README.md#api-endpoints) [[Back to Model list]](../README.md#models) [[Back to README]](../README.md)
+
+
